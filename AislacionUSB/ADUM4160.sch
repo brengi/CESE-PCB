@@ -1,0 +1,493 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:USBCableIsolatorCircuit
+LIBS:CIAA_K60
+LIBS:USBCableIsolatorCircuit-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title "Aislacion de USB - ADUM4160"
+Date ""
+Rev "00"
+Comp ""
+Comment1 "Autor: Marcos Darino"
+Comment2 "Licencia: BSD"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ADUM4160 U?
+U 1 1 578D78CD
+P 5500 3450
+F 0 "U?" H 5250 4150 60  0000 C CNN
+F 1 "ADUM4160" H 5250 4050 60  0000 C CNN
+F 2 "" H 5550 3100 60  0000 C CNN
+F 3 "~" H 5550 3100 60  0000 C CNN
+F 4 "ADUM4160BRWZ-RLTR-ND" H 5500 3450 60  0001 C CNN "Digikey#"
+F 5 "USB Digital Isolator 5000Vrms 2 Channel 12Mbps 25kV/µs CMTI 16-SOIC (0.295\", 7.50mm Width)" H 5500 3450 60  0001 C CNN "Desc"
+F 6 "Analog Devices Inc." H 5500 3450 60  0001 C CNN "Manf"
+F 7 "ADUM4160BRWZ-RL" H 5500 3450 60  0001 C CNN "Manf#"
+	1    5500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 578D78D4
+P 4900 3900
+F 0 "#PWR?" H 4900 3650 50  0001 C CNN
+F 1 "GND" H 4900 3750 50  0000 C CNN
+F 2 "" H 4900 3900 50  0000 C CNN
+F 3 "" H 4900 3900 50  0000 C CNN
+	1    4900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR?
+U 1 1 578D78DA
+P 6050 3900
+F 0 "#PWR?" H 6050 3650 50  0001 C CNN
+F 1 "GNDA" H 6050 3750 50  0000 C CNN
+F 2 "" H 6050 3900 50  0000 C CNN
+F 3 "" H 6050 3900 50  0000 C CNN
+	1    6050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR?
+U 1 1 578D78E0
+P 6300 2800
+F 0 "#PWR?" H 6300 2550 50  0001 C CNN
+F 1 "GNDA" H 6300 2650 50  0000 C CNN
+F 2 "" H 6300 2800 50  0000 C CNN
+F 3 "" H 6300 2800 50  0000 C CNN
+	1    6300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR?
+U 1 1 578D78F6
+P 7850 4400
+F 0 "#PWR?" H 7850 4150 50  0001 C CNN
+F 1 "GNDA" H 7850 4250 50  0000 C CNN
+F 2 "" H 7850 4400 50  0000 C CNN
+F 3 "" H 7850 4400 50  0000 C CNN
+	1    7850 4400
+	1    0    0    -1  
+$EndComp
+Text Label 6100 3250 0    60   ~ 0
+VDD2
+$Comp
+L +5V_ISO #PWR?
+U 1 1 578D78FE
+P 6000 2300
+F 0 "#PWR?" H 6000 2390 20  0001 C CNN
+F 1 "+5V_ISO" H 6000 2450 30  0000 C CNN
+F 2 "" H 6000 2300 60  0000 C CNN
+F 3 "" H 6000 2300 60  0000 C CNN
+	1    6000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 578D7904
+P 4650 2850
+F 0 "#PWR?" H 4650 2600 50  0001 C CNN
+F 1 "GND" H 4650 2700 50  0000 C CNN
+F 2 "" H 4650 2850 50  0000 C CNN
+F 3 "" H 4650 2850 50  0000 C CNN
+	1    4650 2850
+	1    0    0    -1  
+$EndComp
+Text Label 4600 3250 0    60   ~ 0
+VDD1
+Text Label 4600 3450 0    60   ~ 0
+SPU
+Text Label 4600 3550 0    60   ~ 0
+UD-
+Text Label 4600 3650 0    60   ~ 0
+UD+
+Text Label 6100 3650 0    60   ~ 0
+DD+
+Text Label 6100 3550 0    60   ~ 0
+DD-
+Text Label 6100 3450 0    60   ~ 0
+PIN
+Text Label 6100 3350 0    60   ~ 0
+SPD
+$Comp
+L R R?
+U 1 1 578D7926
+P 4350 2900
+F 0 "R?" V 4430 2900 50  0000 C CNN
+F 1 "10K" V 4350 2900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4280 2900 50  0001 C CNN
+F 3 "" H 4350 2900 50  0000 C CNN
+F 4 "RES SMD 10K OHM 5% 1/10W 0603" V 4350 2900 60  0001 C CNN "Desc"
+F 5 "P10KGTR-ND" V 4350 2900 60  0001 C CNN "Digikey#"
+F 6 "ERJ-3GEYJ103V" V 4350 2900 60  0001 C CNN "Manf#"
+F 7 "Panasonic Electronic Components" V 4350 2900 60  0001 C CNN "Manf"
+	1    4350 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDA #PWR?
+U 1 1 578D792D
+P 7850 3200
+F 0 "#PWR?" H 7850 2950 50  0001 C CNN
+F 1 "GNDA" H 7850 3050 50  0000 C CNN
+F 2 "" H 7850 3200 50  0000 C CNN
+F 3 "" H 7850 3200 50  0000 C CNN
+	1    7850 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 578D7933
+P 3200 3350
+F 0 "#PWR?" H 3200 3100 50  0001 C CNN
+F 1 "GND" H 3200 3200 50  0000 C CNN
+F 2 "" H 3200 3350 50  0000 C CNN
+F 3 "" H 3200 3350 50  0000 C CNN
+	1    3200 3350
+	1    0    0    -1  
+$EndComp
+Text Notes 7350 2950 1    60   ~ 0
+Full Speed
+Text Notes 7600 2950 1    60   ~ 0
+Low speed
+Text Notes 3400 3000 1    60   ~ 0
+Low speed
+Text Notes 3750 3000 1    60   ~ 0
+Full Speed
+Text Notes 4350 4200 0    60   ~ 0
+Aislación de los datos
+Wire Wire Line
+	5950 3750 6050 3750
+Wire Wire Line
+	6050 3750 6050 3900
+Wire Wire Line
+	5050 3750 4900 3750
+Wire Wire Line
+	4900 3750 4900 3900
+Wire Wire Line
+	6000 3050 5950 3050
+Wire Wire Line
+	4200 3250 5050 3250
+Wire Wire Line
+	4950 3350 4950 3250
+Connection ~ 4950 3250
+Wire Wire Line
+	4950 3350 5050 3350
+Wire Wire Line
+	3550 3450 5050 3450
+Wire Wire Line
+	4300 3550 5050 3550
+Wire Wire Line
+	4300 3650 5050 3650
+Wire Wire Line
+	6600 3250 5950 3250
+Wire Wire Line
+	5950 3650 6700 3650
+Wire Wire Line
+	5950 3550 6700 3550
+Wire Wire Line
+	5950 3450 7850 3450
+Wire Wire Line
+	5950 3350 7450 3350
+Wire Wire Line
+	6000 2300 6000 3050
+Wire Wire Line
+	4950 2300 4950 3050
+Wire Wire Line
+	4950 3050 5050 3050
+Wire Notes Line
+	5150 4100 5350 3950
+$Comp
+L C C?
+U 1 1 578D79AF
+P 4650 2550
+F 0 "C?" H 4675 2650 50  0000 L CNN
+F 1 "100nF" V 4500 2450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4688 2400 50  0001 C CNN
+F 3 "~" H 4650 2550 50  0000 C CNN
+F 4 "399-1096-1-ND" H 4650 2550 60  0001 C CNN "Digikey#"
+F 5 "Kemet" H 4650 2550 60  0001 C CNN "Manf"
+F 6 "C0603C104K4RACTU" H 4650 2550 60  0001 C CNN "Manf#"
+F 7 "CAP CER 0,1UF 16V X7R 10% 0603" H 4650 2550 60  0001 C CNN "Desc"
+	1    4650 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 578D79BA
+P 6300 2550
+F 0 "C?" H 6325 2650 50  0000 L CNN
+F 1 "100nF" V 6150 2450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6338 2400 50  0001 C CNN
+F 3 "~" H 6300 2550 50  0000 C CNN
+F 4 "399-1096-1-ND" H 6300 2550 60  0001 C CNN "Digikey#"
+F 5 "Kemet" H 6300 2550 60  0001 C CNN "Manf"
+F 6 "C0603C104K4RACTU" H 6300 2550 60  0001 C CNN "Manf#"
+F 7 "CAP CER 0,1UF 16V X7R 10% 0603" H 6300 2550 60  0001 C CNN "Desc"
+	1    6300 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 578D79D7
+P 4950 2300
+F 0 "#PWR?" H 4950 2150 50  0001 C CNN
+F 1 "+5V" H 4950 2440 50  0000 C CNN
+F 2 "" H 4950 2300 50  0000 C CNN
+F 3 "" H 4950 2300 50  0000 C CNN
+	1    4950 2300
+	1    0    0    -1  
+$EndComp
+Text HLabel 6700 3550 2    60   BiDi ~ 0
+DD-
+Text HLabel 6700 3650 2    60   BiDi ~ 0
+DD+
+Text HLabel 4300 3550 0    60   BiDi ~ 0
+UD-
+Text HLabel 4300 3650 0    60   BiDi ~ 0
+UD+
+Wire Wire Line
+	6000 2350 6600 2350
+Connection ~ 6000 2350
+Wire Wire Line
+	4350 2350 4950 2350
+Connection ~ 4950 2350
+Wire Wire Line
+	5050 3150 4850 3150
+Wire Wire Line
+	4850 3150 4850 2800
+Wire Wire Line
+	4850 2800 4650 2800
+Wire Wire Line
+	5950 3150 6100 3150
+Wire Wire Line
+	6100 3150 6100 2750
+Wire Wire Line
+	6100 2750 6300 2750
+Wire Wire Line
+	3550 3450 3550 3350
+Wire Wire Line
+	4350 3050 4350 3250
+Wire Wire Line
+	4350 2750 4350 2350
+Connection ~ 4350 3250
+Wire Wire Line
+	3200 3250 3300 3250
+Wire Wire Line
+	3200 3250 3200 3350
+Wire Wire Line
+	3800 3250 3900 3250
+Wire Wire Line
+	4650 2400 4650 2350
+Connection ~ 4650 2350
+Wire Wire Line
+	4650 2700 4650 2850
+Connection ~ 4650 2800
+$Comp
+L GND #PWR?
+U 1 1 578E4D04
+P 3650 4400
+F 0 "#PWR?" H 3650 4150 50  0001 C CNN
+F 1 "GND" H 3650 4250 50  0000 C CNN
+F 2 "" H 3650 4400 50  0000 C CNN
+F 3 "" H 3650 4400 50  0000 C CNN
+	1    3650 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 578E4D4A
+P 3650 4150
+F 0 "C?" H 3675 4250 50  0000 L CNN
+F 1 "100nF" V 3500 4050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3688 4000 50  0001 C CNN
+F 3 "~" H 3650 4150 50  0000 C CNN
+F 4 "399-1096-1-ND" H 3650 4150 60  0001 C CNN "Digikey#"
+F 5 "Kemet" H 3650 4150 60  0001 C CNN "Manf"
+F 6 "C0603C104K4RACTU" H 3650 4150 60  0001 C CNN "Manf#"
+F 7 "CAP CER 0,1UF 16V X7R 10% 0603" H 3650 4150 60  0001 C CNN "Desc"
+	1    3650 4150
+	-1   0    0    1   
+$EndComp
+Text Label 3200 3950 0    60   ~ 0
+VDD1
+Wire Wire Line
+	3650 3950 3650 4000
+Wire Wire Line
+	3650 4300 3650 4400
+Connection ~ 3650 3950
+Wire Wire Line
+	3650 3950 3200 3950
+$Comp
+L C C?
+U 1 1 578E51D1
+P 7850 4150
+F 0 "C?" H 7875 4250 50  0000 L CNN
+F 1 "100nF" V 7700 4050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7888 4000 50  0001 C CNN
+F 3 "~" H 7850 4150 50  0000 C CNN
+F 4 "399-1096-1-ND" H 7850 4150 60  0001 C CNN "Digikey#"
+F 5 "Kemet" H 7850 4150 60  0001 C CNN "Manf"
+F 6 "C0603C104K4RACTU" H 7850 4150 60  0001 C CNN "Manf#"
+F 7 "CAP CER 0,1UF 16V X7R 10% 0603" H 7850 4150 60  0001 C CNN "Desc"
+	1    7850 4150
+	-1   0    0    1   
+$EndComp
+Text Label 7400 3950 0    60   ~ 0
+VDD2
+Wire Wire Line
+	7850 3850 7850 4000
+Wire Wire Line
+	7850 4300 7850 4400
+Connection ~ 7850 3950
+Wire Wire Line
+	7850 3950 7400 3950
+Wire Wire Line
+	7450 3350 7450 3250
+Wire Wire Line
+	6600 3050 6600 3250
+Wire Wire Line
+	7700 3150 7850 3150
+Wire Wire Line
+	7850 3150 7850 3200
+Wire Wire Line
+	6600 3150 6750 3150
+Wire Wire Line
+	7050 3150 7200 3150
+Connection ~ 6600 3150
+Wire Wire Line
+	6600 2350 6600 2750
+Wire Wire Line
+	7850 3450 7850 3550
+Wire Wire Line
+	6300 2400 6300 2350
+Connection ~ 6300 2350
+Wire Wire Line
+	6300 2700 6300 2800
+Connection ~ 6300 2750
+$Comp
+L JUMPER3 JP?
+U 1 1 578F22B5
+P 3550 3250
+F 0 "JP?" H 3600 3150 50  0000 L CNN
+F 1 "JUMPER3" H 3550 3350 50  0000 C BNN
+F 2 "PIN_ARRAY_3x1" H 3550 3250 50  0001 C CNN
+F 3 "~" H 3550 3250 50  0000 C CNN
+F 4 "Z5375-ND" H 3550 3250 60  0001 C CNN "Digikey#"
+F 5 "3 Positions Header, Unshrouded Connector 0.100\" (2.54mm) Through Hole Gold" H 3550 3250 60  0001 C CNN "Desc"
+F 6 "XG8V-0331" H 3550 3250 60  0001 C CNN "Manf#"
+F 7 "Omron Electronics" H 3550 3250 60  0001 C CNN "Manf"
+	1    3550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER3 JP?
+U 1 1 578F23EC
+P 7450 3150
+F 0 "JP?" H 7500 3050 50  0000 L CNN
+F 1 "JUMPER3" H 7450 3250 50  0000 C BNN
+F 2 "PIN_ARRAY_3x1" H 7450 3150 50  0001 C CNN
+F 3 "~" H 7450 3150 50  0000 C CNN
+F 4 "Z5375-ND" H 7450 3150 60  0001 C CNN "Digikey#"
+F 5 "3 Positions Header, Unshrouded Connector 0.100\" (2.54mm) Through Hole Gold" H 7450 3150 60  0001 C CNN "Desc"
+F 6 "XG8V-0331" H 7450 3150 60  0001 C CNN "Manf#"
+F 7 "Omron Electronics" H 7450 3150 60  0001 C CNN "Manf"
+	1    7450 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 578F89A1
+P 6900 3150
+F 0 "R?" V 6980 3150 50  0000 C CNN
+F 1 "10K" V 6900 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6830 3150 50  0001 C CNN
+F 3 "" H 6900 3150 50  0000 C CNN
+F 4 "RES SMD 10K OHM 5% 1/10W 0603" V 6900 3150 60  0001 C CNN "Desc"
+F 5 "P10KGTR-ND" V 6900 3150 60  0001 C CNN "Digikey#"
+F 6 "ERJ-3GEYJ103V" V 6900 3150 60  0001 C CNN "Manf#"
+F 7 "Panasonic Electronic Components" V 6900 3150 60  0001 C CNN "Manf"
+	1    6900 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 578F8A0A
+P 4050 3250
+F 0 "R?" V 4130 3250 50  0000 C CNN
+F 1 "10K" V 4050 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3980 3250 50  0001 C CNN
+F 3 "" H 4050 3250 50  0000 C CNN
+F 4 "RES SMD 10K OHM 5% 1/10W 0603" V 4050 3250 60  0001 C CNN "Desc"
+F 5 "P10KGTR-ND" V 4050 3250 60  0001 C CNN "Digikey#"
+F 6 "ERJ-3GEYJ103V" V 4050 3250 60  0001 C CNN "Manf#"
+F 7 "Panasonic Electronic Components" V 4050 3250 60  0001 C CNN "Manf"
+	1    4050 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 578F8DC6
+P 7850 3700
+F 0 "R?" V 7930 3700 50  0000 C CNN
+F 1 "10K" V 7850 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7780 3700 50  0001 C CNN
+F 3 "" H 7850 3700 50  0000 C CNN
+F 4 "RES SMD 10K OHM 5% 1/10W 0603" V 7850 3700 60  0001 C CNN "Desc"
+F 5 "P10KGTR-ND" V 7850 3700 60  0001 C CNN "Digikey#"
+F 6 "ERJ-3GEYJ103V" V 7850 3700 60  0001 C CNN "Manf#"
+F 7 "Panasonic Electronic Components" V 7850 3700 60  0001 C CNN "Manf"
+	1    7850 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 578F8E33
+P 6600 2900
+F 0 "R?" V 6680 2900 50  0000 C CNN
+F 1 "10K" V 6600 2900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6530 2900 50  0001 C CNN
+F 3 "" H 6600 2900 50  0000 C CNN
+F 4 "RES SMD 10K OHM 5% 1/10W 0603" V 6600 2900 60  0001 C CNN "Desc"
+F 5 "P10KGTR-ND" V 6600 2900 60  0001 C CNN "Digikey#"
+F 6 "ERJ-3GEYJ103V" V 6600 2900 60  0001 C CNN "Manf#"
+F 7 "Panasonic Electronic Components" V 6600 2900 60  0001 C CNN "Manf"
+	1    6600 2900
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
