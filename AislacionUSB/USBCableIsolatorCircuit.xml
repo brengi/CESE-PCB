@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\mdarino\Desktop\RepoTpKicad\CESE-PCB\AislacionUSB\USBCableIsolatorCircuit.sch</source>
+    <date>18/7/2016 8:20:22 p. m.</date>
+    <tool>Eeschema 4.0.2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Aislacion de USB</title>
+        <company/>
+        <rev>00</rev>
+        <date>5 jul 2016</date>
+        <source>USBCableIsolatorCircuit.sch</source>
+        <comment number="1" value="Autor: Marcos Darino"/>
+        <comment number="2" value="Licencia: BSD"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/ADUM4160/" tstamps="/578D73C8/">
+      <title_block>
+        <title>Aislacion de USB - ADUM4160</title>
+        <company/>
+        <rev>00</rev>
+        <date/>
+        <source>ADUM4160.sch</source>
+        <comment number="1" value="Autor: Marcos Darino"/>
+        <comment number="2" value="Licencia: BSD"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>ADUM5000</value>
+      <fields>
+        <field name="Digikey#">ADUM5000ARWZ-RLCT-ND</field>
+        <field name="Desc">IC DIG ISOLATOR W/DC-DC 16SOIC</field>
+        <field name="Manf">Analog Devices Inc.</field>
+        <field name="Manf#">ADUM5000ARWZ-RL</field>
+      </fields>
+      <libsource lib="USBCableIsolatorCircuit" part="ADUM5000"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>577C28BD</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>7805</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <fields>
+        <field name="Desc">	Linear Voltage Regulator IC Positive Fixed 1 Output 5V 1A TO-220AB</field>
+        <field name="Digikey#">LM7805CT-ND</field>
+        <field name="Manf#">LM7805CT</field>
+        <field name="Manf">Fairchild Semiconductor</field>
+      </fields>
+      <libsource lib="regul" part="7805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>577C4B1F</tstamp>
+    </comp>
+    <comp ref="CON1">
+      <value>BARREL_JACK</value>
+      <footprint>Connect:JACK_ALIM</footprint>
+      <fields>
+        <field name="Desc">DC JACK W/SOLDER LUGS PCB MOUNT</field>
+        <field name="Digikey#">EJ508A-ND</field>
+        <field name="Manf">MPD</field>
+        <field name="Manf#">EJ508A</field>
+      </fields>
+      <libsource lib="conn" part="BARREL_JACK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>577C4DA3</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SMAJ5.0A</value>
+      <footprint>DO-214AC_SMA</footprint>
+      <fields>
+        <field name="Digikey#">SMAJ5.0ABCT-ND</field>
+        <field name="Manf#">SMAJ5.0A</field>
+        <field name="Manf">Bourns</field>
+        <field name="Desc">TVS DIODE 5VWM SMD</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>577C52B5</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>24</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">P24GTR-ND</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+        <field name="Manf#">ERJ-3GEYJ240V</field>
+        <field name="Desc">RES SMD 24 OHM 5% 1/10W 0603</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>577C6009</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>IN_VCC</value>
+      <footprint>bornier2</footprint>
+      <fields>
+        <field name="Digikey#">571-7969492</field>
+        <field name="Desc">TERM BLOCK 5.08MM VERT 2POS PCB</field>
+        <field name="Manf#">796949-2</field>
+      </fields>
+      <libsource lib="CIAA_K60" part="TB_1X2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57843CC7</tstamp>
+    </comp>
+    <comp ref="TR1">
+      <value>SRF2012</value>
+      <footprint>SRF2012</footprint>
+      <fields>
+        <field name="Digikey#">SRF2012-900YCT-ND</field>
+        <field name="Desc">INDUCTOR COMMON MODE 90 OHM SMD</field>
+        <field name="Manf">BOURNS</field>
+        <field name="Manf#">SRF2012-900Y</field>
+      </fields>
+      <libsource lib="CIAA_K60" part="TRASF_UNIP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57843FB3</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>MMZ1608B601C</value>
+      <footprint>fb_0603</footprint>
+      <fields>
+        <field name="Digikey#">445-2166-1-ND</field>
+        <field name="Desc">FERRITE CHIP 600 OHM 500MA 0603</field>
+        <field name="Manf">TDK</field>
+        <field name="Manf#">MMZ1608B601C</field>
+      </fields>
+      <libsource lib="device" part="FILTER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578446E6</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>PRTR5V0U2X</value>
+      <footprint>SOT-143-4</footprint>
+      <fields>
+        <field name="Digikey#">CM1213A-02SROSCT-ND</field>
+        <field name="Desc">IC TVS DIODE 2 CHANNEL 10V CLAMP SOT1434</field>
+        <field name="Manf">ON SEMICONDUCTOR</field>
+        <field name="Manf#">CM1213A-02SR</field>
+      </fields>
+      <libsource lib="CIAA_K60" part="PRTR5V0U2X"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57847668</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>MICRO_USB</value>
+      <footprint>USB_MicroAB</footprint>
+      <fields>
+        <field name="Digikey#">H11635TR-ND</field>
+        <field name="Descripcion">CONNECTOR RECEPTACLE MICRO USB AB SMD BOTTOM MOUNT</field>
+        <field name="Manf">HIROSE ELECTRIC</field>
+        <field name="Manf#">ZX62-AB-5PA(11)</field>
+      </fields>
+      <libsource lib="CIAA_K60" part="MICRO_USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578482F4</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+        <field name="Desc">CAP CER 0,1UF 16V X7R 10% 0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5784F466</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10uF</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
+      <fields>
+        <field name="Desc">	10µF Molded Tantalum - Polymer Capacitors 10V 1206 (3216 Metric) 80 mOhm 0.126" L x 0.063" W (3.20mm x 1.60mm)</field>
+        <field name="Digikey#">399-4788-2-ND</field>
+        <field name="Manf#">T520A106M010ATE080</field>
+        <field name="Manf">Kemet</field>
+      </fields>
+      <libsource lib="CIAA_K60" part="CAPAPOL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57853477</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>400</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Desc">RES SMD 390 OHM 5% 1/8W 0805</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+        <field name="Manf#">ERJ-6GEYJ391V</field>
+        <field name="Digikey#">P390ACT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57855C5A</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Desc">LED GREEN DIFFUSED 0805 SMD</field>
+        <field name="Digikey#">475-1410-2-ND</field>
+        <field name="Manf">OSRAM</field>
+        <field name="Manf#">LG R971-KN-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578637C0</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>FIDUCIAL</value>
+      <fields>
+        <field name="Descripcion">FIDUCIAL</field>
+      </fields>
+      <libsource lib="CIAA_K60" part="FIDUCIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578B622C</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>FIDUCIAL</value>
+      <fields>
+        <field name="Descripcion">FIDUCIAL</field>
+      </fields>
+      <libsource lib="CIAA_K60" part="FIDUCIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578B6495</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>FIDUCIAL</value>
+      <fields>
+        <field name="Descripcion">FIDUCIAL</field>
+      </fields>
+      <libsource lib="CIAA_K60" part="FIDUCIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578B6574</tstamp>
+    </comp>
+    <comp ref="F4">
+      <value>FIDUCIAL</value>
+      <fields>
+        <field name="Descripcion">FIDUCIAL</field>
+      </fields>
+      <libsource lib="CIAA_K60" part="FIDUCIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578B664B</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>JUMPER3</value>
+      <footprint>PIN_ARRAY_3x1</footprint>
+      <fields>
+        <field name="Digikey#">Z5375-ND</field>
+        <field name="Desc">3 Positions Header, Unshrouded Connector 0.100" (2.54mm) Through Hole Gold</field>
+        <field name="Manf#">XG8V-0331</field>
+        <field name="Manf">Omron Electronics</field>
+      </fields>
+      <libsource lib="device" part="JUMPER3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578D0A95</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>PCB_HOLE</value>
+      <datasheet>PCB HOLE</datasheet>
+      <libsource lib="CIAA_K60" part="PCB_HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578E72CD</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>PCB_HOLE</value>
+      <datasheet>PCB HOLE</datasheet>
+      <libsource lib="CIAA_K60" part="PCB_HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578E7442</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>PCB_HOLE</value>
+      <datasheet>PCB HOLE</datasheet>
+      <libsource lib="CIAA_K60" part="PCB_HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578ED4CE</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>PCB_HOLE</value>
+      <datasheet>PCB HOLE</datasheet>
+      <libsource lib="CIAA_K60" part="PCB_HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578ED4D4</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5785C43D</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-3442-2-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C1808C101KHRACTU</field>
+        <field name="Desc">100 pF, 3000 V (3 kV), Capacitores cerámicos, X7R, 1812 </field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57864D62</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-3442-2-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C1808C101KHRACTU</field>
+        <field name="Desc">100 pF, 3000 V (3 kV), Capacitores cerámicos, X7R, 1812 </field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57865725</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+        <field name="Desc">CAP CER 0,1UF 16V X7R 10% 0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57866F8C</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+        <field name="Desc">CAP CER 0,1UF 16V X7R 10% 0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57867074</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+        <field name="Desc">CAP CER 0,1UF 16V X7R 10% 0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57867159</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+        <field name="Desc">CAP CER 0,1UF 16V X7R 10% 0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578678B7</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+        <field name="Desc">CAP CER 0,1UF 16V X7R 10% 0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57867DB9</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+        <field name="Desc">CAP CER 0,1UF 16V X7R 10% 0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57867EA9</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+        <field name="Desc">CAP CER 0,1UF 16V X7R 10% 0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57867F90</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+        <field name="Desc">CAP CER 0,1UF 16V X7R 10% 0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5786808C</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57869240</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57869338</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57869AF1</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57869E49</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+        <field name="Desc">CAP CER 0,1UF 16V X7R 10% 0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57870A61</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+        <field name="Desc">CAP CER 0,1UF 16V X7R 10% 0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57871B43</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+        <field name="Desc">CAP CER 0,1UF 16V X7R 10% 0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57871C30</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+        <field name="Desc">CAP CER 0,1UF 16V X7R 10% 0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57871D14</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>PRTR5V0U2X</value>
+      <footprint>SOT-143-4</footprint>
+      <fields>
+        <field name="Digikey#">CM1213A-02SROSCT-ND</field>
+        <field name="Desc">IC TVS DIODE 2 CHANNEL 10V CLAMP SOT1434</field>
+        <field name="Manf">ON SEMICONDUCTOR</field>
+        <field name="Manf#">CM1213A-02SR</field>
+      </fields>
+      <libsource lib="CIAA_K60" part="PRTR5V0U2X"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57874B60</tstamp>
+    </comp>
+    <comp ref="TR2">
+      <value>SRF2012</value>
+      <footprint>SRF2012</footprint>
+      <fields>
+        <field name="Digikey#">SRF2012-900YCT-ND</field>
+        <field name="Desc">INDUCTOR COMMON MODE 90 OHM SMD</field>
+        <field name="Manf">BOURNS</field>
+        <field name="Manf#">SRF2012-900Y</field>
+      </fields>
+      <libsource lib="CIAA_K60" part="TRASF_UNIP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5787636F</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>MMZ1608B601C</value>
+      <footprint>fb_0603</footprint>
+      <fields>
+        <field name="Digikey#">445-2166-1-ND</field>
+        <field name="Desc">FERRITE CHIP 600 OHM 500MA 0603</field>
+        <field name="Manf">TDK</field>
+        <field name="Manf#">MMZ1608B601C</field>
+      </fields>
+      <libsource lib="device" part="FILTER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5787B871</tstamp>
+    </comp>
+    <comp ref="FB4">
+      <value>MMZ1608B601C</value>
+      <footprint>fb_0603</footprint>
+      <fields>
+        <field name="Digikey#">445-2166-1-ND</field>
+        <field name="Desc">FERRITE CHIP 600 OHM 500MA 0603</field>
+        <field name="Manf">TDK</field>
+        <field name="Manf#">MMZ1608B601C</field>
+      </fields>
+      <libsource lib="device" part="FILTER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5787C045</tstamp>
+    </comp>
+    <comp ref="FB3">
+      <value>MMZ1608B601C</value>
+      <footprint>fb_0603</footprint>
+      <fields>
+        <field name="Digikey#">445-2166-1-ND</field>
+        <field name="Desc">FERRITE CHIP 600 OHM 500MA 0603</field>
+        <field name="Manf">TDK</field>
+        <field name="Manf#">MMZ1608B601C</field>
+      </fields>
+      <libsource lib="device" part="FILTER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5787D0FB</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>24</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">P24GTR-ND</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+        <field name="Manf#">ERJ-3GEYJ240V</field>
+        <field name="Desc">RES SMD 24 OHM 5% 1/10W 0603</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578A8241</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>24</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">P24GTR-ND</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+        <field name="Manf#">ERJ-3GEYJ240V</field>
+        <field name="Desc">RES SMD 24 OHM 5% 1/10W 0603</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578A880B</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>24</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">P24GTR-ND</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+        <field name="Manf#">ERJ-3GEYJ240V</field>
+        <field name="Desc">RES SMD 24 OHM 5% 1/10W 0603</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578A9EA1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>400</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Desc">RES SMD 390 OHM 5% 1/8W 0805</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+        <field name="Manf#">ERJ-6GEYJ391V</field>
+        <field name="Digikey#">P390ACT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578EBA1B</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Desc">LED GREEN DIFFUSED 0805 SMD</field>
+        <field name="Digikey#">475-1410-2-ND</field>
+        <field name="Manf">OSRAM</field>
+        <field name="Manf#">LG R971-KN-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578EC1DB</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>USB_A</value>
+      <fields>
+        <field name="Desc">	USB - A USB 2.0 Receptacle Connector 4 Position Through Hole, Right Angle, Horizontal</field>
+        <field name="Manf#">UE27AC54100	</field>
+        <field name="Digikey#">UE27AC54100-ND</field>
+        <field name="Manf">Amphenol Commercial Products</field>
+      </fields>
+      <libsource lib="conn" part="USB_A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578ED62F</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>o</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Desc">RES SMD 0.0OHM JUMPER 1/10W 0603</field>
+        <field name="Digikey#">P0.0GTR-ND</field>
+        <field name="Manf#">ERJ-3GEY0R00V</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579102B6</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>ADUM4160</value>
+      <fields>
+        <field name="Digikey#">ADUM4160BRWZ-RLTR-ND</field>
+        <field name="Desc">USB Digital Isolator 5000Vrms 2 Channel 12Mbps 25kV/µs CMTI 16-SOIC (0.295", 7.50mm Width)</field>
+        <field name="Manf">Analog Devices Inc.</field>
+        <field name="Manf#">ADUM4160BRWZ-RL</field>
+      </fields>
+      <libsource lib="USBCableIsolatorCircuit" part="ADUM4160"/>
+      <sheetpath names="/ADUM4160/" tstamps="/578D73C8/"/>
+      <tstamp>578D78CD</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/10W 0603</field>
+        <field name="Digikey#">P10KGTR-ND</field>
+        <field name="Manf#">ERJ-3GEYJ103V</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ADUM4160/" tstamps="/578D73C8/"/>
+      <tstamp>578D7926</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+        <field name="Desc">CAP CER 0,1UF 16V X7R 10% 0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/ADUM4160/" tstamps="/578D73C8/"/>
+      <tstamp>578D79AF</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+        <field name="Desc">CAP CER 0,1UF 16V X7R 10% 0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/ADUM4160/" tstamps="/578D73C8/"/>
+      <tstamp>578D79BA</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+        <field name="Desc">CAP CER 0,1UF 16V X7R 10% 0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/ADUM4160/" tstamps="/578D73C8/"/>
+      <tstamp>578E4D4A</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey#">399-1096-1-ND</field>
+        <field name="Manf">Kemet</field>
+        <field name="Manf#">C0603C104K4RACTU</field>
+        <field name="Desc">CAP CER 0,1UF 16V X7R 10% 0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/ADUM4160/" tstamps="/578D73C8/"/>
+      <tstamp>578E51D1</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>JUMPER3</value>
+      <footprint>PIN_ARRAY_3x1</footprint>
+      <fields>
+        <field name="Digikey#">Z5375-ND</field>
+        <field name="Desc">3 Positions Header, Unshrouded Connector 0.100" (2.54mm) Through Hole Gold</field>
+        <field name="Manf#">XG8V-0331</field>
+        <field name="Manf">Omron Electronics</field>
+      </fields>
+      <libsource lib="device" part="JUMPER3"/>
+      <sheetpath names="/ADUM4160/" tstamps="/578D73C8/"/>
+      <tstamp>578F22B5</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>JUMPER3</value>
+      <footprint>PIN_ARRAY_3x1</footprint>
+      <fields>
+        <field name="Digikey#">Z5375-ND</field>
+        <field name="Desc">3 Positions Header, Unshrouded Connector 0.100" (2.54mm) Through Hole Gold</field>
+        <field name="Manf#">XG8V-0331</field>
+        <field name="Manf">Omron Electronics</field>
+      </fields>
+      <libsource lib="device" part="JUMPER3"/>
+      <sheetpath names="/ADUM4160/" tstamps="/578D73C8/"/>
+      <tstamp>578F23EC</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/10W 0603</field>
+        <field name="Digikey#">P10KGTR-ND</field>
+        <field name="Manf#">ERJ-3GEYJ103V</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ADUM4160/" tstamps="/578D73C8/"/>
+      <tstamp>578F89A1</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/10W 0603</field>
+        <field name="Digikey#">P10KGTR-ND</field>
+        <field name="Manf#">ERJ-3GEYJ103V</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ADUM4160/" tstamps="/578D73C8/"/>
+      <tstamp>578F8A0A</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/10W 0603</field>
+        <field name="Digikey#">P10KGTR-ND</field>
+        <field name="Manf#">ERJ-3GEYJ103V</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ADUM4160/" tstamps="/578D73C8/"/>
+      <tstamp>578F8DC6</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/10W 0603</field>
+        <field name="Digikey#">P10KGTR-ND</field>
+        <field name="Manf#">ERJ-3GEYJ103V</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ADUM4160/" tstamps="/578D73C8/"/>
+      <tstamp>578F8E33</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>o</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Desc">RES SMD 0.0OHM JUMPER 1/10W 0603</field>
+        <field name="Digikey#">P0.0GTR-ND</field>
+        <field name="Manf#">ERJ-3GEY0R00V</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/ADUM4160/" tstamps="/578D73C8/"/>
+      <tstamp>5790E825</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="regul" part="7805">
+      <aliases>
+        <alias>LM7805</alias>
+        <alias>LM7812</alias>
+        <alias>78L05</alias>
+      </aliases>
+      <description>Linear Regulator +5V</description>
+      <docs>regulator\lm78xx.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7805</field>
+      </fields>
+      <pins>
+        <pin num="GND" name="GND" type="input"/>
+        <pin num="VI" name="VI" type="input"/>
+        <pin num="VO" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="USBCableIsolatorCircuit" part="ADUM4160">
+      <description>Full/Low Speed 5 kV USB Digital Isolator</description>
+      <docs>datasheets/ADuM4160.pdf</docs>
+      <footprints>
+        <fp>ADuM4160</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADUM4160</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS1" type="power_in"/>
+        <pin num="2" name="GND1" type="power_in"/>
+        <pin num="3" name="VDD1" type="power_in"/>
+        <pin num="4" name="PDEN" type="BiDi"/>
+        <pin num="5" name="SPU" type="BiDi"/>
+        <pin num="6" name="UD-" type="BiDi"/>
+        <pin num="7" name="UD+" type="BiDi"/>
+        <pin num="8" name="GND1" type="power_in"/>
+        <pin num="9" name="GND2" type="power_in"/>
+        <pin num="10" name="DD+" type="BiDi"/>
+        <pin num="11" name="DD-" type="BiDi"/>
+        <pin num="12" name="PIN" type="BiDi"/>
+        <pin num="13" name="SPD" type="BiDi"/>
+        <pin num="14" name="VDD2~" type="power_in"/>
+        <pin num="15" name="GND2" type="power_in"/>
+        <pin num="16" name="VBUS2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="USBCableIsolatorCircuit" part="ADUM5000">
+      <description>2.5 kV, Isolated DC-to-DC Converter</description>
+      <docs>datasheets/ADuM5000.pdf</docs>
+      <footprints>
+        <fp>ADuM5000</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADUM5000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD1" type="power_in"/>
+        <pin num="2" name="GND1" type="power_in"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="RCin" type="input"/>
+        <pin num="5" name="RCout" type="output"/>
+        <pin num="6" name="RCsel" type="input"/>
+        <pin num="7" name="VDD1" type="power_in"/>
+        <pin num="8" name="GND1" type="power_in"/>
+        <pin num="9" name="GNDiso" type="power_in"/>
+        <pin num="10" name="Viso" type="power_out"/>
+        <pin num="11" name="NC" type="NotConnected"/>
+        <pin num="12" name="NC" type="NotConnected"/>
+        <pin num="13" name="Vsel" type="BiDi"/>
+        <pin num="14" name="NC" type="NotConnected"/>
+        <pin num="15" name="GNDiso" type="power_in"/>
+        <pin num="16" name="Viso" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="BARREL_JACK">
+      <description>DC Barrel Jack</description>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">BARREL_JACK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CIAA_K60" part="CP">
+      <aliases>
+        <alias>CAPAPOL</alias>
+      </aliases>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+        <field name="Footprint">c_elec_13.7x13x13.5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CIAA_K60" part="FIDUCIAL">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FIDUCIAL</field>
+        <field name="Descripcion">FIDUCIAL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FILTER">
+      <description>Filtre EMI</description>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="JUMPER3">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CIAA_K60" part="MICRO_USB">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MICRO_USB</field>
+        <field name="Descripcion">CONNECTOR RECEPTACLE MICRO USB AB SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="USB_DN" type="BiDi"/>
+        <pin num="3" name="USB_DP" type="BiDi"/>
+        <pin num="4" name="USB_ID" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="S2" type="power_in"/>
+        <pin num="7" name="S1" type="power_in"/>
+        <pin num="8" name="S3" type="power_in"/>
+        <pin num="9" name="S4" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CIAA_K60" part="PCB_HOLE">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">PCB_HOLE</field>
+        <field name="Datasheet">PCB HOLE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CIAA_K60" part="PRTR5V0U2X">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PRTR5V0U2X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="I/O" type="passive"/>
+        <pin num="3" name="I/O" type="passive"/>
+        <pin num="4" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CIAA_K60" part="TB_1X2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TB_1X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="CIAA_K60" part="TRASF_UNIP">
+      <fields>
+        <field name="Reference">TR</field>
+        <field name="Value">TRASF_UNIP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_A">
+      <description>A connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>C:\Program Files\KiCad\share\kicad\library\regul.lib</uri>
+    </library>
+    <library logical="USBCableIsolatorCircuit">
+      <uri>C:\Users\mdarino\Desktop\RepoTpKicad\CESE-PCB\AislacionUSB\libs\USBCableIsolatorCircuit.lib</uri>
+    </library>
+    <library logical="CIAA_K60">
+      <uri>C:\Users\mdarino\Desktop\RepoTpKicad\CESE-PCB\AislacionUSB\libs\CIAA_K60.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C11-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U2" pin="16"/>
+      <node ref="JP1" pin="3"/>
+    </net>
+    <net code="2" name="GNDA">
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U5" pin="15"/>
+      <node ref="U5" pin="9"/>
+      <node ref="FB4" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="JP3" pin="3"/>
+      <node ref="C25" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U2" pin="15"/>
+      <node ref="J2" pin="2"/>
+      <node ref="CON1" pin="3"/>
+      <node ref="CON1" pin="2"/>
+      <node ref="U3" pin="GND"/>
+      <node ref="U2" pin="9"/>
+      <node ref="H3" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="H4" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="TR2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(R5-Pad1)">
+      <node ref="TR2" pin="4"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="6" name="Net-(P1-Pad3)">
+      <node ref="U4" pin="3"/>
+      <node ref="TR2" pin="2"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="7" name="Net-(P1-Pad2)">
+      <node ref="U4" pin="2"/>
+      <node ref="TR2" pin="3"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="U1" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="FB2" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="H1" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="H2" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C2" pin="2"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="C23" pin="1"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="10" name="Net-(FB3-Pad2)">
+      <node ref="FB3" pin="2"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(R4-Pad2)">
+      <node ref="U2" pin="13"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D3-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="13" name="+5V">
+      <node ref="C9" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="FB3" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U5" pin="16"/>
+      <node ref="U5" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="2"/>
+      <node ref="TR1" pin="1"/>
+    </net>
+    <net code="15" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="TR1" pin="2"/>
+    </net>
+    <net code="16" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="17" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="18" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="19" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="20" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="21" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="22" name="Net-(FB2-Pad1)">
+      <node ref="FB2" pin="1"/>
+      <node ref="J1" pin="9"/>
+      <node ref="J1" pin="8"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="23" name="Net-(R2-Pad2)">
+      <node ref="TR1" pin="3"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="24" name="Net-(FB1-Pad2)">
+      <node ref="J1" pin="1"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J1" pin="6"/>
+      <node ref="FB1" pin="2"/>
+    </net>
+    <net code="25" name="Net-(FB4-Pad1)">
+      <node ref="P1" pin="5"/>
+      <node ref="P1" pin="4"/>
+      <node ref="FB4" pin="1"/>
+    </net>
+    <net code="26" name="Net-(C17-Pad1)">
+      <node ref="U3" pin="VI"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="CON1" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C15-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U3" pin="VO"/>
+      <node ref="C16" pin="1"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="28" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="TR1" pin="4"/>
+    </net>
+    <net code="29" name="/ADUM4160/DD+">
+      <node ref="U5" pin="10"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="30" name="/ADUM4160/DD-">
+      <node ref="U5" pin="11"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="31" name="/ADUM4160/UD+">
+      <node ref="R3" pin="1"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="32" name="/ADUM4160/UD-">
+      <node ref="U5" pin="6"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="33" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="34" name="Net-(F2-Pad1)">
+      <node ref="F2" pin="1"/>
+    </net>
+    <net code="35" name="Net-(F3-Pad1)">
+      <node ref="F3" pin="1"/>
+    </net>
+    <net code="36" name="Net-(F4-Pad1)">
+      <node ref="F4" pin="1"/>
+    </net>
+    <net code="37" name="/ADUM4160/VDD1">
+      <node ref="R9" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="38" name="Net-(JP3-Pad1)">
+      <node ref="JP3" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="39" name="Net-(JP2-Pad3)">
+      <node ref="R8" pin="1"/>
+      <node ref="JP2" pin="3"/>
+    </net>
+    <net code="40" name="/ADUM4160/VDD2">
+      <node ref="C25" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U5" pin="14"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="41" name="Net-(R10-Pad2)">
+      <node ref="U5" pin="4"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="42" name="/ADUM4160/SPU">
+      <node ref="JP2" pin="2"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="43" name="/ADUM4160/PIN">
+      <node ref="R13" pin="2"/>
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="44" name="/ADUM4160/SPD">
+      <node ref="JP3" pin="2"/>
+      <node ref="U5" pin="13"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name AislacionUSB)(type KiCad)(uri "$(KIPRJMOD)\\AislacionUSB.pretty")(options "")(descr ""))
+)
