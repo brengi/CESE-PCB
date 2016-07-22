@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:USBCableIsolatorCircuit-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1879,7 +1880,7 @@ Selecciona\nla\nAlimentacion
 Wire Notes Line
 	6750 1000 6350 750 
 $Comp
-L 7805 U3
+L 7805-RESCUE-USBCableIsolatorCircuit U3
 U 1 1 57918B3E
 P 8850 900
 F 0 "U3" H 9000 704 50  0000 C CNN
