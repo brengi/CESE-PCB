@@ -40,7 +40,7 @@ Date "5 jul 2016"
 Rev "01"
 Comp ""
 Comment1 "Autor: Marcos Darino"
-Comment2 "Licencia: BSD"
+Comment2 "Licencia:  'doc/LICENCIA.txt'"
 Comment3 "Especialización en Sistemas Embebidos - Materia: Diseño de Circuitos Impresos"
 Comment4 ""
 $EndDescr
