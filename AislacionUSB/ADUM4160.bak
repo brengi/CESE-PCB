@@ -40,8 +40,8 @@ Date ""
 Rev "01"
 Comp ""
 Comment1 "Autor: Marcos Darino"
-Comment2 "Licencia: BSD"
-Comment3 ""
+Comment2 "Licencia:  'doc/LICENCIA.txt'"
+Comment3 "Especialización en Sistemas Embebidos - Materia: Diseño de Circuitos Impresos"
 Comment4 ""
 $EndDescr
 $Comp
