@@ -1,5 +1,5 @@
 # CESE-PCB
-Curso de Diseño de Circuitos Impresos de la Carrera de Especialización en Sistemas Embebidos
+Curso de Diseño de Circuitos Impresos de la Carrera de Especialización en Sistemas Embebidos.
 
 ## AislacionUSB ##
   * Autor: Marcos Darino.
@@ -28,3 +28,13 @@ conversión con un A/D externo y se ingresa a la EDU-CIAA por I2C.
   * URL PONCHO: https://github.com/ciaa/Ponchos/tree/master/Osciloscopio
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/Oscilloscopio.jpg "Poncho Osciloscopio")
+
+## Poncho Simon ##
+  * Autor: Bassi Juan Agustín.
+  * Curso: 7 de Junio al 26 de Julio de 2016.
+  * Descripción: Poncho para implementar el clásico juego del Simon, con pulsadores, LEDs de colores y buzzer.
+  * URL PONCHO: https://github.com/ciaa/Ponchos  (Simon)
+  * URL Original: https://gitlab.com/abassi/ponchoSimon
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/simonShield.jpg  "Poncho Simon")
+
