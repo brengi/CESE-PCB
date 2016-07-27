@@ -1,9 +1,9 @@
 # CESE-PCB
 Curso de Diseño de Circuitos Impresos de la Carrera de Especialización en Sistemas Embebidos.
 
-*ADVERTENCIA*: Estos circuitos se realizan en tiempos muy cortos y no todos los circuitos reciben una revisión funcional detallada. 
-El curso enfoca el los procedimientos de diseño del PEsquemático y del PCB y no en el diseño del circuito funcional.
-El uso de estos circuitos queda bajo la propia responsabilidad.
+**ADVERTENCIA**: Estos circuitos se realizan en tiempos muy cortos y no todos los circuitos reciben una revisión funcional detallada. 
+El curso enfoca el los procedimientos de diseño de Esquemático y de PCB y no en el diseño funcional de los  circuitos.
+El uso de estos circuitos queda bajo la propia responsabilidad del usuario.
 
 ## AislacionUSB ##
   * Autor: Marcos Darino.
@@ -46,7 +46,7 @@ conversión con un A/D externo y se ingresa a la EDU-CIAA por I2C.
   * Autor: Giovagnoli Valentin.
   * Curso: 7 de Junio al 26 de Julio de 2016.
   * Descripción: Poncho con entrada de micrófono y salida de audio conectados al ADC y al DAC respectivamente.
-  * URL PONCHO: https://github.com/ciaa/Ponchos  (Simon)
+  * URL PONCHO: https://github.com/ciaa/Ponchos  (Audio)
   * URL Original: https://gitlab.com/valentingiova/Poncho_EDU_CIAA_Amp_Audio
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/AmpAudio.jpg  "Poncho Audio")
