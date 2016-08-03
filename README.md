@@ -51,6 +51,15 @@ conversión con un A/D externo y se ingresa a la EDU-CIAA por I2C.
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/AmpAudio.jpg  "Poncho Audio")
 
+## Poncho Detector de Caídas ##
+  * Autor: Dell ´Oso Matías.
+  * Curso: 7 de Junio al 26 de Julio de 2016.
+  * Descripción: Poncho que permite conectar módulos con acelerómetro, wifi, GSM. Implementa una fuente a batería de 9V con la cual se alimenta el circuito y puede alimentar la EDU-CIAA. Posee además tres leds, un buzzer y se puede leer la tensión de batería con el A/D de la EDU-CIAA.
+  * URL PONCHO: https://github.com/ciaa/Ponchos  (Caidas)
+  * URL Original: https://github.com/mdelloso/fall_detector
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/fall_detector.jpg  "Poncho Caídas")
+
 ## Proyecto MICR ##
   * Autor: Valentín Korenblit.
   * Curso: 7 de Junio al 26 de Julio de 2016.
