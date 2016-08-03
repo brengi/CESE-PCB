@@ -51,6 +51,12 @@ conversión con un A/D externo y se ingresa a la EDU-CIAA por I2C.
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/AmpAudio.jpg  "Poncho Audio")
 
+## Proyecto MICR ##
+  * Autor: Valentín Korenblit.
+  * Curso: 7 de Junio al 26 de Julio de 2016.
+  * Descripción: Placa base para consolidar los componentes del proyecto de especialización. Se trata de un sistema de sensado de nivel, con sensado de temperatura, comunicación GPRS y una placa de control FRDM-KL25Z.
+  * URL: https://github.com/vkorenblit/MICR_Hardware
 
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/MICR_Hardware.jpg  "Proyecto MICR")
 
 
