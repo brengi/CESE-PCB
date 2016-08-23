@@ -5,15 +5,6 @@ Curso de Diseño de Circuitos Impresos de la Carrera de Especialización en Sist
 El curso enfoca el los procedimientos de diseño de Esquemático y de PCB y no en el diseño funcional de los  circuitos.
 El uso de estos circuitos queda bajo la propia responsabilidad del usuario.
 
-## AislacionUSB ##
-  * Autor: Marcos Darino.
-  * Curso: 7 de Junio al 26 de Julio de 2016.
-  * Descripción: Circuito que busca crear aislación de la fuente de 
-  alimentación del USB y de los datos de transmisión, buscando que no exista 
-  conexión galvánica entre ellos. Es útil para programar dispositivos en campo,
-  protegiendo el dispositivo de programación.
-
-![Vista 3D](https://raw.githubusercontent.com/brengi/CESE-PCB/master/AislacionUSB/doc/USBCableIsolatorCircuit.jpg "AislacionUSB")
 
 ## Poncho Celda de Carga ##
   * Autor: Rey Hernandez Hernán Felipe.
@@ -60,6 +51,25 @@ conversión con un A/D externo y se ingresa a la EDU-CIAA por I2C.
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/fall_detector.jpg  "Poncho Caídas")
 
+## Poncho ECG ##
+  * Autor: Jorge Fonseca.
+  * Curso: 7 de Junio al 26 de Julio de 2016.
+  * Descripción: El Poncho ECG permite monitorear frecuencia cardíaca utiliza el integrado AD8232. La señal procesada ingresa por el conversor A/D de la EDU-CIAA. Este circuito se basa en el diseño de Sparkfun.
+  * URL PONCHO: https://github.com/ciaa/Ponchos  (ECG)
+  * URL Original: https://github.com/jorgef34/ECG-CIAA
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/ecg.jpg  "Poncho ECG")
+
+## AislacionUSB ##
+  * Autor: Marcos Darino.
+  * Curso: 7 de Junio al 26 de Julio de 2016.
+  * Descripción: Circuito que busca crear aislación de la fuente de 
+  alimentación del USB y de los datos de transmisión, buscando que no exista 
+  conexión galvánica entre ellos. Es útil para programar dispositivos en campo,
+  protegiendo el dispositivo de programación.
+
+![Vista 3D](https://raw.githubusercontent.com/brengi/CESE-PCB/master/AislacionUSB/doc/USBCableIsolatorCircuit.jpg "AislacionUSB")
+
 ## Proyecto MICR ##
   * Autor: Valentín Korenblit.
   * Curso: 7 de Junio al 26 de Julio de 2016.
@@ -67,5 +77,6 @@ conversión con un A/D externo y se ingresa a la EDU-CIAA por I2C.
   * URL: https://github.com/vkorenblit/MICR_Hardware
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/MICR_Hardware.jpg  "Proyecto MICR")
+
 
 
