@@ -11,7 +11,7 @@ El uso de estos circuitos queda bajo la propia responsabilidad del usuario.
   * Curso: 7 de Junio al 26 de Julio de 2016.
   * Descripción: Poncho para conectar una celda de carga, se amplifica la señal, se hace una 
 conversión con un A/D externo y se ingresa a la EDU-CIAA por I2C.
-  * URL PONCHO: https://github.com/ciaa/Ponchos  (Celda_de_Carga)
+  * URL PONCHO: https://github.com/ciaa/Ponchos/tree/master/Celda_de_carga
   * URL Original: https://github.com/feliperey4/LoadCellShield
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/poncho_celda.jpg "LoadCellShield")
@@ -28,7 +28,7 @@ conversión con un A/D externo y se ingresa a la EDU-CIAA por I2C.
   * Autor: Bassi Juan Agustín.
   * Curso: 7 de Junio al 26 de Julio de 2016.
   * Descripción: Poncho para implementar el clásico juego del Simon, con pulsadores, LEDs de colores y buzzer.
-  * URL PONCHO: https://github.com/ciaa/Ponchos  (Simon)
+  * URL PONCHO: https://github.com/ciaa/Ponchos/tree/master/Simon
   * URL Original: https://gitlab.com/abassi/ponchoSimon
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/simonShield.jpg  "Poncho Simon")
@@ -37,7 +37,7 @@ conversión con un A/D externo y se ingresa a la EDU-CIAA por I2C.
   * Autor: Giovagnoli Valentin.
   * Curso: 7 de Junio al 26 de Julio de 2016.
   * Descripción: Poncho con entrada de micrófono y salida de audio conectados al ADC y al DAC respectivamente.
-  * URL PONCHO: https://github.com/ciaa/Ponchos  (Audio)
+  * URL PONCHO: https://github.com/ciaa/Ponchos/tree/master/Audio_amp_mic
   * URL Original: https://gitlab.com/valentingiova/Poncho_EDU_CIAA_Amp_Audio
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/AmpAudio.jpg  "Poncho Audio")
@@ -46,7 +46,7 @@ conversión con un A/D externo y se ingresa a la EDU-CIAA por I2C.
   * Autor: Dell ´Oso Matías.
   * Curso: 7 de Junio al 26 de Julio de 2016.
   * Descripción: Poncho que permite conectar módulos con acelerómetro, wifi, GSM. Implementa una fuente a batería de 9V con la cual se alimenta el circuito y puede alimentar la EDU-CIAA. Posee además tres leds, un buzzer y se puede leer la tensión de batería con el A/D de la EDU-CIAA.
-  * URL PONCHO: https://github.com/ciaa/Ponchos  (Caidas)
+  * URL PONCHO: https://github.com/ciaa/Ponchos/tree/master/Detector_de_caidas
   * URL Original: https://github.com/mdelloso/fall_detector
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/fall_detector.jpg  "Poncho Caídas")
@@ -55,10 +55,29 @@ conversión con un A/D externo y se ingresa a la EDU-CIAA por I2C.
   * Autor: Jorge Fonseca.
   * Curso: 7 de Junio al 26 de Julio de 2016.
   * Descripción: El Poncho ECG permite monitorear frecuencia cardíaca utiliza el integrado AD8232. La señal procesada ingresa por el conversor A/D de la EDU-CIAA. Este circuito se basa en el diseño de Sparkfun.
-  * URL PONCHO: https://github.com/ciaa/Ponchos  (ECG)
+  * URL PONCHO: https://github.com/ciaa/Ponchos/tree/master/ECG
   * URL Original: https://github.com/jorgef34/ECG-CIAA
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/ecg.jpg  "Poncho ECG")
+
+## Poncho L298 ##
+  * Autor: Suarez Baron Juan Carlos.
+  * Curso: 7 de Junio al 26 de Julio de 2016.
+  * Descripción: El L298 implementa un doble puente H con un L298. Las entradas de control estan optoacopladas para proteger a la EDU-CIAA. Además posee varios indicadores LED para seguir el funcionamiento.
+  * URL PONCHO: https://github.com/ciaa/Ponchos/tree/master/L298
+  * URL Original: https://github.com/jsuarezbaron/Poncho_L298
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/poncho_L298.jpg  "Poncho L298")
+
+## Poncho Misión SAE ##
+  * Autor: Elli Carlos.
+  * Curso: 7 de Junio al 26 de Julio de 2016.
+  * Descripción: El Poncho misión SAE "Ingeniería Satelital en la Escuela" es una reimplementación en Kicad del Poncho utilizado para la actividad mencionada. Más información sobre el tema en http://www.suremptec.com/es/noticias-y-eventos/127-exitoso-cierre-de-la-primera-edicion-de-la-mision-sae.html . El Poncho posee un módulo ZigBee, un sensor de presión y un módulo acelerómetro.
+  * URL PONCHO: https://github.com/ciaa/Ponchos/tree/master/Mision_SAEv2
+
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/poncho_sae.jpg  "Poncho L298")
+
 
 ## AislacionUSB ##
   * Autor: Marcos Darino.
