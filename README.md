@@ -97,5 +97,12 @@ conversión con un A/D externo y se ingresa a la EDU-CIAA por I2C.
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/MICR_Hardware.jpg  "Proyecto MICR")
 
+## Proyecto Modular Drummer ##
+  * Autor: León Vásquez Iván Andrés.
+  * Curso: 7 de Junio al 26 de Julio de 2016.
+  * Descripción: Placa con funciones MIDI para un emprendimiento.
+  * URL: Repositorio privado.
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/ModDrumm.jpg  "Proyecto Modular Drummer")
 
 
