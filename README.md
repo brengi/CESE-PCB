@@ -6,6 +6,75 @@ El curso enfoca el los procedimientos de diseño de Esquemático y de PCB y no e
 El uso de estos circuitos queda bajo la propia responsabilidad del usuario.
 
 
+#CURSO 2  - 2016#
+
+## PicoPoncho WiFi  ##
+  * Autor: De Jesús Meleán Sergio Renato.
+  * Curso: 14 de Octubre al 2 Diciembre de 2016.
+  * Descripción: Se trata de una placa sencilla para la picoCIAA (picoPoncho) que contiene un módulo wifi ESP8266, conectores para la asociación a la picociaa y elementos de manejo del ESP.
+  * URL PONCHO: https://github.com/ciaa/Ponchos/
+  * URL Original: https://github.com/sergiordj/Poncho_wifi_picociaa
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/ponchowifi.jpg "Pico Poncho Wifi")
+
+## Poncho  Educativo##
+  * Autor: Evangelista Guillermo Oscar.
+  * Curso: 14 de Octubre al 2 Diciembre de 2016.
+  * Descripción: Este poncho tiene una  variedad de componentes para realizar ensayos variados y poder aplicar los conceptos aprendidos en la carrera. Implementa entradas Analógicas, salidas PWM, salidas a relé y  entradas optoacopladas.
+  * URL PONCHO: https://github.com/ciaa/Ponchos/
+  * URL Original: https://github.com/guille411/EduPoncho
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/ponchoeducativo.jpg "Poncho Educativo")
+
+## Poncho IoT ##
+  * Autor: Gigliotti Ernesto.
+  * Curso: 14 de Octubre al 2 Diciembre de 2016.
+  * Descripción: Es una placa que sea capaz de conectarse a la EDU-CIAA-NXP y que provea por medio del módulo WiFi RN1810 de microchip conectividad inalámbrica a la placa. Este módulo se conecta por medio del puerto serie de la EDU-CIAA-NXP.
+  * URL PONCHO: https://github.com/ciaa/Ponchos/
+  * URL Original: https://github.com/ernesto-g/ponchoeduciaaiot.git
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/Poncho_IoT.jpg "Poncho IoT")
+
+## Poncho  SAEv2##
+  * Autor: Iglesias Julian.
+  * Curso: 14 de Octubre al 2 Diciembre de 2016.
+  * Descripción: El Poncho misión SAE "Ingeniería Satelital en la Escuela" es una reimplementación en Kicad del Poncho utilizado para la actividad mencionada. Más información sobre el tema en http://www.suremptec.com/es/noticias-y-eventos/127-exitoso-cierre-de-la-primera-edicion-de-la-mision-sae.html . El Poncho posee un módulo ZigBee, un sensor de presión y un módulo acelerómetro.
+  * URL PONCHO: https://github.com/ciaa/Ponchos/
+  * URL Original: https://gitlab.com/julianmiglesias/MisionSAE
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/ponchosae.jpg "Poncho SAEv2")
+
+## Poncho  Puente H por i2C##
+  * Autor: Martinez Horacio.
+  * Curso: 14 de Octubre al 2 Diciembre de 2016.
+  * Descripción: Este circuito implementa un controlador para dos motores paso a paso o cuatro motores DC de baja potencia. Podra usarse con la EDU-CIAA con una fuente de alimentacion externa.
+  * URL PONCHO: https://github.com/ciaa/Ponchos/
+  * URL Original:  https://github.com/martinezhoracio/tp_KiCad_2016
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/ponchomotores.png "Poncho puente H por i2C")
+
+## Poncho Oxímetro ##
+  * Autor: Meira Fernando.
+  * Curso: 14 de Octubre al 2 Diciembre de 2016.
+  * Descripción: La función del poncho es implementar un oximetro de pulso basado en el integrado AFE4490 de Texas Instruments y usando como configuración del sensor el estándar introducido por Nellcor.
+  * URL PONCHO: https://github.com/ciaa/Ponchos/
+  * URL Original: https://github.com/Fermeira/Oximetro_CESE.git
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/ponchooximetro.jpg "Poncho Oxímetro")
+
+
+## Poncho  ##
+  * Autor: .
+  * Curso: 14 de Octubre al 2 Diciembre de 2016.
+  * Descripción: .
+  * URL PONCHO: https://github.com/ciaa/Ponchos/
+  * URL Original: 
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/ "")
+
+
+#CURSO 1  - 2016#
+
 ## Poncho Celda de Carga ##
   * Autor: Rey Hernandez Hernán Felipe.
   * Curso: 7 de Junio al 26 de Julio de 2016.
