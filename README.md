@@ -62,15 +62,60 @@ El uso de estos circuitos queda bajo la propia responsabilidad del usuario.
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/ponchooximetro.jpg "Poncho Oxímetro")
 
-
-## Poncho  ##
-  * Autor: .
+## Placa Educativa de la materia Electrónica Gral.##
+  * Autor: Alonso Ramiro.
   * Curso: 14 de Octubre al 2 Diciembre de 2016.
-  * Descripción: .
-  * URL PONCHO: https://github.com/ciaa/Ponchos/
-  * URL Original: 
+  * Descripción: Este es un circuito didáctico para fomentar el interés de los alumnos de Electrónica General en la materia. Permite demostrar el funcionamiento de los circuitos que hasta ahora ven en papel. Está dividido en bloques correspondientes con las prácticas de la materia.
+  * URL Original:  https://github.com/ninjaramiro/TP_FINAL_KICAD
 
-![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/ "")
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/Placa_Educativa_elect.jpg "Placa educativa para electrónica general")
+
+## Placa de desarrollo para LPC1114 ##
+  * Autor: Carducci Leonardo.
+  * Curso: 14 de Octubre al 2 Diciembre de 2016.
+  * Descripción: Es una placa de desarrollo básica, para aplicaciones de baja complejidad, que consta de un microcontrolador LPC1114, conectores para proposito general, un LED, conector JTAG, contector para alimentación externa, fuente regulada a 3,3 V, un conversor USB-UART mediante el circuito FT232RL y un conector micro-USB hembra.
+  * URL Original: https://gitlab.com/carducci/KICAD-LMC.git
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/board1114.jpg  "Placa LPC1114")
+
+
+## Placa Control Vino  ##
+  * Autor: Chico Luis.
+  * Curso: 14 de Octubre al 2 Diciembre de 2016.
+  * Descripción: Es una placa relacionada al control del proceso del vino.
+  * URL Original: https://github.com/lchico/chz_hw_tp_vino
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/tpvino.jpg "Placa control vino")
+
+
+## PMOD Medidor de impedancia para FPGA ##
+  * Autor: Larosa Facundo.
+  * Curso: 14 de Octubre al 2 Diciembre de 2016.
+  * Descripción: El proyecto consiste de un analizador de impedancias, el cual inyecta una señal de hasta 100 kHz y permite obtener la parte real e imaginaria para cada frecuencia del dipolo en cuestión. El circuito se conecta con la FPGA por medio del protocolo I2C.
+  * URL Original: https://github.com/facundolarosa/proyectoDCI.git
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/pmodDCI.jpg "Medido de impedancias PMOD")
+
+
+## Poncho EDU-CIAA-NXP RF 2.4GHz Antena PCB ##
+  * Autor: Juan Vicente Montilla Cabrera.
+  * Curso: 14 de Octubre al 2 Diciembre de 2016.
+  * Descripción: Este circuito de poncho implementa una unidad de radio que opera en la banda de frecuencias abierta de 2.4GHz y compila con aplicaciones de la EDU-CIAA NXP que soportan el estándar IEEE 802.15.4: IEEE Standards Association. IEEE Standard for Local and metropolitan area networks–Part 15.4: Low-Rate Wireless Personal Area Networks (LR-WPANs) y ZIGBEE.
+  * URL PONCHO: https://github.com/ciaa/Ponchos/
+  * URL Original: https://github.com/Juanvmont/Poncho-EDU-CIAA-NXP-RF-2.4GHz-Antena-PCB.git
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/ponchoantenapcb.jpg "Antena PCB")
+
+
+## Poncho CNC ##
+  * Autor: Moreno Marin Marcelo Franz .
+  * Curso: 14 de Octubre al 2 Diciembre de 2016.
+  * Descripción: Poncho para EDU-CIAA-NXP para el control de una CNC de 3 ejes con motores paso a paso controlados por la placa Pololu a4988 y un regulador switching LM2596 de voltaje (12V - 36V) DC-DC (3.3V) para alimentar el controlador aprovechando la alimentacion de los motores.
+  * URL PONCHO: https://github.com/ciaa/Ponchos/
+  * URL Original: https://github.com/mmarcelofrm/Poncho-CNC
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/ponchocnc.jpg "Poncho CNC")
+
 
 
 #CURSO 1  - 2016#
