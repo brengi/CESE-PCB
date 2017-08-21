@@ -1,4 +1,4 @@
-# CESE-PCB
+# CESE-PCB #
 Curso de Diseño de Circuitos Impresos de la Carrera de Especialización en Sistemas Embebidos.
 
 **ADVERTENCIA**: Estos circuitos se realizan en tiempos muy cortos y no todos los circuitos reciben una revisión funcional detallada. 
@@ -6,44 +6,55 @@ El curso enfoca el los procedimientos de diseño de Esquemático y de PCB y no e
 El uso de estos circuitos queda bajo la propia responsabilidad del usuario.
 
 
-#CURSO 3  - 2017#
+#C URSO 3  - 2017 #
 
-## Poncho  MIDI##
+## Poncho  MIDI ##
   * Autor: Mancón Carlos Ignacio
-  * Curso: 11 de Abril al 30 de Mayo de 2017. N10
-  * Descripción: Este circuito implementa una interfaz MIDI conforme a la especificación de dicho estándar y un conjunto de actuadores para el disparo de paquetes e interacción con dispositivos compatibles. Se alimentará a través de USB o fuente externa.
-  * URL PONCHO CIAA: 
+  * Curso: 11 de Abril al 30 de Mayo de 2017. 
+  * Descripción: Este circuito implementa una interfaz MIDI conforme a la especificación de dicho estándar y un conjunto de actuadores para el disparo de paquetes e interacción con dispositivos compatibles. Se alimentará a través de USB o fuente externa. N10
+  * URL PONCHO CIAA: Sin subir al repo Ponchos CIAA.
   * URL Original: https://github.com/cmancon/Ponchos (Rama MIDI)
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/PonchoMIDI.jpg "Pico Poncho MIDI")
 
 
-## Poncho  Poncho WIFI BLUETOOTH ESP-WROOM-32##
+## Poncho  Poncho WIFI BLUETOOTH ESP-WROOM-32 ##
   * Autor: Coccé Gastón
-  * Curso: 11 de Abril al 30 de Mayo de 2017. N10
-  * Descripción: Poncho para la EDU-CIAA usando el módulo ESP-WROOM-32 que cuenta con conectividad WIFI y BLUETOOTH. El circuito se alimenta con energía de la placa EDU-CIAA y se comunicará con la EDU-CIAA por UART.
-  * URL PONCHO CIAA: 
+  * Curso: 11 de Abril al 30 de Mayo de 2017. 
+  * Descripción: Poncho para la EDU-CIAA usando el módulo ESP-WROOM-32 que cuenta con conectividad WIFI y BLUETOOTH. El circuito se alimenta con energía de la placa EDU-CIAA y se comunicará con la EDU-CIAA por UART. N10
+  * URL PONCHO CIAA: Sin subir al repo Ponchos CIAA.
   * URL Original: https://github.com/gcocce/poncho_EDU-CIAA_wifi_blth
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/PonchoWifi-BLT.jpg "Poncho WIFI BLUETOOTH ESP-WROOM-32")
 
-## Poncho  Expansor de Puertos##
+## Poncho  Expansor de Puertos ##
   * Autor: Orlante Mariano
-  * Curso: 11 de Abril al 30 de Mayo de 2017. N10
+  * Curso: 11 de Abril al 30 de Mayo de 2017. 
   * Descripción: Expansor de entradas y salidas digitales, y adaptador de nivel de tensión Low Voltage (3V3) a RS232 para puerto serie. 
 Las entradas digitales son del tipo a transistor NPN “sinking” y se activan con tensión de continua externa en el rango de entre 3,5 a 25VDC.  Las entradas se pueden activar a través de contactos secos o salidas transistorizadas “sourcing”.
-Las salidas digitales son del tipo a transistor NPN “sinking” a colector abierto. Una salida activada implica que el dispositivo drena corriente a la carga externa. Se deberá alimentar la carga con una tensión de entre 3,5 a 45VDC.
-  * URL PONCHO CIAA: 
+Las salidas digitales son del tipo a transistor NPN “sinking” a colector abierto. Una salida activada implica que el dispositivo drena corriente a la carga externa. Se deberá alimentar la carga con una tensión de entre 3,5 a 45VDC. N10
+  * URL PONCHO CIAA: Sin subir al repo Ponchos CIAA.
   * URL Original: https://marianoo2001@gitlab.com/marianoo2001/EduCiaaPE.git
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/PonchoExpansorPuertos.jpg "Poncho Expansor de Puertos")
 
-## Poncho  ##
-  * Autor: 
+## Poncho Control de temperatura ##
+  * Autor: Suarez Francisco
   * Curso: 11 de Abril al 30 de Mayo de 2017.
-  * Descripción: 
-  * URL PONCHO CIAA: 
-  * URL Original: 
+  * Descripción: Es una poncho destinado a intermediar con termocuplas mas el control de dos interruptores a traves de relays, pensado para hacer control de temperatura en un tanque de agua a travez de resistencias. N9
+  * URL PONCHO CIAA: Sin subir al repo Ponchos CIAA.
+  * URL Original: https://github.com/fransuarez/TPdesign_poncho.git
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/PonchoTermocuplayRele.jpg "Poncho Control de Temperatura")
+
+## Poncho Joystick ##
+  * Autor: Toris Alan
+  * Curso: 11 de Abril al 30 de Mayo de 2017.
+  * Descripción: Pponcho de la edu-ciaa con funcionalidad de Joystick que puede ser usado como interface de control de otros sistemas como juegos en pantallas o proyectos con motores. N9
+  * URL PONCHO CIAA: Sin subir aún al repo Ponchos CIAA.
+  * URL Original: https://gitlab.com/alantoris/poncho-joystick-edu-ciaa
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/PonchoJoystick.jpg "Poncho Joystick")
 
 ## Poncho  ##
   * Autor: 
@@ -94,14 +105,7 @@ Las salidas digitales son del tipo a transistor NPN “sinking” a colector abi
   * URL PONCHO CIAA: 
   * URL Original: 
 
-## Poncho  ##
-  * Autor: 
-  * Curso: 11 de Abril al 30 de Mayo de 2017.
-  * Descripción: 
-  * URL PONCHO CIAA: 
-  * URL Original: 
-
-#CURSO 2  - 2016#
+# CURSO 2  - 2016 #
 
 ## PicoPoncho WiFi  ##
   * Autor: De Jesús Meleán Sergio Renato.
