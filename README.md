@@ -130,7 +130,7 @@ Las salidas digitales son del tipo a transistor NPN “sinking” a colector abi
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/ponchowifi.jpg "Pico Poncho Wifi")
 
-## Poncho  Educativo##
+## Poncho  Educativo ##
   * Autor: Evangelista Guillermo Oscar.
   * Curso: 14 de Octubre al 2 Diciembre de 2016.
   * Descripción: Este poncho tiene una  variedad de componentes para realizar ensayos variados y poder aplicar los conceptos aprendidos en la carrera. Implementa entradas Analógicas, salidas PWM, salidas a relé y  entradas optoacopladas.
@@ -148,7 +148,7 @@ Las salidas digitales son del tipo a transistor NPN “sinking” a colector abi
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/Poncho_IoT.jpg "Poncho IoT")
 
-## Poncho  SAEv2##
+## Poncho  SAEv2 ##
   * Autor: Iglesias Julian.
   * Curso: 14 de Octubre al 2 Diciembre de 2016.
   * Descripción: El Poncho misión SAE "Ingeniería Satelital en la Escuela" es una reimplementación en Kicad del Poncho utilizado para la actividad mencionada. Más información sobre el tema en http://www.suremptec.com/es/noticias-y-eventos/127-exitoso-cierre-de-la-primera-edicion-de-la-mision-sae.html . El Poncho posee un módulo ZigBee, un sensor de presión y un módulo acelerómetro.
@@ -157,7 +157,7 @@ Las salidas digitales son del tipo a transistor NPN “sinking” a colector abi
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/ponchosae.jpg "Poncho SAEv2")
 
-## Poncho  Puente H por i2C##
+## Poncho  Puente H por i2C ##
   * Autor: Martinez Horacio.
   * Curso: 14 de Octubre al 2 Diciembre de 2016.
   * Descripción: Este circuito implementa un controlador para dos motores paso a paso o cuatro motores DC de baja potencia. Podra usarse con la EDU-CIAA con una fuente de alimentacion externa.
@@ -175,7 +175,7 @@ Las salidas digitales son del tipo a transistor NPN “sinking” a colector abi
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/ponchooximetro.jpg "Poncho Oxímetro")
 
-## Placa Educativa de la materia Electrónica Gral.##
+## Placa Educativa de la materia Electrónica Gral. ##
   * Autor: Alonso Ramiro.
   * Curso: 14 de Octubre al 2 Diciembre de 2016.
   * Descripción: Este es un circuito didáctico para fomentar el interés de los alumnos de Electrónica General en la materia. Permite demostrar el funcionamiento de los circuitos que hasta ahora ven en papel. Está dividido en bloques correspondientes con las prácticas de la materia.
@@ -231,7 +231,7 @@ Las salidas digitales son del tipo a transistor NPN “sinking” a colector abi
 
 
 
-#CURSO 1  - 2016#
+# CURSO 1  - 2016 #
 
 ## Poncho Celda de Carga ##
   * Autor: Rey Hernandez Hernán Felipe.
