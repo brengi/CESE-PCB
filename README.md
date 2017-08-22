@@ -56,54 +56,68 @@ Las salidas digitales son del tipo a transistor NPN “sinking” a colector abi
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/PonchoJoystick.jpg "Poncho Joystick")
 
-## Poncho  ##
-  * Autor: 
+## Poncho Medición de pH ##
+  * Autor: Suarez Baron Juan Carlos
   * Curso: 11 de Abril al 30 de Mayo de 2017.
-  * Descripción: 
-  * URL PONCHO CIAA: 
-  * URL Original: 
+  * Descripción: Este poncho permite medir de forma sencilla el pH de un líquido gracias a su placa controladora que ofrece un valor analógico proporcional a la medición. El controlador tiene un potenciometro multivuelta que permite la correcta calibración de la sonda. Tiene un LED que funciona como el indicador de alimentación, un conector BNC y la interfaz del sensor PH2.0. Para usarlo, simplemente conecte el sensor de pH con el conector BNC, luego conecte la interfaz PH2.0 en el puerto de entrada analógica de la EDU-CIAA. Si se programa, se obtendrá el valor del pH. N8 
+  * URL PONCHO CIAA: Sin subir aún al repo Ponchos CIAA.
+  * URL Original: https://github.com/jsuarezbaron/Poncho_Ph
 
-## Poncho  ##
-  * Autor: 
-  * Curso: 11 de Abril al 30 de Mayo de 2017.
-  * Descripción: 
-  * URL PONCHO CIAA: 
-  * URL Original: 
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/PonchoPH.jpg "Poncho Medición de pH")
 
-## Poncho  ##
-  * Autor: 
+## Poncho  RF ##
+  * Autor: Gelsi Fabrizio
   * Curso: 11 de Abril al 30 de Mayo de 2017.
-  * Descripción: 
-  * URL PONCHO CIAA: 
-  * URL Original: 
+  * Descripción: Este Poncho implementa un módulo inalámbrico de RF que puede ser utilizado en monitoreo de vehículos, control remoto, sistema de seguridad para el hogar, lectura inalámbrica de medidores, sistema de adquisición de datos industriales, etiqueta inalámbrica, adquisición de señales biológicas, monitoreo hidrológico y meteorológico, etc. Posee una interfaz XBee integrada, por lo que proporciona a los fabricantes más soluciones inalámbricas, como 315M a Bluetooth, 315M a WiFi , 315M a Xbee. N8
+  * URL PONCHO CIAA: Sin subir aún al repo Ponchos CIAA.
+  * URL Original: https://github.com/fabriziogelsi/ProyectoPCB_CESE_GELSI
 
-## Poncho  ##
-  * Autor: 
-  * Curso: 11 de Abril al 30 de Mayo de 2017.
-  * Descripción: 
-  * URL PONCHO CIAA: 
-  * URL Original: 
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/PonchoRF.jpg "Poncho RF")
 
-## Poncho  ##
-  * Autor: 
+## PicoPoncho Lora ##
+  * Autor: Año Mendoza Elías Alejandro
   * Curso: 11 de Abril al 30 de Mayo de 2017.
-  * Descripción: 
-  * URL PONCHO CIAA: 
-  * URL Original: 
+  * Descripción: Este circuito implementa el poncho Lora para la PicoCIAA basado en el módulo transmisor RFM95W de frecuencia 915Mhz. N7
+  * URL PONCHO CIAA: Sin subir aún al repo Ponchos CIAA.
+  * URL Original: https://github.com/eaam21/PicoCIAA_Lora
 
-## Poncho  ##
-  * Autor: 
-  * Curso: 11 de Abril al 30 de Mayo de 2017.
-  * Descripción: 
-  * URL PONCHO CIAA: 
-  * URL Original: 
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/PicoPonchoLora.jpg "PicoPoncho Lora")
 
-## Poncho  ##
-  * Autor: 
+## Poncho Educativo Modelo 2 ##
+  * Autor: Vargas Jhon
   * Curso: 11 de Abril al 30 de Mayo de 2017.
-  * Descripción: 
-  * URL PONCHO CIAA: 
-  * URL Original: 
+  * Descripción: Este es un Poncho Educativo alternativo (Ya hay un Poncho educativo existente), principalmente para el desarrollo de Trabajos Prácticos para estudiantes de nivel secundario en adelante. N7
+  * URL PONCHO CIAA: Sin subir aún al repo Ponchos CIAA.
+  * URL Original: https://github.com/IngJhonVargas/Poncho-Educativo-v2.0.git
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/PonchoEducativo2.jpg "Poncho Ecuativo Modelo 2")
+
+## Poncho USB-XBEE ##
+  * Autor: Angulo Franklin
+  * Curso: 11 de Abril al 30 de Mayo de 2017.
+  * Descripción: Esta Ponchofunciona con todos los módulos XBee incluyendo las versiones Serie 1 y 2, estándar y Pro. Esta placa viene equipada con regulador de 3.3V (entrada máxima de 5V), zócalo XBee, cuatro LEDs de estado y cambio de nivel. Puede usarse independiente de la EDU-CIAA mediante USB. N6
+  * URL PONCHO CIAA: Sin subir aún al repo Ponchos CIAA.
+  * URL Original: https://github.com/FranklinA/ProyectoFinalPCB.git
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/PonchoUSB-Xbee.jpg "Poncho USB-XBEE")
+
+## PicoPoncho Bluetooth HC05 ##
+  * Autor: Moreno Marin Marcelo Franz
+  * Curso: 11 de Abril al 30 de Mayo de 2017.
+  * Descripción: El Poncho posee modulo bluetooth HC05,un acelerometro HMC5883L, un buzzer, un led RGB y un regulador de 9V a 3.3V para alimentación. Consiste en un poncho (shield) para la Pico CIAA NXP que permite agregar al microcontrolador las características anteriormente mencionadas. Puede emplearse en robots, drones, transporte eléctrico y cualquier sistema de control automático en general. N5
+  * URL PONCHO CIAA: Sin subir aún al repo Ponchos CIAA.
+  * URL Original: https://github.com/mmarcelofrm/HC05_PONCHO_PICO_NXP
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/PicoPonchoBT-HC05.jpg "Poncho Bluetooth HC05")
+
+## Poncho  LCD y Botones ##
+  * Autor: Almada  Pablo
+  * Curso: 11 de Abril al 30 de Mayo de 2017.
+  * Descripción: Poncho con display digital genérico 16x2 con 4  botones usando una entrada analógica. El objetivo de la utilización de la entrada analógica para los botones se debe a fines educativos respecto a la práctica de lecturas de esta naturaleza. N5
+  * URL PONCHO CIAA: Sin subir aún al repo Ponchos CIAA.
+  * URL Original: https://github.com/pabloalmada/poncho
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/doc/PonchoLCDyBotones.jpg "Poncho LCD y Botones")
 
 # CURSO 2  - 2016 #
 
