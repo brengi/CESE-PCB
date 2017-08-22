@@ -6,7 +6,7 @@ El curso enfoca el los procedimientos de diseño de Esquemático y de PCB y no e
 El uso de estos circuitos queda bajo la propia responsabilidad del usuario.
 
 
-#C URSO 3  - 2017 #
+# CURSO 3  - 2017 #
 
 ## Poncho  MIDI ##
   * Autor: Mancón Carlos Ignacio
