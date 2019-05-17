@@ -1,0 +1,30 @@
+Drill report for /home/santi/maestria/11.PCB/pcb_cese_2018/pcbAlarma.kicad_pcb
+Created on Tue 16 Oct 2018 09:38:06 PM -03
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'pcbAlarma-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (1 hole)
+    T2  0.45mm  0.018"  (2 holes)  (with 2 slots)
+    T3  0.75mm  0.030"  (3 holes)
+    T4  0.80mm  0.031"  (14 holes)
+    T5  0.90mm  0.035"  (8 holes)
+    T6  1.00mm  0.039"  (8 holes)
+    T7  1.30mm  0.051"  (5 holes)
+    T8  1.52mm  0.060"  (2 holes)
+
+    Total plated holes count 43
+
+
+Drill file 'pcbAlarma-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  2.20mm  0.087"  (3 holes)
+
+    Total unplated holes count 3

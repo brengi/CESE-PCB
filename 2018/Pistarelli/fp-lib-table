@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name tpfinal)(type KiCad)(uri ${KIPRJMOD}/footprints/tpfinal.pretty)(options "")(descr ""))
+  (lib (name SPH0644HM4H-1)(type Legacy)(uri ${KIPRJMOD}/footprints/SPH0644HM4H-1.mod)(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri ${KIPRJMOD}/footprints/digikey-footprints.pretty)(options "")(descr ""))
+)

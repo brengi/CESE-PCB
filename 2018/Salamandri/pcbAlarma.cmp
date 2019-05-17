@@ -1,0 +1,203 @@
+Cmp-Mod V01 Created by PcbNew   date = Mon 12 Nov 2018 05:46:59 PM -03
+
+BeginCmp
+TimeStamp = 5BF6F323
+Path = /5BBE7A48/5BEAFF76
+Reference = J1;
+ValeurCmp = USB_B_Mcro;
+IdModule  = Connector_USB:USB_Micro-B_GCT_USB3076-30-A;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF786C1
+Path = /5BEA6E33
+Reference = J102;
+ValeurCmp = TiraDePinesHembra;
+IdModule  = Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF6F1F0
+Path = /5BBE7A48/5BBE93C1
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = Capacitor_THT:CP_Radial_D5.0mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF7DD78
+Path = /5BBE7A48/5BBE93BA
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = Capacitor_THT:CP_Radial_D5.0mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF6F287
+Path = /5BBE7A48/5BBE93DE
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED_THT:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF6FFBF
+Path = /5BBE7A74/5BBEB823
+Reference = D2;
+ValeurCmp = 1N4003;
+IdModule  = Diode_THT:D_A-405_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF6FF7D
+Path = /5BBE7A74/5BBEC952
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED_THT:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF6FF47
+Path = /5BBE7A74/5BBEC96A
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED_THT:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF6F2D4
+Path = /5BC940AB
+Reference = F1;
+ValeurCmp = Fiducial;
+IdModule  = Fiducial:Fiducial_1mm_Dia_2mm_Outer;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF6F2DC
+Path = /5BC940B7
+Reference = F2;
+ValeurCmp = Fiducial;
+IdModule  = Fiducial:Fiducial_1mm_Dia_2mm_Outer;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF6F2E4
+Path = /5BC940B1
+Reference = F3;
+ValeurCmp = Fiducial;
+IdModule  = Fiducial:Fiducial_1mm_Dia_2mm_Outer;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF6F2EC
+Path = /5BC92C18
+Reference = H1;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_2.2mm_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF6F2F4
+Path = /5BC92CB4
+Reference = H2;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_2.2mm_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF7CE1B
+Path = /5BC92C84
+Reference = H3;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_2.2mm_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF70108
+Path = /5BBE7A74/5BBEB82B
+Reference = J4;
+ValeurCmp = Bornera;
+IdModule  = TerminalBlock:TerminalBlock_bornier-2_P5.08mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF6F34E
+Path = /5BEA6E12
+Reference = J101;
+ValeurCmp = PinMachoSensor;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF6FEF3
+Path = /5BBE7A74/5BBEB81C
+Reference = K1;
+ValeurCmp = Relay;
+IdModule  = Relay_THT:Relay_SPDT_Omron-G5LE-1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF70090
+Path = /5BBE7A74/5BBEB839
+Reference = Q1;
+ValeurCmp = BC337;
+IdModule  = Package_TO_SOT_THT:TO-92_Inline;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF6F3C1
+Path = /5BBE7A48/5BBE93CF
+Reference = R1;
+ValeurCmp = 180;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF70A80
+Path = /5BBE7A74/5BBEC959
+Reference = R2;
+ValeurCmp = 180;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF6F3EF
+Path = /5BAEFAD4
+Reference = R3;
+ValeurCmp = 180;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF70011
+Path = /5BBE7A74/5BBEC963
+Reference = R4;
+ValeurCmp = 180;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF700C8
+Path = /5BBE7A74/5BBEB832
+Reference = R5;
+ValeurCmp = 330;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF6F433
+Path = /5BBE7A48/5BBE93B3
+Reference = U1;
+ValeurCmp = AMS1117;
+IdModule  = Package_TO_SOT_SMD:SOT-223-3_TabPin2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF7C379
+Path = /5BAE759A
+Reference = U2;
+ValeurCmp = ESP32-WROOM;
+IdModule  = RF_Module:ESP32-WROOM-32;
+EndCmp
+
+EndListe

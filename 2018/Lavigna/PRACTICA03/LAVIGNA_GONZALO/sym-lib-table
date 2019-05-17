@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name XC6SLX9-2TQG144C)(type Legacy)(uri F:/GIT/CIAA/-01-CESE-2018-PCBS/PRACTICA_FINAL/LIBRARIES/SPARTAN-6/XC6SLX9-2TQG144C.lib)(options "")(descr ""))
+  (lib (name FPGA_Xilinx_Spartan6)(type Legacy)(uri F:/GIT/CIAA/-01-CESE-2018-PCBS/PRACTICA_FINAL/LIBRARIES/SPARTAN-6-KICAD/FPGA_Xilinx_Spartan6.lib)(options "")(descr ""))
+)

@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/alexis/CESE-2018-TP-PCB/simple-h/simple-h.sch</source>
+    <date>Thu 18 Oct 2018 23:55:27 -03</date>
+    <tool>Eeschema 5.0.0-fee4fd1~66~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>simple-h.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Q1">
+      <value>BTS7960B</value>
+      <footprint>TO_SOT_Packages_SMD:TO-263-7_TabPin8</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BTN8982TA-DS-v01_00-EN.pdf?fileId=db3a30433fa9412f013fbe32289b7c17</datasheet>
+      <libsource lib="Power_Management" part="BTN8982TA" description="High Current PN Half Bridge, TO-263-7"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9F11A1</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BTS7960B</value>
+      <footprint>TO_SOT_Packages_SMD:TO-263-7_TabPin8</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BTN8982TA-DS-v01_00-EN.pdf?fileId=db3a30433fa9412f013fbe32289b7c17</datasheet>
+      <libsource lib="Power_Management" part="BTN8982TA" description="High Current PN Half Bridge, TO-263-7"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9F12F4</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9F153C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9F1679</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>634</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9F16DD</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CN1</value>
+      <footprint>w_conn_mpt:mpt_0,5%2f8-2,54</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x08" description="Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9F3BA4</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF 25V</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA7E192</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LEDs:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="LED generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA7E258</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA7E5EC</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x04_Odd_Even</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA838AA</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF 25V</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA93B87</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>634</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA93C4D</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA93CA9</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA9444A</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA944AC</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="LED generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA9451A</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>FAN</value>
+      <footprint>Connectors_Phoenix:PhoenixContact_MC-G_02x3.50mm_Angled</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BADE6CC</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>470uF 35V</value>
+      <footprint>Capacitors_THT:CP_Axial_L20.0mm_D10.0mm_P26.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BAE5E61</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>M1</value>
+      <footprint>custom_footprint:keystone_7693</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BBD2773</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>M2</value>
+      <footprint>custom_footprint:keystone_7693</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BBDC458</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>B+</value>
+      <footprint>custom_footprint:keystone_7693</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BBDD311</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>B-</value>
+      <footprint>custom_footprint:keystone_7693</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BBDD3DA</tstamp>
+    </comp>
+    <comp ref="HS2">
+      <value>Heatsink_Pad</value>
+      <footprint>Heatsinks:Heatsink_AAVID_573300D00010G_TO-263</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Heatsink_Pad" description="Heatsink with electrical connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BBFE535</tstamp>
+    </comp>
+    <comp ref="HS1">
+      <value>Heatsink_Pad</value>
+      <footprint>Heatsinks:Heatsink_AAVID_573300D00010G_TO-263</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Heatsink_Pad" description="Heatsink with electrical connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC05653</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D_Schottky</value>
+      <footprint>custom_footprint:DO-214AC_custom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA7DEBF</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D_Schottky</value>
+      <footprint>custom_footprint:DO-214AC_custom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BAE3A10</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D_Schottky</value>
+      <footprint>custom_footprint:DO-214AC_custom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA93AF1</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_2.2mm_M2_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC9BBEE</tstamp>
+    </comp>
+    <comp ref="MH4">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_2.2mm_M2_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC9C501</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_2.2mm_M2_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC9C567</tstamp>
+    </comp>
+    <comp ref="MH5">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_4.3mm_M4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC9C5C3</tstamp>
+    </comp>
+    <comp ref="MH3">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_2.2mm_M2_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC9C615</tstamp>
+    </comp>
+    <comp ref="MH7">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_4.3mm_M4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC9C94C</tstamp>
+    </comp>
+    <comp ref="MH6">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_4.3mm_M4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC9C9C4</tstamp>
+    </comp>
+    <comp ref="MH8">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_4.3mm_M4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC9CA1C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x01">
+      <description>Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x08">
+      <description>Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Odd_Even">
+      <description>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarised capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>LED generic</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Heatsink_Pad">
+      <description>Heatsink with electrical connection</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">Heatsink_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Power_Management" part="BTN8982TA">
+      <description>High Current PN Half Bridge, TO-263-7</description>
+      <docs>https://www.infineon.com/dgdl/Infineon-BTN8982TA-DS-v01_00-EN.pdf?fileId=db3a30433fa9412f013fbe32289b7c17</docs>
+      <footprints>
+        <fp>TO*263*TabPin8*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BTN8982TA</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-263-7_TabPin8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="INH" type="input"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="SR" type="input"/>
+        <pin num="6" name="IS" type="output"/>
+        <pin num="7" name="~" type="power_in"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Power_Management">
+      <uri>/usr/share/kicad/library/Power_Management.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J7" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q2" pin="5"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="2" name="/CURR-B">
+      <node ref="R7" pin="2"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="3" name="/PWM-B">
+      <node ref="J2" pin="7"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="4" name="/PWM-A">
+      <node ref="R2" pin="2"/>
+      <node ref="J2" pin="8"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="5" name="/EN-A">
+      <node ref="R3" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="6" name="/EN-B">
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="9" name="/CURR-A">
+      <node ref="Q1" pin="6"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J1" pin="5"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="10" name="VDD">
+      <node ref="Q1" pin="7"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="Q2" pin="7"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="11" name="/M2">
+      <node ref="HS2" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="Q2" pin="8"/>
+      <node ref="Q2" pin="4"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="12" name="/M1">
+      <node ref="D4" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="HS1" pin="1"/>
+      <node ref="Q1" pin="8"/>
+      <node ref="Q1" pin="4"/>
+    </net>
+    <net code="13" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="14" name="Net-(Q1-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="15" name="Net-(J1-Pad6)">
+      <node ref="Q2" pin="6"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="17" name="Net-(Q2-Pad3)">
+      <node ref="R6" pin="1"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="18" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+  </nets>
+</export>

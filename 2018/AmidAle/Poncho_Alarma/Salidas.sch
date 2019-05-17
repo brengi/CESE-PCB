@@ -1,0 +1,338 @@
+EESchema Schematic File Version 4
+LIBS:Poncho_Alarma-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title "Salidas"
+Date "2018-10-27"
+Rev "1.0"
+Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
+Comment1 "https://github.com/turcoale/CESE18_PCB_Amid_Ale.git"
+Comment2 "Basado en diseños anteriores: Mariano Bustos - Jorge Osio - Diego Brengi"
+Comment3 "Autor: Amid Ale"
+Comment4 "CÓDIGO PONCHO: ALARMA"
+$EndDescr
+Wire Wire Line
+	6300 3950 6300 4300
+$Comp
+L Poncho_Alarma-rescue:RELAY_C-PonchoPLC K2
+U 1 1 5BD28B64
+P 6450 3750
+F 0 "K2" V 6503 3559 60  0000 R CNN
+F 1 "RELAY_C" V 6397 3559 60  0000 R CNN
+F 2 "Poncho-PLC:Relay_C" H 6450 3750 60  0001 C CNN
+F 3 "" H 6450 3750 60  0000 C CNN
+	1    6450 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q2
+U 1 1 5BD28B6B
+P 5600 4500
+F 0 "Q2" H 5805 4546 50  0000 L CNN
+F 1 "2N7002" H 5805 4455 50  0000 L CNN
+F 2 "Poncho-PLC:SOT23" H 5800 4425 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5600 4500 50  0001 L CNN
+	1    5600 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4650 5050 4500
+Wire Wire Line
+	5050 4500 5400 4500
+$Comp
+L power:GND #PWR0106
+U 1 1 5BD28B74
+P 5050 5000
+F 0 "#PWR0106" H 5050 4750 50  0001 C CNN
+F 1 "GND" H 5055 4827 50  0000 C CNN
+F 2 "" H 5050 5000 50  0001 C CNN
+F 3 "" H 5050 5000 50  0001 C CNN
+	1    5050 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:LL4148 D4
+U 1 1 5BD28B81
+P 5700 3850
+F 0 "D4" V 5654 3929 50  0000 L CNN
+F 1 "LL4148" V 5745 3929 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AD_P12.70mm_Horizontal" H 5700 3675 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 5700 3850 50  0001 C CNN
+	1    5700 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D2
+U 1 1 5BD28B88
+P 5300 3700
+F 0 "D2" V 5346 3632 50  0000 R CNN
+F 1 "LED_Rojo" V 5200 3700 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" V 5300 3700 50  0001 C CNN
+F 3 "~" V 5300 3700 50  0001 C CNN
+	1    5300 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5BD28B8F
+P 5050 4750
+F 0 "R3" H 5109 4796 50  0000 L CNN
+F 1 "100k" H 5109 4705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5050 4750 50  0001 C CNN
+F 3 "~" H 5050 4750 50  0001 C CNN
+	1    5050 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4850 5050 5000
+$Comp
+L Device:R_Small R5
+U 1 1 5BD28B97
+P 5300 4050
+F 0 "R5" H 5359 4096 50  0000 L CNN
+F 1 "330" H 5359 4005 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5300 4050 50  0001 C CNN
+F 3 "~" H 5300 4050 50  0001 C CNN
+	1    5300 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4000 5700 4300
+Connection ~ 5700 4300
+Wire Wire Line
+	5300 4300 5700 4300
+Wire Wire Line
+	5700 4300 6300 4300
+Wire Wire Line
+	5700 3700 5700 3550
+Wire Wire Line
+	5700 3550 6300 3550
+$Comp
+L power:+5V #PWR0108
+U 1 1 5BD28BA4
+P 5700 3450
+F 0 "#PWR0108" H 5700 3300 50  0001 C CNN
+F 1 "+5V" H 5715 3623 50  0000 C CNN
+F 2 "" H 5700 3450 50  0001 C CNN
+F 3 "" H 5700 3450 50  0001 C CNN
+	1    5700 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 3550
+Wire Wire Line
+	5700 3450 5700 3550
+Wire Wire Line
+	5300 4150 5300 4300
+Wire Wire Line
+	5300 3550 5700 3550
+Wire Wire Line
+	5300 3600 5300 3550
+Wire Wire Line
+	5300 3800 5300 3950
+Wire Wire Line
+	6300 1850 6300 2200
+$Comp
+L Poncho_Alarma-rescue:RELAY_C-PonchoPLC K1
+U 1 1 5BD28BB1
+P 6450 1650
+F 0 "K1" V 6503 1459 60  0000 R CNN
+F 1 "RELAY_C" V 6397 1459 60  0000 R CNN
+F 2 "Poncho-PLC:Relay_C" H 6450 1650 60  0001 C CNN
+F 3 "" H 6450 1650 60  0000 C CNN
+	1    6450 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q1
+U 1 1 5BD28BB8
+P 5600 2400
+F 0 "Q1" H 5805 2446 50  0000 L CNN
+F 1 "2N7002" H 5805 2355 50  0000 L CNN
+F 2 "Poncho-PLC:SOT23" H 5800 2325 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5600 2400 50  0001 L CNN
+	1    5600 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2550 5050 2400
+Wire Wire Line
+	5050 2400 5400 2400
+$Comp
+L power:GND #PWR0110
+U 1 1 5BD28BC7
+P 5700 2850
+F 0 "#PWR0110" H 5700 2600 50  0001 C CNN
+F 1 "GND" H 5705 2677 50  0000 C CNN
+F 2 "" H 5700 2850 50  0001 C CNN
+F 3 "" H 5700 2850 50  0001 C CNN
+	1    5700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:LL4148 D3
+U 1 1 5BD28BCE
+P 5700 1750
+F 0 "D3" V 5654 1829 50  0000 L CNN
+F 1 "LL4148" V 5745 1829 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AD_P12.70mm_Horizontal" H 5700 1575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 5700 1750 50  0001 C CNN
+	1    5700 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D1
+U 1 1 5BD28BD5
+P 5300 1600
+F 0 "D1" V 5346 1532 50  0000 R CNN
+F 1 "LED_Rojo" V 5200 1600 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" V 5300 1600 50  0001 C CNN
+F 3 "~" V 5300 1600 50  0001 C CNN
+	1    5300 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5BD28BDC
+P 5050 2650
+F 0 "R2" H 5109 2696 50  0000 L CNN
+F 1 "100k" H 5109 2605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5050 2650 50  0001 C CNN
+F 3 "~" H 5050 2650 50  0001 C CNN
+	1    5050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5BD28BE4
+P 5300 1950
+F 0 "R4" H 5359 1996 50  0000 L CNN
+F 1 "330" H 5359 1905 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5300 1950 50  0001 C CNN
+F 3 "~" H 5300 1950 50  0001 C CNN
+	1    5300 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1900 5700 2200
+Connection ~ 5700 2200
+Wire Wire Line
+	5300 2200 5700 2200
+Wire Wire Line
+	5700 2200 6300 2200
+Wire Wire Line
+	5700 1600 5700 1450
+Wire Wire Line
+	5700 1450 6300 1450
+$Comp
+L power:+5V #PWR0111
+U 1 1 5BD28BF1
+P 5700 1350
+F 0 "#PWR0111" H 5700 1200 50  0001 C CNN
+F 1 "+5V" H 5715 1523 50  0000 C CNN
+F 2 "" H 5700 1350 50  0001 C CNN
+F 3 "" H 5700 1350 50  0001 C CNN
+	1    5700 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 1450
+Wire Wire Line
+	5700 1350 5700 1450
+Wire Wire Line
+	5300 2050 5300 2200
+Wire Wire Line
+	5300 1450 5700 1450
+Wire Wire Line
+	5300 1500 5300 1450
+Wire Wire Line
+	5300 1700 5300 1850
+Text HLabel 5050 2400 0    50   Input ~ 0
+Out_1
+Text HLabel 5050 4500 0    50   Input ~ 0
+Out_2
+$Comp
+L Connector_Generic:Conn_01x06 J2
+U 1 1 5BDADE5B
+P 7550 2950
+F 0 "J2" H 7630 2942 50  0000 L CNN
+F 1 "Salidas" H 7630 2851 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-6_P5.08mm" H 7550 2950 50  0001 C CNN
+F 3 "~" H 7550 2950 50  0001 C CNN
+	1    7550 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 1850 6550 2950
+Wire Wire Line
+	6550 2950 7350 2950
+Wire Wire Line
+	6600 1450 6950 1450
+Wire Wire Line
+	6950 1450 6950 2850
+Wire Wire Line
+	6950 2850 7350 2850
+Wire Wire Line
+	6500 1450 6500 1300
+Wire Wire Line
+	6500 1300 7350 1300
+Wire Wire Line
+	7350 1300 7350 2750
+Wire Wire Line
+	6500 3550 6500 3050
+Wire Wire Line
+	6500 3050 7350 3050
+Wire Wire Line
+	6600 3550 6600 3150
+Wire Wire Line
+	6600 3150 7350 3150
+Wire Wire Line
+	6550 3950 7350 3950
+Wire Wire Line
+	7350 3950 7350 3250
+Text Label 6950 2950 0    50   ~ 0
+K1_C
+Text Label 6950 2850 0    50   ~ 0
+K1_NA
+Text Label 7350 2550 0    50   ~ 0
+K1_NC
+Text Label 7150 3950 0    50   ~ 0
+K2_C
+Text Label 7150 3150 0    50   ~ 0
+K2_NA
+Text Label 7150 3050 0    50   ~ 0
+K2_NC
+Text HLabel 5050 1200 0    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	5050 1200 5050 1450
+Wire Wire Line
+	5050 1450 5300 1450
+Connection ~ 5300 1450
+Text HLabel 4850 2850 0    50   Input ~ 0
+GND
+Wire Wire Line
+	4850 2850 5050 2850
+Wire Wire Line
+	5700 2600 5700 2850
+Connection ~ 5700 2850
+Wire Wire Line
+	5050 2750 5050 2850
+Connection ~ 5050 2850
+Wire Wire Line
+	5050 2850 5700 2850
+$Comp
+L power:GND #PWR0107
+U 1 1 5BE9AAA2
+P 5700 4900
+F 0 "#PWR0107" H 5700 4650 50  0001 C CNN
+F 1 "GND" H 5705 4727 50  0000 C CNN
+F 2 "" H 5700 4900 50  0001 C CNN
+F 3 "" H 5700 4900 50  0001 C CNN
+	1    5700 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4900 5700 4700
+$EndSCHEMATC

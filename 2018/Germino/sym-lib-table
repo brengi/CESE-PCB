@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name retro-ciaa-rescue)(type Legacy)(uri ${KIPRJMOD}/retro-ciaa-rescue.lib)(options "")(descr ""))
+  (lib (name retro-ciaa)(type Legacy)(uri ${KIPRJMOD}/retro-ciaa.lib)(options "")(descr ""))
+)

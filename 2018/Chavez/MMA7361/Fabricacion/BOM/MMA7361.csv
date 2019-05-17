@@ -1,0 +1,10 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C1,C3";"C_0805_2012Metric_Pad1.15x1.40mm_HandSolder";2;"1 µF";;;
+2;"C2,C4";"C_0805_2012Metric_Pad1.15x1.40mm_HandSolder";2;"470 µF";;;
+3;"C5,C6,C7";"C_0805_2012Metric_Pad1.15x1.40mm_HandSolder";3;"3.3nf";;;
+4;"D1";"LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"LED";;;
+5;"F1,F2,F3";"Fiducial_1mm_Dia_2mm_Outer";3;"Fiducial";;;
+6;"J1,J2";"PinHeader_1x05_P2.54mm_Vertical";2;"Conn_01x05";;;
+7;"R1";"R_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"1 K";;;
+8;"U1";"SOT-89-3_Handsoldering";1;"RT9161";;;
+9;"U2";"LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y";1;"MMA7361L";;;

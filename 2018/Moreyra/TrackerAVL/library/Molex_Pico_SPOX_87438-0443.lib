@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 87438-0443
+#/257855/64261/2.31/8/4/Connector
+DEF 87438-0443 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "87438-0443" 650 200 50 H V L CNN
+F2 "87438-0443" 650 100 50 H I L CNN
+F3 "http://docs-europe.electrocomponents.com/webdocs/0d6c/0900766b80d6c16c.pdf" 650 0 50 H I L CNN
+F4 "Header 1.50mm Pico-SPOX WTB, SMT, RA,4w Molex PICO-SPOX Series, Series Number 87438, 1.5mm Pitch 4 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "87438-0443" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "1671699" 650 -500 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/1671699" 650 -600 50 H I L CNN "RS Price/Stock"
+F10 "70377916" 650 -700 50 H I L CNN "Allied_Number"
+F11 "https://www.alliedelec.com/molex-incorporated-87438-0443/70377916/" 650 -800 50 H I L CNN "Allied Price/Stock"
+F12 "87438-0443" 650 -900 50 H I L CNN "Arrow Part Number"
+F13 "http://uk.rs-online.com/web/p/products/1671699" 650 -1000 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 5 5 0 -200 200 R 50 50 0 0 B
+X 7 7 0 -300 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+X 4 4 800 -100 200 L 50 50 0 0 B
+X 6 6 800 -200 200 L 50 50 0 0 B
+X 8 8 800 -300 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

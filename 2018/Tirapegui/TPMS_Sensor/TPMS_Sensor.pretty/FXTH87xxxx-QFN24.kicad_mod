@@ -1,0 +1,8 @@
+(module FXTH87xxxx-QFN24 (layer F.Cu) (tedit 5BBFE387)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value FXTH87xxxx-QFN24 (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)

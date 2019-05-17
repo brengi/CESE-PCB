@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name PCB_TP_Final-rescue)(type Legacy)(uri ${KIPRJMOD}/PCB_TP_Final-rescue.lib)(options "")(descr ""))
+  (lib (name nodemcu_esp12)(type Legacy)(uri ${KIPRJMOD}/nodemcu_esp12.lib)(options "")(descr ""))
+  (lib (name power_mb_v2)(type Legacy)(uri ${KIPRJMOD}/power_mb_v2.lib)(options "")(descr ""))
+)

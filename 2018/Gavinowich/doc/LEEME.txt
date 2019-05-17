@@ -1,0 +1,11 @@
+TITULO PONCHO
+=============
+
+
+URL: No disponible
+FUNCIÓN: El poncho_CAN agrega la interfaz física para conectarse a una red CAN de alta velocidad
+AUTORES/INSTITUCIONES: Gabriel Gavinowich
+
+
+<<Detalle y explicación de directorios o archivos adicionales que se incorporen.>>
+Se agrega una carpeta con las hojas de datos de los componentes utilizados en el poncho

@@ -1,0 +1,16 @@
+Microcontrolador: -ESP32 . Encapsulado: ESP-WROOM
+Alimentacion: 	-5v 500mA(Max) por micro USB.
+		-Regulada a 3.3v para Microcontrolador a traves de regulador AMS1117.
+Entradas: 	-1 para sensor digital(alimentado desde microcontrolador).  
+	  	-1 conector hembra para programacion con los siguientes pines:
+			-TX.
+	  		-RX.
+	  		-RTS(GPIO 0).
+	  		-EN.
+			-VCC(3.3v).
+			-GND.
+Salidas: 	-1 Relay (10A) con salida de potencia por bornera.
+		-3 Leds.
+			
+			
+Por cuestiones de disponibilidad de componentes se preferira THT sobre SMT en lo posible, dejando para este ultimo el microcontrolador, regulador de tension y ficha hembra micro USB.			

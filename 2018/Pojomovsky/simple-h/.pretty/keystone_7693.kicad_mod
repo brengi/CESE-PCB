@@ -1,0 +1,21 @@
+(module custom_footprint:keystone_7693 (layer F.Cu) (tedit 5BD26C90)
+  (fp_text reference J7 (at 2.37 10.07) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value B- (at 2.37 -3.08) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 6.99 -2) (end -2.01 -2) (layer F.SilkS) (width 0.15))
+  (fp_line (start 6.99 9) (end 6.99 -2) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.01 9) (end 6.99 9) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.01 -2) (end -2.01 9) (layer F.SilkS) (width 0.15))
+  (pad 1 thru_hole circle (at -0.01 7.01) (size 2.9 2.9) (drill 1.85) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 4.99 7.01) (size 2.9 2.9) (drill 1.85) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 0.02 0.01) (size 2.9 2.9) (drill 1.85) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 4.93 -0.03) (size 2.9 2.9) (drill 1.85) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/models/keystone-PN7693.STEP
+    (offset (xyz 2 -1 2.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
+)

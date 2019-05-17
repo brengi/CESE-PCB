@@ -1,0 +1,27 @@
+MODULO DE RELE WiFi ESP01 
+
+Resumen:
+El MODULO DE RELE WiFi con módulo ESP01 WiFi embebido.
+
+
+Función y características:
+Modulo ESP01 WiFi incorporado, con posibilidad de conectar 2 salidas tipo relé para manejo de cargas de hasta 10A;
+
+
+Distancia de transmisión:
+1. En entono abierto (en condiciones ideales), podría conectar el teléfono móvil al módulo de WIFI a una distancia de transmesión máxima de 400m
+2. Cuando el módulo de WiFI y el teléfono celular estan conectados al mismo Router la distancia de transmisión de la señal dependera de la capacidad inalambrica del Router
+Rele incorporado: Bobina 5V, Salida 10A / 250vAC ó 10A / 30vDC
+Módulo con protección diodo de protección de rapida respuesta
+
+
+Descripción de función:
+Tamaño: 82,5 x 37,5mm
+Entrada de alimentación IN +, IN-: +5VDC / GND
+Permite acoplar/desacoplar fuentes de alimentación para el circuito de control y el circuito de carga
+
+
+Aplicaciones:
+1. Domótica
+2. Aplicaciones industriales IOT
+3. Controles de iluminación

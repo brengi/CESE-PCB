@@ -1,0 +1,3 @@
+3DX_CUI_INC_Supplier: CUI, Inc
+3DX_CUI_INC_Description: 6.0 mm, Omnidirectional, PCB Mount, 2.0 Vdc, Electret Condenser Microphone
+3DX_CUI_INC_Model Number: CMC-5044PF-A

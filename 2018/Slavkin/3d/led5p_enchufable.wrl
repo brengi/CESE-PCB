@@ -1,0 +1,1676 @@
+#VRML V2.0 utf8
+
+
+Group {
+  children 
+    Group {
+      children [ 
+        Group {
+          children 
+            Transform {
+              translation 0 0 0
+              rotation 0 0 1  0
+              scale 1 1 1
+              scaleOrientation 0 0 1  0
+              center 0 0 0
+              children 
+                Switch {
+                  whichChoice 0
+                  choice 
+                    Group {
+                      children [ 
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.40000001 0.69999999 0.15000001
+                              ambientIntensity 0.43194667
+                              specularColor 0.60000002 0.30000001 0.1
+                              shininess 0.050000001
+                              transparency 0.1
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 1.4842499 -1.5 2.3622,
+                                  -0.48425099 -1.5 2.3622,
+                                  -0.48425099 -5.3188901 2.3622,
+                                  1.4842499 -5.3188901 2.3622 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0 0 1
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 0, 2, 3, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.40000001 0.69999999 0.15000001
+                              ambientIntensity 0.43194667
+                              specularColor 0.60000002 0.30000001 0.1
+                              shininess 0.050000001
+                              transparency 0.1
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ -0.48425099 -1.5 2.3622,
+                                  -0.48425099 -1.5 1.5748,
+                                  -0.48425099 -5.3188901 1.5748,
+                                  -0.48425099 -5.3188901 2.3622 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector -1 0 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 0, 2, 3, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.40000001 0.69999999 0.15000001
+                              ambientIntensity 0.43194667
+                              specularColor 0.60000002 0.30000001 0.1
+                              shininess 0.050000001
+                              transparency 0.1
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 1.4842499 -1.5 1.5748,
+                                  1.4842499 -1.5 2.3622,
+                                  1.4842499 -5.3188901 2.3622,
+                                  1.4842499 -5.3188901 1.5748 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 1 0 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 0, 2, 3, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.40000001 0.69999999 0.15000001
+                              ambientIntensity 0.43194667
+                              specularColor 0.60000002 0.30000001 0.1
+                              shininess 0.050000001
+                              transparency 0.1
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ -0.48425099 -1.5 1.5748,
+                                  -0.48425099 -1.5 2.3622,
+                                  -0.0147269 -1.5 1.85039,
+                                  -0.0147269 -1.5 2.0866101,
+                                  0.22149301 -1.5 2.0866101,
+                                  0.22149301 -1.5 1.85039,
+                                  0.77850503 -1.5 1.85039,
+                                  0.77850503 -1.5 2.0866101,
+                                  1.01472 -1.5 2.0866101,
+                                  1.4842499 -1.5 2.3622,
+                                  1.01472 -1.5 1.85039,
+                                  1.4842499 -1.5 1.5748 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0 1 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 1, 3, 2, -1,
+                                3, 1, 4, -1, 0, 2, 5, -1,
+                                5, 4, 6, -1, 4, 7, 6, -1,
+                                0, 5, 6, -1, 8, 7, 9, -1,
+                                7, 4, 9, -1, 4, 1, 9, -1,
+                                8, 9, 10, -1, 6, 10, 11, -1,
+                                0, 6, 11, -1, 10, 9, 11, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1,
+                                0, 0, 0, -1, 0, 0, 0, -1,
+                                0, 0, 0, -1, 0, 0, 0, -1,
+                                0, 0, 0, -1, 0, 0, 0, -1,
+                                0, 0, 0, -1, 0, 0, 0, -1,
+                                0, 0, 0, -1, 0, 0, 0, -1,
+                                0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.40000001 0.69999999 0.15000001
+                              ambientIntensity 0.43194667
+                              specularColor 0.60000002 0.30000001 0.1
+                              shininess 0.050000001
+                              transparency 0.1
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 1.4842499 -5.3188901 1.5748,
+                                  1.4842499 -5.3188901 2.3622,
+                                  -0.48425099 -5.3188901 2.3622,
+                                  -0.48425099 -5.3188901 1.5748 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0 -1 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 0, 2, 3, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.40000001 0.69999999 0.15000001
+                              ambientIntensity 0.43194667
+                              specularColor 0.60000002 0.30000001 0.1
+                              shininess 0.050000001
+                              transparency 0.1
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ -0.48425099 -1.5 1.5748,
+                                  1.4842499 -1.5 1.5748,
+                                  1.4842499 -5.3188901 1.5748,
+                                  -0.48425099 -5.3188901 1.5748 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0 0 -1
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 0, 2, 3, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 0.77850503 -1.5 2.0866101,
+                                  1.01472 -1.5 2.0866101,
+                                  0.88188797 -0.11811 2.0866101,
+                                  1.1181099 -0.11811 2.0866101,
+                                  1.1181099 0.11811 2.0866101,
+                                  0.88188797 0.11811 2.0866101 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0 0 1
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 1, 3, 2, -1,
+                                3, 4, 5, -1, 2, 3, 5, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1,
+                                0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 0.77850503 -1.5 2.0866101,
+                                  0.88188797 -0.11811 2.0866101,
+                                  0.77850503 -1.5 1.85039,
+                                  0.88188797 -0.11811 1.85039 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector -0.99721324 0.074604228 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 1, 3, 2, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 0.88188797 -0.11811 1.85039,
+                                  1.01472 -1.5 1.85039,
+                                  0.77850503 -1.5 1.85039,
+                                  1.1181099 -0.11811 1.85039 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0 0 -1
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 0, 3, 1, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 1.01472 -1.5 1.85039,
+                                  1.1181099 -0.11811 2.0866101,
+                                  1.01472 -1.5 2.0866101,
+                                  1.1181099 -0.11811 1.85039 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0.99721289 -0.07460928 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 0, 3, 1, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ -0.0147269 -1.5 2.0866101,
+                                  -0.11811 -0.11811 2.0866101,
+                                  -0.0147269 -1.5 1.85039,
+                                  -0.11811 -0.11811 1.85039 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector -0.9972133 -0.074604347 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 1, 3, 2, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 0.22149301 -1.5 1.85039,
+                                  -0.0147269 -1.5 1.85039,
+                                  0.11811 -0.11811 1.85039,
+                                  -0.11811 -0.11811 1.85039 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0 0 -1
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 1, 3, 2, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 0.22149301 -1.5 1.85039,
+                                  0.11811 -0.11811 2.0866101,
+                                  0.22149301 -1.5 2.0866101,
+                                  0.11811 -0.11811 1.85039 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0.99721324 0.074604273 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 0, 3, 1, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 0.11811 -0.11811 2.0866101,
+                                  -0.0147269 -1.5 2.0866101,
+                                  0.22149301 -1.5 2.0866101,
+                                  -0.11811 -0.11811 2.0866101,
+                                  0.11811 0.11811 2.0866101,
+                                  -0.11811 0.11811 2.0866101 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0 0 1
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 0, 3, 1, -1,
+                                4, 5, 3, -1, 4, 3, 0, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1,
+                                0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 1.1181099 0.11811 2.0866101,
+                                  1.1181099 0.11811 1.85039,
+                                  0.88188797 0.11811 1.85039,
+                                  0.88188797 0.11811 2.0866101 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0 1 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 3, 0, 2, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 0.88188797 0.11811 2.0866101,
+                                  0.88188797 0.11811 1.85039,
+                                  0.88188797 -0.11811 1.85039,
+                                  0.88188797 -0.11811 2.0866101 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector -1 0 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 3, 0, 2, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 1.1181099 -0.11811 1.85039,
+                                  1.1181099 0.11811 1.85039,
+                                  1.1181099 0.11811 2.0866101,
+                                  1.1181099 -0.11811 2.0866101 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 1 0 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 0, 2, 3, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 0.88188797 -0.11811 1.85039,
+                                  0.88188797 -0.11811 -0.78740001,
+                                  1.1181099 -0.11811 -0.78740001,
+                                  1.1181099 -0.11811 1.85039 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0 -1 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 3, 0, 2, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ -0.11811 0.11811 2.0866101,
+                                  -0.11811 0.11811 1.85039,
+                                  -0.11811 -0.11811 1.85039,
+                                  -0.11811 -0.11811 2.0866101 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector -1 0 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 3, 0, 2, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ -0.11811 -0.11811 1.85039,
+                                  -0.11811 -0.11811 -0.78740001,
+                                  0.11811 -0.11811 -0.78740001,
+                                  0.11811 -0.11811 1.85039 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0 -1 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 3, 0, 2, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 0.11811 -0.11811 1.85039,
+                                  0.11811 0.11811 1.85039,
+                                  0.11811 0.11811 2.0866101,
+                                  0.11811 -0.11811 2.0866101 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 1 0 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 0, 2, 3, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 0.11811 0.11811 2.0866101,
+                                  0.11811 0.11811 1.85039,
+                                  -0.11811 0.11811 1.85039,
+                                  -0.11811 0.11811 2.0866101 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0 1 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 3, 0, 2, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 1.1181099 0.11811 1.85039,
+                                  1.1181099 0.11811 -0.78740001,
+                                  0.88188797 0.11811 -0.78740001,
+                                  0.88188797 0.11811 1.85039 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0 1 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 3, 0, 2, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 0.88188797 0.11811 1.85039,
+                                  0.88188797 0.11811 -0.78740001,
+                                  0.88188797 -0.11811 -0.78740001,
+                                  0.88188797 -0.11811 1.85039 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector -1 0 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 3, 0, 2, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 1.1181099 -0.11811 1.85039,
+                                  1.1181099 -0.11811 -0.78740001,
+                                  1.1181099 0.11811 -0.78740001,
+                                  1.1181099 0.11811 1.85039 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 1 0 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 3, 0, 2, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 0.88188797 0.11811 -0.78740001,
+                                  1.1181099 -0.11811 -0.78740001,
+                                  0.88188797 -0.11811 -0.78740001,
+                                  1.1181099 0.11811 -0.78740001 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0 0 -1
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 0, 3, 1, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ -0.11811 0.11811 1.85039,
+                                  -0.11811 0.11811 -0.78740001,
+                                  -0.11811 -0.11811 -0.78740001,
+                                  -0.11811 -0.11811 1.85039 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector -1 0 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 3, 0, 2, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ -0.11811 0.11811 -0.78740001,
+                                  0.11811 -0.11811 -0.78740001,
+                                  -0.11811 -0.11811 -0.78740001,
+                                  0.11811 0.11811 -0.78740001 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0 0 -1
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 0, 3, 1, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 0.11811 -0.11811 1.85039,
+                                  0.11811 -0.11811 -0.78740001,
+                                  0.11811 0.11811 -0.78740001,
+                                  0.11811 0.11811 1.85039 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 1 0 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 3, 0, 2, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        },
+                          
+                        Shape {
+                          appearance 
+                          Appearance {
+                            material 
+                            Material {
+                              diffuseColor 0.824 0.81999999 0.78100002
+                              ambientIntensity 0.22134878
+                              specularColor 0.32800001 0.25799999 0.17200001
+                              shininess 0.69999999
+
+                            }
+
+                          }
+                          geometry 
+                          IndexedFaceSet {
+                            coord 
+                            Coordinate {
+                              point [ 0.11811 0.11811 1.85039,
+                                  0.11811 0.11811 -0.78740001,
+                                  -0.11811 0.11811 -0.78740001,
+                                  -0.11811 0.11811 1.85039 ]
+
+                            }
+                            normal 
+                            Normal {
+                              vector 0 1 0
+
+                            }
+                            coordIndex [ 0, 1, 2, -1, 3, 0, 2, -1 ]
+                            normalIndex [ 0, 0, 0, -1, 0, 0, 0, -1 ]
+                            ccw TRUE
+                            solid TRUE
+                            convex TRUE
+                            creaseAngle 0.5
+
+                          }
+
+                        } ]
+
+                    }
+
+                }
+
+            }
+
+        },
+          
+        Group {
+          children 
+            Transform {
+              translation 0.88 -0.12 -2.7
+              rotation 0 0 1  0
+              scale 1 1 1
+              scaleOrientation 0 0 1  0
+              center 0 0 0
+              children 
+                Switch {
+                  whichChoice 0
+                  choice [ 
+                    Group {
+                      children [ 
+                        DEF o0 Group {
+                          children 
+                            Shape {
+                              appearance 
+                              Appearance {
+                                material 
+                                Material {
+                                  diffuseColor 0.098039217 0.098039217 0.098039217
+                                  shininess 1
+
+                                }
+
+                              }
+                              geometry 
+                              IndexedLineSet {
+                                coord 
+                                Coordinate {
+                                  point [ 0 0 0,
+                                      0 0 2,
+                                      0 0.23999999 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0 0,
+                                      0.23999999 0 2,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0.23999999 0,
+                                      0 0 0,
+                                      0.23999999 0 0,
+                                      0.23999999 0 2,
+                                      0 0 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0.23999999 0,
+                                      0.23999999 0.23999999 2,
+                                      0 0.23999999 2,
+                                      0 0 0,
+                                      0 0.23999999 0,
+                                      0.23999999 0.23999999 0,
+                                      0.23999999 0 0,
+                                      0 0 2,
+                                      0 0.23999999 2,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0 2,
+                                      0 0 2,
+                                      0 0 0,
+                                      0 0.23999999 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0 2,
+                                      0.23999999 0 0,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0.23999999 0 ]
+
+                                }
+                                coordIndex [ 0, 1, -1, 1, 2, -1, 3, 2,
+                                    -1, 0, 3, -1, 4, 5, -1, 5,
+                                    6, -1, 7, 6, -1, 4, 7, -1,
+                                    8, 9, -1, 11, 10, -1, 12, 13,
+                                    -1, 15, 14, -1 ]
+
+                              }
+
+                            }
+
+                        },
+                          
+                        DEF o1 Group {
+                          children 
+                            Shape {
+                              appearance 
+                              Appearance {
+                                material 
+                                Material {
+
+                                }
+
+                              }
+                              geometry 
+                              IndexedFaceSet {
+                                coord 
+                                Coordinate {
+                                  point [ 0 0 0,
+                                      0 0 2,
+                                      0 0.23999999 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0 0,
+                                      0.23999999 0 2,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0.23999999 0,
+                                      0 0 0,
+                                      0.23999999 0 0,
+                                      0.23999999 0 2,
+                                      0 0 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0.23999999 0,
+                                      0.23999999 0.23999999 2,
+                                      0 0.23999999 2,
+                                      0 0 0,
+                                      0 0.23999999 0,
+                                      0.23999999 0.23999999 0,
+                                      0.23999999 0 0,
+                                      0 0 2,
+                                      0 0.23999999 2,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0 2,
+                                      0 0 2,
+                                      0 0 0,
+                                      0 0.23999999 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0 2,
+                                      0.23999999 0 0,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0.23999999 0 ]
+
+                                }
+                                coordIndex [ 3, 1, 2, -1, 0, 1, 3, -1,
+                                    5, 7, 6, -1, 5, 4, 7, -1,
+                                    9, 10, 8, -1, 8, 10, 11, -1,
+                                    14, 13, 12, -1, 14, 12, 15, -1,
+                                    17, 18, 16, -1, 16, 18, 19, -1,
+                                    22, 21, 20, -1, 22, 20, 23, -1 ]
+                                ccw TRUE
+                                solid FALSE
+                                convex TRUE
+                                creaseAngle 0
+
+                              }
+
+                            }
+
+                        },
+                          
+                        DEF o2 Group {
+                          children 
+                            Shape {
+                              appearance 
+                              Appearance {
+                                material 
+                                Material {
+                                  emissiveColor 0.098039217 0.098039217 0.098039217
+
+                                }
+
+                              }
+                              geometry 
+                              PointSet {
+                                coord 
+                                Coordinate {
+                                  point [ 0 0 0,
+                                      0 0 2,
+                                      0 0.23999999 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0 0,
+                                      0.23999999 0 2,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0.23999999 0,
+                                      0 0 0,
+                                      0.23999999 0 0,
+                                      0.23999999 0 2,
+                                      0 0 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0.23999999 0,
+                                      0.23999999 0.23999999 2,
+                                      0 0.23999999 2,
+                                      0 0 0,
+                                      0 0.23999999 0,
+                                      0.23999999 0.23999999 0,
+                                      0.23999999 0 0,
+                                      0 0 2,
+                                      0 0.23999999 2,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0 2,
+                                      0 0 2,
+                                      0 0 0,
+                                      0 0.23999999 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0 2,
+                                      0.23999999 0 0,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0.23999999 0 ]
+
+                                }
+
+                              }
+
+                            }
+
+                        } ]
+
+                    },
+                      
+                    USE o1,
+                      
+                    Group {
+                      children [ 
+                        USE o0,
+                          
+                        USE o2 ]
+
+                    },
+                      
+                    USE o2 ]
+
+                }
+
+            }
+
+        },
+          
+        Group {
+          children 
+            Transform {
+              translation -0.12 -0.12 -2.7
+              rotation 0 0 1  0
+              scale 1 1 1
+              scaleOrientation 0 0 1  0
+              center 0 0 0
+              children 
+                Switch {
+                  whichChoice 0
+                  choice [ 
+                    Group {
+                      children [ 
+                        DEF o3 Group {
+                          children 
+                            Shape {
+                              appearance 
+                              Appearance {
+                                material 
+                                Material {
+                                  diffuseColor 0.098039217 0.098039217 0.098039217
+                                  shininess 1
+
+                                }
+
+                              }
+                              geometry 
+                              IndexedLineSet {
+                                coord 
+                                Coordinate {
+                                  point [ 0 0 0,
+                                      0 0 2,
+                                      0 0.23999999 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0 0,
+                                      0.23999999 0 2,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0.23999999 0,
+                                      0 0 0,
+                                      0.23999999 0 0,
+                                      0.23999999 0 2,
+                                      0 0 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0.23999999 0,
+                                      0.23999999 0.23999999 2,
+                                      0 0.23999999 2,
+                                      0 0 0,
+                                      0 0.23999999 0,
+                                      0.23999999 0.23999999 0,
+                                      0.23999999 0 0,
+                                      0 0 2,
+                                      0 0.23999999 2,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0 2,
+                                      0 0 2,
+                                      0 0 0,
+                                      0 0.23999999 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0 2,
+                                      0.23999999 0 0,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0.23999999 0 ]
+
+                                }
+                                coordIndex [ 0, 1, -1, 1, 2, -1, 3, 2,
+                                    -1, 0, 3, -1, 4, 5, -1, 5,
+                                    6, -1, 7, 6, -1, 4, 7, -1,
+                                    8, 9, -1, 11, 10, -1, 12, 13,
+                                    -1, 15, 14, -1 ]
+
+                              }
+
+                            }
+
+                        },
+                          
+                        DEF o4 Group {
+                          children 
+                            Shape {
+                              appearance 
+                              Appearance {
+                                material 
+                                Material {
+
+                                }
+
+                              }
+                              geometry 
+                              IndexedFaceSet {
+                                coord 
+                                Coordinate {
+                                  point [ 0 0 0,
+                                      0 0 2,
+                                      0 0.23999999 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0 0,
+                                      0.23999999 0 2,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0.23999999 0,
+                                      0 0 0,
+                                      0.23999999 0 0,
+                                      0.23999999 0 2,
+                                      0 0 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0.23999999 0,
+                                      0.23999999 0.23999999 2,
+                                      0 0.23999999 2,
+                                      0 0 0,
+                                      0 0.23999999 0,
+                                      0.23999999 0.23999999 0,
+                                      0.23999999 0 0,
+                                      0 0 2,
+                                      0 0.23999999 2,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0 2,
+                                      0 0 2,
+                                      0 0 0,
+                                      0 0.23999999 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0 2,
+                                      0.23999999 0 0,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0.23999999 0 ]
+
+                                }
+                                coordIndex [ 3, 1, 2, -1, 0, 1, 3, -1,
+                                    5, 7, 6, -1, 5, 4, 7, -1,
+                                    9, 10, 8, -1, 8, 10, 11, -1,
+                                    14, 13, 12, -1, 14, 12, 15, -1,
+                                    17, 19, 16, -1, 17, 18, 19, -1,
+                                    23, 21, 20, -1, 22, 21, 23, -1 ]
+                                ccw TRUE
+                                solid FALSE
+                                convex TRUE
+                                creaseAngle 0
+
+                              }
+
+                            }
+
+                        },
+                          
+                        DEF o5 Group {
+                          children 
+                            Shape {
+                              appearance 
+                              Appearance {
+                                material 
+                                Material {
+                                  emissiveColor 0.098039217 0.098039217 0.098039217
+
+                                }
+
+                              }
+                              geometry 
+                              PointSet {
+                                coord 
+                                Coordinate {
+                                  point [ 0 0 0,
+                                      0 0 2,
+                                      0 0.23999999 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0 0,
+                                      0.23999999 0 2,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0.23999999 0,
+                                      0 0 0,
+                                      0.23999999 0 0,
+                                      0.23999999 0 2,
+                                      0 0 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0.23999999 0,
+                                      0.23999999 0.23999999 2,
+                                      0 0.23999999 2,
+                                      0 0 0,
+                                      0 0.23999999 0,
+                                      0.23999999 0.23999999 0,
+                                      0.23999999 0 0,
+                                      0 0 2,
+                                      0 0.23999999 2,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0 2,
+                                      0 0 2,
+                                      0 0 0,
+                                      0 0.23999999 2,
+                                      0 0.23999999 0,
+                                      0.23999999 0 2,
+                                      0.23999999 0 0,
+                                      0.23999999 0.23999999 2,
+                                      0.23999999 0.23999999 0 ]
+
+                                }
+
+                              }
+
+                            }
+
+                        } ]
+
+                    },
+                      
+                    USE o4,
+                      
+                    Group {
+                      children [ 
+                        USE o3,
+                          
+                        USE o5 ]
+
+                    },
+                      
+                    USE o5 ]
+
+                }
+
+            }
+
+        } ]
+
+    }
+
+}

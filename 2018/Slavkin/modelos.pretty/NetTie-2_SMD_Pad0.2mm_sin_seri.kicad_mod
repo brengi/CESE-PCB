@@ -1,0 +1,13 @@
+(module pap:NetTie-2_SMD_Pad0.2mm_sin_seri (layer F.Cu) (tedit 5BC217D1)
+  (descr "Net tie, 2 pin, 0.5mm square SMD pads")
+  (tags "net tie")
+  (attr virtual)
+  (fp_text reference NT51 (at 0 -1.2) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Net-Tie_2 (at 0 1.2) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at -0.1 0) (size 0.2 0.2) (layers F.Cu))
+  (pad 2 smd rect (at 0.1 0) (size 0.2 0.2) (layers F.Cu))
+)

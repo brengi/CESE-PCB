@@ -1,0 +1,666 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:retro-ciaa
+LIBS:retro-ciaa-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 8
+Title "AUDIO OUTPUT"
+Date "2018-12-28"
+Rev "1.2.2"
+Comp "http://www.retro-ciaa.com"
+Comment1 "All resistors 1% & 0603\" unless otherwise noted"
+Comment2 "ERC check OK on 2018-10-19"
+Comment3 ""
+Comment4 "Copyright 2018 Santiago Germino (see LICENCE)"
+$EndDescr
+$Comp
+L PCM5100A U5
+U 1 1 5BD13A7B
+P 5800 2800
+F 0 "U5" H 5800 3600 50  0000 C CNN
+F 1 "I²S AUDIO DAC" H 5800 2100 50  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 5800 1900 50  0001 C CNN
+F 3 "PCM5100APWR" H 5800 2000 50  0000 C CNN
+	1    5800 2800
+	1    0    0    -1  
+$EndComp
+Text Label 6500 2700 0    60   ~ 0
+AUDIO_OUTL
+Text Label 6500 2600 0    60   ~ 0
+AUDIO_OUTR
+Text Notes 4700 4000 0    60   ~ 0
+FLT
+Text Notes 5100 4000 0    60   ~ 0
+Low
+Text Notes 5500 4000 0    60   ~ 0
+Normal filter latency
+Text Notes 4700 4100 0    60   ~ 0
+FMT
+Text Notes 5100 4100 0    60   ~ 0
+Low
+Text Notes 5500 4100 0    60   ~ 0
+I2S Audio data format
+Text Notes 4700 3800 0    60   ~ 0
+3-Wire I²S audio source
+Text Notes 4700 3900 0    60   ~ 0
+SCK
+Text Notes 5100 3900 0    60   ~ 0
+Low
+Text Notes 5500 3900 0    60   ~ 0
+MCLK from internal PLL
+Text Notes 4700 4200 0    60   ~ 0
+DEMP
+Text Notes 5100 4200 0    60   ~ 0
+Low
+Text Notes 5500 4200 0    60   ~ 0
+44.1 Khz De-emphasis disabled
+Text Label 5100 2200 2    60   ~ 0
+AUDIO_3V3A
+Text Label 5100 2300 2    60   ~ 0
+AUDIO_CPVDD
+$Comp
+L C C14
+U 1 1 5BD13A96
+P 3800 2350
+F 0 "C14" H 3600 2250 50  0000 L CNN
+F 1 "2.2uF" H 3450 2350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3800 2350 31  0001 C CNN
+F 3 "CC0603KRX7R7BB225" H 3500 2450 31  0000 C CNN
+	1    3800 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDA #PWR031
+U 1 1 5BD13A9D
+P 5000 3300
+F 0 "#PWR031" H 5000 3050 50  0001 C CNN
+F 1 "GNDA" H 5000 3150 50  0000 C CNN
+F 2 "" H 5000 3300 50  0000 C CNN
+F 3 "" H 5000 3300 50  0000 C CNN
+	1    5000 3300
+	1    0    0    -1  
+$EndComp
+Text Label 5100 2700 2    60   ~ 0
+AUDIO_LDOO
+Text Label 6500 2200 0    60   ~ 0
+AUDIO_DVDD
+Wire Wire Line
+	3800 2200 3800 2100
+Wire Wire Line
+	3800 2100 4400 2100
+Wire Wire Line
+	4400 2100 4400 2500
+Wire Wire Line
+	4400 2500 5100 2500
+Wire Wire Line
+	3800 2600 5100 2600
+Wire Wire Line
+	3800 2600 3800 2500
+Wire Wire Line
+	3800 3000 5100 3000
+Wire Wire Line
+	3800 3000 3800 3100
+Text Label 5100 2900 2    60   ~ 0
+AUDIO_XSMT
+$Comp
+L C C15
+U 1 1 5BD13AAE
+P 3800 3250
+F 0 "C15" H 3600 3150 50  0000 L CNN
+F 1 "2.2uF" H 3450 3250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3800 3250 31  0001 C CNN
+F 3 "CC0603KRX7R7BB225" H 3500 3350 31  0000 C CNN
+	1    3800 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR032
+U 1 1 5BD13AB5
+P 6600 3300
+F 0 "#PWR032" H 6600 3050 50  0001 C CNN
+F 1 "GND" H 6600 3150 50  0000 C CNN
+F 2 "" H 6600 3300 50  0000 C CNN
+F 3 "" H 6600 3300 50  0000 C CNN
+	1    6600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2800 6600 2800
+Wire Wire Line
+	6600 2800 6600 3300
+Wire Wire Line
+	6500 2900 6600 2900
+Connection ~ 6600 2900
+Wire Wire Line
+	6500 3000 6600 3000
+Connection ~ 6600 3000
+Wire Wire Line
+	6500 3100 6600 3100
+Connection ~ 6600 3100
+Wire Wire Line
+	6500 3200 6600 3200
+Connection ~ 6600 3200
+Wire Wire Line
+	5000 3100 5000 3300
+Wire Wire Line
+	4500 3100 5100 3100
+Wire Wire Line
+	5000 3200 5100 3200
+Connection ~ 5000 3200
+Wire Wire Line
+	3800 3400 3800 3500
+Wire Wire Line
+	3800 3500 4500 3500
+Wire Wire Line
+	4500 3500 4500 3100
+Connection ~ 5000 3100
+$Comp
+L D_ALT D3
+U 1 1 5BD14606
+P 1950 3300
+F 0 "D3" H 1950 3425 50  0000 C CNN
+F 1 "BAT30" H 1950 3200 50  0001 C CNN
+F 2 "Diodes_SMD:D_SOD-523" H 1950 3300 31  0001 C CNN
+F 3 "BAT30KFILM" H 1950 3200 31  0000 C CNN
+	1    1950 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 3300 1600 3300
+$Comp
+L R R38
+U 1 1 5BD1460F
+P 1950 3700
+F 0 "R38" V 1850 3700 50  0000 C CNN
+F 1 "5K9" V 1950 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1880 3700 31  0001 C CNN
+F 3 "AC0603FR-075K9L" V 2050 3700 31  0000 C CNN
+	1    1950 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR033
+U 1 1 5BD14616
+P 1600 3700
+F 0 "#PWR033" H 1600 3550 50  0001 C CNN
+F 1 "+5V" H 1600 3840 50  0000 C CNN
+F 2 "" H 1600 3700 50  0000 C CNN
+F 3 "" H 1600 3700 50  0000 C CNN
+	1    1600 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3700 1800 3700
+$Comp
+L R R40
+U 1 1 5BD1461D
+P 2200 3950
+F 0 "R40" V 2100 3950 50  0000 C CNN
+F 1 "10K" V 2200 3950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2130 3950 31  0001 C CNN
+F 3 "RC0603FR-0710KL" V 2300 3950 31  0000 C CNN
+	1    2200 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3700 3300 3700
+Wire Wire Line
+	2200 3300 2200 3800
+Connection ~ 2200 3700
+Wire Wire Line
+	2200 3300 2100 3300
+$Comp
+L C C17
+U 1 1 5BD1462B
+P 2500 3950
+F 0 "C17" H 2300 3850 50  0000 L CNN
+F 1 "10uF" H 2200 3950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 2500 3950 31  0001 C CNN
+F 3 "EMK316B7106KL-TD" H 2200 4050 31  0000 C CNN
+	1    2500 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 3800 2500 3700
+Connection ~ 2500 3700
+$Comp
+L GND #PWR034
+U 1 1 5BD14634
+P 1600 4200
+F 0 "#PWR034" H 1600 3950 50  0001 C CNN
+F 1 "GND" H 1600 4050 50  0000 C CNN
+F 2 "" H 1600 4200 50  0000 C CNN
+F 3 "" H 1600 4200 50  0000 C CNN
+	1    1600 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 4200 2500 4200
+Wire Wire Line
+	2500 4200 2500 4100
+Wire Wire Line
+	2200 4200 2200 4100
+Connection ~ 2200 4200
+Text Notes 1750 4600 0    60   ~ 0
+Typical "5V" voltage after\nPMEG3020EH schottky: 4.83 V.\nDivider output: 3.038 V.
+Text Label 2650 3700 0    60   ~ 0
+AUDIO_XSMT
+$Comp
+L +3.3VA #PWR035
+U 1 1 5BD16057
+P 4200 6000
+F 0 "#PWR035" H 4200 5850 50  0001 C CNN
+F 1 "+3.3VA" H 4200 6140 50  0000 C CNN
+F 2 "" H 4200 6000 50  0000 C CNN
+F 3 "" H 4200 6000 50  0000 C CNN
+	1    4200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR036
+U 1 1 5BD1605D
+P 4200 6500
+F 0 "#PWR036" H 4200 6250 50  0001 C CNN
+F 1 "GNDA" H 4200 6350 50  0000 C CNN
+F 2 "" H 4200 6500 50  0000 C CNN
+F 3 "" H 4200 6500 50  0000 C CNN
+	1    4200 6500
+	1    0    0    -1  
+$EndComp
+Text Label 1500 6000 0    60   ~ 0
+AUDIO_CPVDD
+$Comp
+L +3.3V #PWR037
+U 1 1 5BD16064
+P 5700 6000
+F 0 "#PWR037" H 5700 5850 50  0001 C CNN
+F 1 "+3.3V" H 5700 6140 50  0000 C CNN
+F 2 "" H 5700 6000 50  0000 C CNN
+F 3 "" H 5700 6000 50  0000 C CNN
+	1    5700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR038
+U 1 1 5BD1606A
+P 5700 6500
+F 0 "#PWR038" H 5700 6250 50  0001 C CNN
+F 1 "GND" H 5700 6350 50  0000 C CNN
+F 2 "" H 5700 6500 50  0000 C CNN
+F 3 "" H 5700 6500 50  0000 C CNN
+	1    5700 6500
+	1    0    0    -1  
+$EndComp
+Text Label 1100 1600 0    60   ~ 0
+AUDIO_LDOO
+$Comp
+L GND #PWR039
+U 1 1 5BD16071
+P 2300 2100
+F 0 "#PWR039" H 2300 1850 50  0001 C CNN
+F 1 "GND" H 2300 1950 50  0000 C CNN
+F 2 "" H 2300 2100 50  0000 C CNN
+F 3 "" H 2300 2100 50  0000 C CNN
+	1    2300 2100
+	1    0    0    -1  
+$EndComp
+Text Label 4500 6000 0    60   ~ 0
+AUDIO_DVDD
+$Comp
+L +3.3VA #PWR040
+U 1 1 5BD16078
+P 2700 6000
+F 0 "#PWR040" H 2700 5850 50  0001 C CNN
+F 1 "+3.3VA" H 2700 6140 50  0000 C CNN
+F 2 "" H 2700 6000 50  0000 C CNN
+F 3 "" H 2700 6000 50  0000 C CNN
+	1    2700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR041
+U 1 1 5BD1607E
+P 2700 6500
+F 0 "#PWR041" H 2700 6250 50  0001 C CNN
+F 1 "GNDA" H 2700 6350 50  0000 C CNN
+F 2 "" H 2700 6500 50  0000 C CNN
+F 3 "" H 2700 6500 50  0000 C CNN
+	1    2700 6500
+	1    0    0    -1  
+$EndComp
+Text Notes 3000 1600 0    60   ~ 0
++1.8V
+Wire Wire Line
+	4500 6000 5700 6000
+Wire Wire Line
+	4500 6000 4500 6100
+Wire Wire Line
+	4500 6500 5700 6500
+Wire Wire Line
+	4500 6500 4500 6400
+Wire Wire Line
+	5200 6400 5200 6500
+Connection ~ 5200 6500
+Wire Wire Line
+	5200 6000 5200 6100
+Connection ~ 5200 6000
+Wire Wire Line
+	3000 6000 4200 6000
+Wire Wire Line
+	3000 6000 3000 6100
+Wire Wire Line
+	3000 6500 4200 6500
+Wire Wire Line
+	3000 6500 3000 6400
+Wire Wire Line
+	3700 6400 3700 6500
+Connection ~ 3700 6500
+Wire Wire Line
+	3700 6000 3700 6100
+Connection ~ 3700 6000
+Wire Wire Line
+	1100 1600 3300 1600
+Wire Wire Line
+	1100 1600 1100 1700
+Wire Wire Line
+	1100 2100 2300 2100
+Wire Wire Line
+	1100 2100 1100 2000
+Wire Wire Line
+	1800 2000 1800 2100
+Connection ~ 1800 2100
+Wire Wire Line
+	1500 6000 1500 6100
+Wire Wire Line
+	1500 6500 2700 6500
+Wire Wire Line
+	1500 6500 1500 6400
+Wire Wire Line
+	2200 6400 2200 6500
+Connection ~ 2200 6500
+Wire Wire Line
+	2200 6000 2200 6100
+Connection ~ 2200 6000
+Text Label 3000 6000 0    60   ~ 0
+AUDIO_3V3A
+Wire Wire Line
+	1500 6000 2700 6000
+$Comp
+L C C24
+U 1 1 5BD160AC
+P 2200 6250
+F 0 "C24" H 2000 6150 50  0000 L CNN
+F 1 "100nF" H 1850 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2200 6250 31  0001 C CNN
+F 3 "885012206071" H 2000 6350 31  0000 C CNN
+	1    2200 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C26
+U 1 1 5BD160B3
+P 3700 6250
+F 0 "C26" H 3500 6150 50  0000 L CNN
+F 1 "100nF" H 3350 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3700 6250 31  0001 C CNN
+F 3 "885012206071" H 3500 6350 31  0000 C CNN
+	1    3700 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C28
+U 1 1 5BD160BA
+P 5200 6250
+F 0 "C28" H 5000 6150 50  0000 L CNN
+F 1 "100nF" H 4850 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5200 6250 31  0001 C CNN
+F 3 "885012206071" H 5000 6350 31  0000 C CNN
+	1    5200 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C30
+U 1 1 5BD160C1
+P 1800 1850
+F 0 "C30" H 1600 1750 50  0000 L CNN
+F 1 "100nF" H 1450 1850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1800 1850 31  0001 C CNN
+F 3 "885012206071" H 1600 1950 31  0000 C CNN
+	1    1800 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP1 C23
+U 1 1 5BD160C8
+P 1500 6250
+F 0 "C23" H 1600 6350 50  0000 L CNN
+F 1 "10uF" H 1600 6250 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow" H 1500 6250 31  0001 C CNN
+F 3 "TAJA106K016RNJ" H 1750 6150 31  0000 C CNN
+	1    1500 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C25
+U 1 1 5BD160CF
+P 3000 6250
+F 0 "C25" H 3100 6350 50  0000 L CNN
+F 1 "10uF" H 3100 6250 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow" H 3000 6250 31  0001 C CNN
+F 3 "TAJA106K016RNJ" H 3250 6150 31  0000 C CNN
+	1    3000 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C27
+U 1 1 5BD160D6
+P 4500 6250
+F 0 "C27" H 4600 6350 50  0000 L CNN
+F 1 "10uF" H 4600 6250 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow" H 4500 6250 31  0001 C CNN
+F 3 "TAJA106K016RNJ" H 4750 6150 31  0000 C CNN
+	1    4500 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C29
+U 1 1 5BD160DD
+P 1100 1850
+F 0 "C29" H 1200 1950 50  0000 L CNN
+F 1 "10uF" H 1200 1850 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow" H 1100 1850 31  0001 C CNN
+F 3 "TAJA106K016RNJ" H 1350 1750 31  0000 C CNN
+	1    1100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG042
+U 1 1 5BD160E4
+P 2300 1600
+F 0 "#FLG042" H 2300 1695 50  0001 C CNN
+F 1 "PWR_FLAG" H 2300 1780 50  0001 C CNN
+F 2 "" H 2300 1600 50  0000 C CNN
+F 3 "" H 2300 1600 50  0000 C CNN
+	1    2300 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1700 1800 1600
+Connection ~ 1800 1600
+$Comp
+L AudioJack2.5mm P9
+U 1 1 5BD18367
+P 10100 3600
+F 0 "P9" H 10400 3950 60  0000 C CNN
+F 1 "AUDIO LINE OUT" H 10100 3300 60  0000 C CNN
+F 2 "Salmon:CUI_SJ-2509N" H 10000 3400 60  0001 C CNN
+F 3 "CUI SJ-2509N" H 10100 3200 50  0000 C CNN
+	1    10100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR043
+U 1 1 5BD1836E
+P 9200 3100
+F 0 "#PWR043" H 9200 2850 50  0001 C CNN
+F 1 "GNDA" H 9200 2950 50  0000 C CNN
+F 2 "" H 9200 3100 50  0000 C CNN
+F 3 "" H 9200 3100 50  0000 C CNN
+	1    9200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R39
+U 1 1 5BD18374
+P 8150 3700
+F 0 "R39" V 8050 3700 50  0000 C CNN
+F 1 "470" V 8150 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8080 3700 31  0001 C CNN
+F 3 "RC0603FR-07470RL" V 8250 3700 31  0000 C CNN
+	1    8150 3700
+	0    1    1    0   
+$EndComp
+Text Notes 9550 4400 0    60   ~ 0
+Line Out impedance: 470 Ohm.\nTypical Line In impedance\n(load): 1K to 10K Ohm.
+$Comp
+L C C18
+U 1 1 5BD1837C
+P 8500 4050
+F 0 "C18" H 8300 3950 50  0000 L CNN
+F 1 "2.2nF" H 8150 4050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8500 4050 31  0001 C CNN
+F 3 "885012206061" H 8300 4150 31  0000 C CNN
+	1    8500 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDA #PWR044
+U 1 1 5BD18383
+P 9400 4300
+F 0 "#PWR044" H 9400 4050 50  0001 C CNN
+F 1 "GNDA" H 9400 4150 50  0000 C CNN
+F 2 "" H 9400 4300 50  0000 C CNN
+F 3 "" H 9400 4300 50  0000 C CNN
+	1    9400 4300
+	1    0    0    -1  
+$EndComp
+Text Label 7350 3500 0    60   ~ 0
+AUDIO_OUTR
+Text Label 7350 3700 0    60   ~ 0
+AUDIO_OUTL
+Wire Wire Line
+	9500 3300 9400 3300
+Wire Wire Line
+	9400 3300 9400 3100
+Wire Wire Line
+	9400 3100 9200 3100
+Wire Wire Line
+	8500 4300 9400 4300
+Wire Wire Line
+	8500 4300 8500 4200
+Wire Wire Line
+	9000 4200 9000 4300
+Connection ~ 9000 4300
+Wire Wire Line
+	8300 3700 9500 3700
+Wire Wire Line
+	8300 3500 9500 3500
+Wire Wire Line
+	9000 3900 9000 3500
+Connection ~ 9000 3500
+Wire Wire Line
+	8500 3900 8500 3700
+Connection ~ 8500 3700
+Wire Wire Line
+	8000 3500 7250 3500
+Wire Wire Line
+	7150 3700 8000 3700
+$Comp
+L C C19
+U 1 1 5BD1839D
+P 9000 4050
+F 0 "C19" H 8800 3950 50  0000 L CNN
+F 1 "2.2nF" H 8650 4050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9000 4050 31  0001 C CNN
+F 3 "885012206061" H 8800 4150 31  0000 C CNN
+	1    9000 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R37
+U 1 1 5BD183A4
+P 8150 3500
+F 0 "R37" V 8050 3500 50  0000 C CNN
+F 1 "470" V 8150 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8080 3500 31  0001 C CNN
+F 3 "RC0603FR-07470RL" V 8250 3500 31  0001 C CNN
+	1    8150 3500
+	0    1    1    0   
+$EndComp
+Text HLabel 7200 2300 2    60   Input ~ 0
+[I2S1_TX_WS]
+Text HLabel 7200 2400 2    60   Input ~ 0
+[I2S1_TX_SDA]
+Text HLabel 7200 2500 2    60   Input ~ 0
+[I2S1_TX_SCK]
+Wire Wire Line
+	6500 2300 7200 2300
+Wire Wire Line
+	6500 2400 7200 2400
+Wire Wire Line
+	6500 2500 7200 2500
+Text HLabel 1600 3300 0    60   Input ~ 0
+[~AUDIO_MUTE]
+Text Notes 1500 6800 0    60   ~ 0
+Decoupling capacitors. \nPlace as close as possible to the affected IC pin.
+Text Notes 1100 2500 0    60   ~ 0
+Decoupling capacitors. \nPlace as close as possible\nto the affected IC pin.
+Wire Wire Line
+	5100 2900 3300 2900
+Wire Wire Line
+	3300 2900 3300 3700
+Wire Wire Line
+	6500 2600 7250 2600
+Wire Wire Line
+	7250 2600 7250 3500
+Wire Wire Line
+	6500 2700 7150 2700
+Wire Wire Line
+	7150 2700 7150 3700
+Wire Wire Line
+	3300 1600 3300 2700
+Wire Wire Line
+	3300 2700 5100 2700
+Connection ~ 2300 1600
+$EndSCHEMATC

@@ -1,0 +1,189 @@
+EESchema Schematic File Version 4
+LIBS:R_OlivaEj2-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title "Ejercicio 2 R.Oliva -DisenioPCBs - CESE2018"
+Date "2018-10-05"
+Rev ""
+Comp "L&R Ing / UNPA"
+Comment1 "Autor: R.Oliva"
+Comment2 "DISPLAY LEDs"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5BB78A8C
+P 5000 2550
+AR Path="/5BB74EAF/5BB78A8C" Ref="R?"  Part="1" 
+AR Path="/5BB74F1B/5BB78A8C" Ref="R302"  Part="1" 
+F 0 "R302" H 5070 2596 50  0000 L CNN
+F 1 "470R" H 5070 2505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 2550 50  0001 C CNN
+F 3 "~" H 5000 2550 50  0001 C CNN
+	1    5000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BB78A93
+P 4350 3600
+AR Path="/5BB74EAF/5BB78A93" Ref="R?"  Part="1" 
+AR Path="/5BB74F1B/5BB78A93" Ref="R301"  Part="1" 
+F 0 "R301" V 4143 3600 50  0000 C CNN
+F 1 "2K2" V 4234 3600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 3600 50  0001 C CNN
+F 3 "~" H 4350 3600 50  0001 C CNN
+	1    4350 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 3600 4700 3600
+Wire Wire Line
+	5000 2400 5000 2200
+$Comp
+L Device:LED D301
+U 1 1 5BB78C29
+P 5000 3050
+F 0 "D301" V 5038 2932 50  0000 R CNN
+F 1 "LED ROJO" V 4947 2932 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 5000 3050 50  0001 C CNN
+F 3 "~" H 5000 3050 50  0001 C CNN
+	1    5000 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:BC546 Q301
+U 1 1 5BB78DB6
+P 4900 3600
+F 0 "Q301" H 5091 3646 50  0000 L CNN
+F 1 "BC546" H 5091 3555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5100 3525 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 4900 3600 50  0001 L CNN
+	1    4900 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2700 5000 2900
+Wire Wire Line
+	5000 3200 5000 3400
+Wire Wire Line
+	5000 3800 5000 3900
+$Comp
+L power:GND #PWR0302
+U 1 1 5BB79046
+P 5000 3900
+F 0 "#PWR0302" H 5000 3650 50  0001 C CNN
+F 1 "GND" H 5005 3727 50  0000 C CNN
+F 2 "" H 5000 3900 50  0001 C CNN
+F 3 "" H 5000 3900 50  0001 C CNN
+	1    5000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0301
+U 1 1 5BB790DB
+P 5000 2200
+F 0 "#PWR0301" H 5000 2050 50  0001 C CNN
+F 1 "+5V" H 5015 2373 50  0000 C CNN
+F 2 "" H 5000 2200 50  0001 C CNN
+F 3 "" H 5000 2200 50  0001 C CNN
+	1    5000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BB791F8
+P 7950 2550
+AR Path="/5BB74EAF/5BB791F8" Ref="R?"  Part="1" 
+AR Path="/5BB74F1B/5BB791F8" Ref="R304"  Part="1" 
+F 0 "R304" H 8020 2596 50  0000 L CNN
+F 1 "470R" H 8020 2505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7880 2550 50  0001 C CNN
+F 3 "~" H 7950 2550 50  0001 C CNN
+	1    7950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BB791FE
+P 7300 3600
+AR Path="/5BB74EAF/5BB791FE" Ref="R?"  Part="1" 
+AR Path="/5BB74F1B/5BB791FE" Ref="R303"  Part="1" 
+F 0 "R303" V 7093 3600 50  0000 C CNN
+F 1 "2K2" V 7184 3600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7230 3600 50  0001 C CNN
+F 3 "~" H 7300 3600 50  0001 C CNN
+	1    7300 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 3600 7650 3600
+Wire Wire Line
+	7950 2400 7950 2200
+$Comp
+L Device:LED D302
+U 1 1 5BB79206
+P 7950 3050
+F 0 "D302" V 7988 2932 50  0000 R CNN
+F 1 "LED VERDE" V 7897 2932 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 7950 3050 50  0001 C CNN
+F 3 "~" H 7950 3050 50  0001 C CNN
+	1    7950 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:BC546 Q302
+U 1 1 5BB7920C
+P 7850 3600
+F 0 "Q302" H 8041 3646 50  0000 L CNN
+F 1 "BC546" H 8041 3555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8050 3525 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 7850 3600 50  0001 L CNN
+	1    7850 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2700 7950 2900
+Wire Wire Line
+	7950 3200 7950 3400
+Wire Wire Line
+	7950 3800 7950 3900
+$Comp
+L power:GND #PWR0304
+U 1 1 5BB79215
+P 7950 3900
+F 0 "#PWR0304" H 7950 3650 50  0001 C CNN
+F 1 "GND" H 7955 3727 50  0000 C CNN
+F 2 "" H 7950 3900 50  0001 C CNN
+F 3 "" H 7950 3900 50  0001 C CNN
+	1    7950 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3600 7150 3600
+$Comp
+L power:+5V #PWR0303
+U 1 1 5BB7921C
+P 7950 2200
+F 0 "#PWR0303" H 7950 2050 50  0001 C CNN
+F 1 "+5V" H 7965 2373 50  0000 C CNN
+F 2 "" H 7950 2200 50  0001 C CNN
+F 3 "" H 7950 2200 50  0001 C CNN
+	1    7950 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3600 6050 4500
+Text HLabel 3050 3600 0    50   Input ~ 0
+LED1
+Text HLabel 3100 4500 0    50   Input ~ 0
+LED2
+Wire Wire Line
+	3050 3600 4200 3600
+Wire Wire Line
+	3100 4500 6050 4500
+$EndSCHEMATC

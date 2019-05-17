@@ -1,0 +1,8 @@
+### Module positions - created on 11/10/18 20:41:48 ###
+### Printed by Pcbnew version kicad (5.0.0)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                  Package                                   PosX       PosY       Rot  Side
+BT1       Battery_Cell         BatteryHolder_Seiko_MS621F           -148.5000   -97.8154  270.0000  bottom
+J1        Conn_02x03_Odd_Even  PinHeader_2x03_P2.54mm_Vertical_SMD  -142.0000   -84.5000  180.0000  bottom
+## End

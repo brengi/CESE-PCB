@@ -1,0 +1,29 @@
+Drill report for /home/jamm/Escritorio/PBC_TP_Final_JMena/PBC_TP_Final_JMena/PBC_TP_Final_JMena.kicad_pcb
+Created on mié 14 nov 2018 12:39:57 -05
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'PBC_TP_Final_JMena-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,40mm  0,016"  (1 hole)
+    T2  0,50mm  0,020"  (198 holes)
+    T3  0,65mm  0,026"  (30 holes)
+    T4  0,70mm  0,028"  (1 hole)
+    T5  1,00mm  0,039"  (9 holes)
+    T6  1,60mm  0,063"  (3 holes)
+    T7  3,20mm  0,126"  (2 holes)
+
+    Total plated holes count 244
+
+
+Drill file 'PBC_TP_Final_JMena-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  2,50mm  0,098"  (4 holes)
+
+    Total unplated holes count 4

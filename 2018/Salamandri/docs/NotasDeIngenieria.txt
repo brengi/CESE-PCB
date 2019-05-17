@@ -1,0 +1,13 @@
+- Todos los simbolos fueron obtenidos del repositorio oficial de Kicad (https://github.com/KiCad/kicad-symbols).
+- Todos los footprints fueron obtenidos del repositorio oficial de Kicad (https://github.com/kicad/kicad-footprints).
+- Todos* los modelos 3d fueron obtenidos del repositorio oficial de Kicad (https://github.com/kicad/kicad-packages3d).
+*Con excepcion de :
+	- Bornera.
+	- Relay.
+	- Micro USB.
+
+
+
+- Para la realizacion del PCB, se utilizara un plóter fresador ProtoMat E33 de LPKF, cuya resolucion es 0.8 µm (0.04 mil).
+- El microcontrolador ESP32, segun el documento(esp32_hardware_design_guidelines_en.pdf) de guia de diseño del fabricante debe esta colocado abajo a la derecha para tener menor interferencia.
+

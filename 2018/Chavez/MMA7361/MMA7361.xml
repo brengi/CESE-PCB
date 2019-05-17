@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\royconejo\Downloads\PCB-master\MMA7361\MMA7361.sch</source>
+    <date>23/11/2018 04:16:58</date>
+    <tool>Eeschema (5.0.1)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>MMA7361 Module</title>
+        <company>Diseño de circuitos impresos</company>
+        <rev>1.1</rev>
+        <date>2018-11-22</date>
+        <source>MMA7361.sch</source>
+        <comment number="1" value="CESE 6ta cohorte"/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Licencia BSD"/>
+        <comment number="4" value="Autor: Jenny Chavez"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C2">
+      <value>470 µF</value>
+      <footprint>Footprints:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="MMA7361-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF734F9</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1 µF</value>
+      <footprint>Footprints:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="MMA7361-rescue" part="CP1-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF73500</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>RT9161</value>
+      <footprint>Footprints:SOT-89-3_Handsoldering</footprint>
+      <datasheet>https://www.richtek.com/assets/product_file/RT9701/DS9701-16.pdf</datasheet>
+      <libsource lib="MMA7361" part="RT9601" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF73507</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1 µF</value>
+      <footprint>Footprints:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="MMA7361-rescue" part="CP1-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF7350E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>3.3nf</value>
+      <footprint>Footprints:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="MMA7361-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF7351B</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>3.3nf</value>
+      <footprint>Footprints:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="MMA7361-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF73522</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>3.3nf</value>
+      <footprint>Footprints:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="MMA7361-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF73529</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>Footprints:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="MMA7361-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF73530</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1 K</value>
+      <footprint>Footprints:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="MMA7361-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF7353D</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>470 µF</value>
+      <footprint>Footprints:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="MMA7361-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF73554</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x05</value>
+      <footprint>Footprints:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="MMA7361-rescue" part="Conn_01x05-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF73575</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MMA7361L</value>
+      <footprint>Footprints:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y</footprint>
+      <datasheet>NXP Semiconductors</datasheet>
+      <fields>
+        <field name="Field5">MMA7260Q</field>
+        <field name="Field6">QFN-16 NXP Semiconductors</field>
+        <field name="Field7">None</field>
+        <field name="Field8">Unavailable</field>
+      </fields>
+      <libsource lib="MMA7361" part="MMA7361L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF73597</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fiducial</value>
+      <footprint>Footprints:Fiducial_1mm_Dia_2mm_Outer</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="MMA7361-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF735E1</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>Fiducial</value>
+      <footprint>Footprints:Fiducial_1mm_Dia_2mm_Outer</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="MMA7361-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF735E8</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>Fiducial</value>
+      <footprint>Footprints:Fiducial_1mm_Dia_2mm_Outer</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="MMA7361-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF735EF</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x05</value>
+      <footprint>Footprints:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="MMA7361-rescue" part="Conn_01x05-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF7356E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="MMA7361" part="MMA7361L">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MMA7361L</field>
+        <field name="Footprint">QFN-16</field>
+        <field name="Datasheet">NXP Semiconductors</field>
+        <field name="Field5">MMA7260Q</field>
+        <field name="Field6">QFN-16 NXP Semiconductors</field>
+        <field name="Field7">None</field>
+        <field name="Field8">Unavailable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="N/C" type="NotConnected"/>
+        <pin num="2" name="XOUT" type="output"/>
+        <pin num="3" name="YOUT" type="output"/>
+        <pin num="4" name="ZOUT" type="output"/>
+        <pin num="5" name="VSS" type="power_in"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="~Sleep" type="input"/>
+        <pin num="8" name="N/C" type="NotConnected"/>
+        <pin num="9" name="0g-Detect" type="output"/>
+        <pin num="10" name="g-Select" type="input"/>
+        <pin num="11" name="N/C" type="NotConnected"/>
+        <pin num="12" name="N/C" type="NotConnected"/>
+        <pin num="13" name="SelfTest" type="input"/>
+        <pin num="14" name="N/C" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMA7361" part="RT9601">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RT9601</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMA7361-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMA7361-rescue" part="CP1-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMA7361-rescue" part="Conn_01x05-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMA7361-rescue" part="LED-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMA7361-rescue" part="MountingHole-Mechanical">
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">MountingHole-Mechanical</field>
+      </fields>
+    </libpart>
+    <libpart lib="MMA7361-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="MMA7361">
+      <uri>C:\Users\royconejo\Downloads\PCB-master\MMA7361/Librerias/Eeschema/MMA7361.lib</uri>
+    </library>
+    <library logical="MMA7361-rescue">
+      <uri>C:\Users\royconejo\Downloads\PCB-master\MMA7361/MMA7361-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/X">
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="2" name="/Y">
+      <node ref="C6" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="3" name="/Z">
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="4" name="/Og-Detect">
+      <node ref="J2" pin="5"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="5" name="/~Sleep">
+      <node ref="U2" pin="7"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="6" name="+5V">
+      <node ref="C2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="7" name="VCC">
+      <node ref="C4" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="6"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="8" name="/g-Select">
+      <node ref="U2" pin="10"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="J1" pin="3"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="12" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="13" name="/SelfTest">
+      <node ref="J1" pin="5"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="15" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="16" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+  </nets>
+</export>

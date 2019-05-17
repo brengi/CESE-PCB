@@ -1,0 +1,77 @@
+# ProgrammName: arduino2009.scr
+# 
+# Author: frohp@yahoo.de
+# 
+# Date: 30.08.2009
+# Verion: 1.0
+#
+# Eagle Version: 5.6.0
+#
+# Die Einfuegepunkte fuer die Stecker werden auf dem Layer tTest erzeugt.
+#
+# Position 2172.031 1067.472 : Loch fuer Reset-Taster.
+# Position 2555.512 1098.031 : Position fuer den ISP-Stecker (Pinhead PINHD-2X3, 270 deg)
+
+Grid mil 1 off;
+
+Set Wire_Bend 2;
+Layer Dimension;
+CHANGE WIDTH 0;
+Wire (0 0) (0 2100);
+Wire (0 2100) (2540 2100);
+Wire (2540 2100) (2600 2040);
+Wire (2600 2040) (2600 1590);
+Wire (2600 1590) (2700 1490);
+Wire (2700 1490) (2700 200);
+Wire (2700 200) (2600 100);
+Wire (2600 100) (2600 0);
+Wire (2600 0) (0 0);
+
+
+Layer Top;
+Change Width 16;
+Change Pour Solid;
+Change Thermals On;
+Polygon 'GND' (0 0) (0 2100) (2540 2100) (2600 2040) (2600 1590) (2700 1490) (2700 200) (2600 100) (2600 0) (0 0);
+
+Layer Bottom;
+Change Width 16;
+Change Pour Solid;
+Change Thermals On;
+Polygon 'GND' (0 0) (0 2100) (2540 2100) (2600 2040) (2600 1590) (2700 1490) (2700 200) (2600 100) (2600 0) (0 0);
+
+Hole 125.984 (600 2000);
+Hole 125.984 (2600 1400);
+Hole 125.984 (2600 300);
+#Loch für Resettaser
+Hole 78.74 (2172.031 1067.472);
+
+# Einfügepunkte der Stecker
+Layer tTest;
+Change Width 0;
+Wire (1240 2000) (1340 2000);
+Wire (1290 1950) (1290 2050);
+
+Wire (2100 2000) (2200 2000);
+Wire (2150 1950) (2150 2050);
+
+Wire (1500 100) (1600 100);
+Wire (1550 50) (1550 150);
+
+Wire (2240 100) (2240 100);
+Wire (2300 50) (2300 150);
+
+# Position für ISP-Stecker
+Wire (2505.512 1098.031) (2605.512 1098.031);
+Wire (2555.512 1048.031) (2555.512 1148.031);
+
+Change Size 40;
+Text 'JP3' (1250 2150);
+Text 'JP1' (2105 2150);
+Text 'POWER' (1460 -75);
+Text 'JP2' (2195 -75);
+Text 'ISP' (2750 1080);
+Change Size 70
+
+Grid Last;
+Window Fit;

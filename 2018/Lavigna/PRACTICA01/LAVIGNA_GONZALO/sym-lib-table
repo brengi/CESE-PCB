@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name arduino)(type Legacy)(uri F:/GIT/CIAA/-01-CESE-2018-PCBS/PRACTICA_FINAL/LIBRARIES/ARDUINO-LIBRARY/arduino.lib)(options "")(descr ""))
+)

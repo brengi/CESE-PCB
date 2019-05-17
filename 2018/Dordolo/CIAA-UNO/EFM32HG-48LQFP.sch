@@ -1,0 +1,916 @@
+EESchema Schematic File Version 4
+LIBS:CIAA-UNO-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title "CIAA-UNO"
+Date "2018-11-18"
+Rev "2"
+Comp "Lucas Dórdolo"
+Comment1 ""
+Comment2 "Based on the Arduino UNO and CIAA z3r0"
+Comment3 ""
+Comment4 "Copyright 2018,  Lucas Dórdolo (see LICENSE)"
+$EndDescr
+Text HLabel 9335 2385 2    40   Input ~ 0
+ARD_AN5/SCL
+Text HLabel 9335 2585 2    40   Input ~ 0
+ARD_AN4/SDA
+Text HLabel 9335 2785 2    40   Input ~ 0
+ARD_AN3
+Text HLabel 9335 2985 2    40   Input ~ 0
+ARD_AN2
+Text HLabel 9335 3185 2    40   Input ~ 0
+ARD_AN1
+Text HLabel 9335 3385 2    40   Input ~ 0
+ARD_AN0
+Wire Wire Line
+	9335 2385 8235 2385
+Wire Wire Line
+	8235 2585 9335 2585
+Wire Wire Line
+	9335 2785 8235 2785
+Wire Wire Line
+	8235 2985 9335 2985
+Wire Wire Line
+	9335 3185 8235 3185
+Wire Wire Line
+	8235 3385 9335 3385
+Text HLabel 9350 4920 2    40   Input ~ 0
+ARD_DIG7
+Text HLabel 9350 5120 2    40   Input ~ 0
+ARD_DIG6
+Text HLabel 9350 5320 2    40   Input ~ 0
+ARD_DIG5
+Text HLabel 9350 5520 2    40   Input ~ 0
+ARD_DIG4
+Text HLabel 9350 5720 2    40   Input ~ 0
+ARD_DIG3
+Text HLabel 9350 5920 2    40   Input ~ 0
+ARD_DIG2
+Text HLabel 9350 6120 2    40   Input ~ 0
+ARD_DIG1
+Text HLabel 9350 6320 2    40   Input ~ 0
+ARD_DIG0
+Wire Wire Line
+	8250 5920 9350 5920
+Wire Wire Line
+	9350 5720 8250 5720
+Wire Wire Line
+	8250 5520 9350 5520
+Wire Wire Line
+	9350 5320 8250 5320
+Wire Wire Line
+	8250 5120 9350 5120
+Wire Wire Line
+	9350 4920 8250 4920
+Text HLabel 9345 4730 2    40   Input ~ 0
+ARD_DIG8
+Text HLabel 9345 4530 2    40   Input ~ 0
+ARD_DIG9
+Text HLabel 9345 4330 2    40   Input ~ 0
+ARD_DIG10/SPI_SS
+Text HLabel 9345 4130 2    40   Input ~ 0
+ARD_DIG11/SPI_MOSI
+Text HLabel 9345 3930 2    40   Input ~ 0
+ARD_DIG12/SPI_MISO
+Text HLabel 9345 3730 2    40   Input ~ 0
+ARD_DIG13/SPI_SCK
+Wire Wire Line
+	9345 4730 8245 4730
+Wire Wire Line
+	8245 4530 9345 4530
+Wire Wire Line
+	9345 4330 8245 4330
+Text HLabel 9350 1055 2    40   Input ~ 0
+328P_RESET
+Wire Wire Line
+	8250 6320 9350 6320
+Wire Wire Line
+	8250 6120 9350 6120
+Text HLabel 9350 1710 2    40   Input ~ 0
+USB_D+
+Text HLabel 9350 1835 2    40   Input ~ 0
+USB_D-
+Wire Wire Line
+	8250 1710 9350 1710
+Wire Wire Line
+	8250 1835 9350 1835
+$Comp
+L ciaa-z3r0:EFM32HG-48LQFP U?
+U 1 1 5BA7D60C
+P 4000 4000
+AR Path="/55D9F413/5BA659DB/5BA7D60C" Ref="U?"  Part="1" 
+AR Path="/55E89CE4/5BA7D60C" Ref="U5"  Part="1" 
+F 0 "U5" H 3975 4100 50  0000 L CNN
+F 1 "EFM32HG-48LQFP" H 3650 4000 50  0000 L CNN
+F 2 "footprints:LQFP-48_7x7mm_Pitch0.5mm" H 4000 4000 50  0001 C CNN
+F 3 "DOCUMENTATION" H 4000 4000 50  0001 C CNN
+	1    4000 4000
+	1    0    0    -1  
+$EndComp
+Text Label 4450 2650 1    60   ~ 0
+PF1/SWDIO
+Text Label 4550 2650 1    60   ~ 0
+PF0/SWCLK
+Text Label 5350 3450 0    60   ~ 0
+USB+
+Text Label 5350 3550 0    60   ~ 0
+USB-
+Text Label 2650 3450 2    60   ~ 0
+PA0
+Text Label 2650 3550 2    60   ~ 0
+PA1
+Text Label 2650 3650 2    60   ~ 0
+PA2
+Text Label 2650 3950 2    60   ~ 0
+PC0
+Text Label 2650 4050 2    60   ~ 0
+PC1
+Text Label 2650 4150 2    60   ~ 0
+PC2
+Text Label 2650 4250 2    60   ~ 0
+PC3
+Text Label 2650 4350 2    60   ~ 0
+PC4
+Text Label 2650 4450 2    60   ~ 0
+PB7
+Text Label 2650 4550 2    60   ~ 0
+PB8
+Text Label 3450 5350 3    60   ~ 0
+PA8
+Text Label 3550 5350 3    60   ~ 0
+PA9
+Text Label 3650 5350 3    60   ~ 0
+PA10
+Text Label 3750 5350 3    60   ~ 0
+nRESET
+Text Label 3850 5350 3    60   ~ 0
+PB11
+Text Label 4150 5350 3    60   ~ 0
+PB13
+Text Label 4250 5350 3    60   ~ 0
+PB14
+Text Label 4550 5350 3    60   ~ 0
+PD4
+Text Label 5350 4550 0    60   ~ 0
+PD5
+Text Label 5350 4450 0    60   ~ 0
+PD6
+Text Label 5350 4350 0    60   ~ 0
+PD7
+Text Label 5350 4050 0    60   ~ 0
+PC8
+Text Label 5350 3950 0    60   ~ 0
+PC9
+Text Label 5350 3850 0    60   ~ 0
+PC10
+Text Label 4350 2650 1    60   ~ 0
+PF2
+Text Label 4250 2650 1    60   ~ 0
+PF3
+Text Label 4150 2650 1    60   ~ 0
+PF4
+Text Label 4050 2650 1    60   ~ 0
+PF5
+Text Label 3750 2650 1    60   ~ 0
+PE10
+Text Label 3650 2650 1    60   ~ 0
+PE11
+Text Label 3550 2650 1    60   ~ 0
+PE12
+Text Label 3450 2650 1    60   ~ 0
+PE13
+$Comp
+L ciaa-z3r0:GND #PWR?
+U 1 1 5BA7D649
+P 5950 3930
+AR Path="/55D9F413/5BA659DB/5BA7D649" Ref="#PWR?"  Part="1" 
+AR Path="/55E89CE4/5BA7D649" Ref="#PWR052"  Part="1" 
+F 0 "#PWR052" H 5950 3680 50  0001 C CNN
+F 1 "GND" H 6070 3835 50  0000 C CNN
+F 2 "" H 5950 3930 50  0001 C CNN
+F 3 "" H 5950 3930 50  0001 C CNN
+	1    5950 3930
+	1    0    0    -1  
+$EndComp
+$Comp
+L ciaa-z3r0:C_Small C?
+U 1 1 5BA7D64F
+P 5950 4470
+AR Path="/55D9F413/5BA659DB/5BA7D64F" Ref="C?"  Part="1" 
+AR Path="/55E89CE4/5BA7D64F" Ref="C16"  Part="1" 
+F 0 "C16" H 6042 4516 50  0000 L CNN
+F 1 "1u" H 6042 4425 50  0000 L CNN
+F 2 "footprints:C_0603" H 5950 4470 50  0001 C CNN
+F 3 "" H 5950 4470 50  0001 C CNN
+	1    5950 4470
+	1    0    0    -1  
+$EndComp
+$Comp
+L ciaa-z3r0:C_Small C?
+U 1 1 5BA7D656
+P 6665 4465
+AR Path="/55D9F413/5BA659DB/5BA7D656" Ref="C?"  Part="1" 
+AR Path="/55E89CE4/5BA7D656" Ref="C14"  Part="1" 
+F 0 "C14" H 6757 4511 50  0000 L CNN
+F 1 "10u" H 6757 4420 50  0000 L CNN
+F 2 "footprints:C_0603" H 6665 4465 50  0001 C CNN
+F 3 "" H 6665 4465 50  0001 C CNN
+	1    6665 4465
+	1    0    0    -1  
+$EndComp
+$Comp
+L ciaa-z3r0:C_Small C?
+U 1 1 5BA7D65D
+P 6305 4465
+AR Path="/55D9F413/5BA659DB/5BA7D65D" Ref="C?"  Part="1" 
+AR Path="/55E89CE4/5BA7D65D" Ref="C12"  Part="1" 
+F 0 "C12" H 6397 4511 50  0000 L CNN
+F 1 "100n" H 6397 4420 50  0000 L CNN
+F 2 "footprints:C_0603" H 6305 4465 50  0001 C CNN
+F 3 "" H 6305 4465 50  0001 C CNN
+	1    6305 4465
+	1    0    0    -1  
+$EndComp
+$Comp
+L ciaa-z3r0:GND #PWR?
+U 1 1 5BA7D664
+P 5950 4620
+AR Path="/55D9F413/5BA659DB/5BA7D664" Ref="#PWR?"  Part="1" 
+AR Path="/55E89CE4/5BA7D664" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 5950 4370 50  0001 C CNN
+F 1 "GND" H 6030 4465 50  0000 R CNN
+F 2 "" H 5950 4620 50  0001 C CNN
+F 3 "" H 5950 4620 50  0001 C CNN
+	1    5950 4620
+	1    0    0    -1  
+$EndComp
+$Comp
+L ciaa-z3r0:C_Small C?
+U 1 1 5BA7D66A
+P 5950 3805
+AR Path="/55D9F413/5BA659DB/5BA7D66A" Ref="C?"  Part="1" 
+AR Path="/55E89CE4/5BA7D66A" Ref="C15"  Part="1" 
+F 0 "C15" H 6042 3851 50  0000 L CNN
+F 1 "1u" H 6042 3760 50  0000 L CNN
+F 2 "footprints:C_0603" H 5950 3805 50  0001 C CNN
+F 3 "" H 5950 3805 50  0001 C CNN
+	1    5950 3805
+	1    0    0    -1  
+$EndComp
+$Comp
+L ciaa-z3r0:C_Small C?
+U 1 1 5BA7D671
+P 2035 3990
+AR Path="/55D9F413/5BA659DB/5BA7D671" Ref="C?"  Part="1" 
+AR Path="/55E89CE4/5BA7D671" Ref="C8"  Part="1" 
+F 0 "C8" H 2127 4036 50  0000 L CNN
+F 1 "100n" H 2127 3945 50  0000 L CNN
+F 2 "footprints:C_0603" H 2035 3990 50  0001 C CNN
+F 3 "" H 2035 3990 50  0001 C CNN
+	1    2035 3990
+	1    0    0    -1  
+$EndComp
+$Comp
+L ciaa-z3r0:C_Small C?
+U 1 1 5BA7D678
+P 3895 1805
+AR Path="/55D9F413/5BA659DB/5BA7D678" Ref="C?"  Part="1" 
+AR Path="/55E89CE4/5BA7D678" Ref="C9"  Part="1" 
+F 0 "C9" H 3735 1820 50  0000 C CNN
+F 1 "100n" H 3720 1740 50  0000 C CNN
+F 2 "footprints:C_0603" H 3895 1805 50  0001 C CNN
+F 3 "" H 3895 1805 50  0001 C CNN
+	1    3895 1805
+	-1   0    0    1   
+$EndComp
+$Comp
+L ciaa-z3r0:C_Small C?
+U 1 1 5BA7D67F
+P 5085 5680
+AR Path="/55D9F413/5BA659DB/5BA7D67F" Ref="C?"  Part="1" 
+AR Path="/55E89CE4/5BA7D67F" Ref="C11"  Part="1" 
+F 0 "C11" H 4993 5634 50  0000 R CNN
+F 1 "100n" H 4993 5725 50  0000 R CNN
+F 2 "footprints:C_0603" H 5085 5680 50  0001 C CNN
+F 3 "" H 5085 5680 50  0001 C CNN
+	1    5085 5680
+	-1   0    0    1   
+$EndComp
+$Comp
+L ciaa-z3r0:GND #PWR?
+U 1 1 5BA7D686
+P 5085 5805
+AR Path="/55D9F413/5BA659DB/5BA7D686" Ref="#PWR?"  Part="1" 
+AR Path="/55E89CE4/5BA7D686" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 5085 5555 50  0001 C CNN
+F 1 "GND" H 5090 5632 50  0000 C CNN
+F 2 "" H 5085 5805 50  0001 C CNN
+F 3 "" H 5085 5805 50  0001 C CNN
+	1    5085 5805
+	1    0    0    -1  
+$EndComp
+$Comp
+L ciaa-z3r0:C_Small C?
+U 1 1 5BA7D68C
+P 4730 5685
+AR Path="/55D9F413/5BA659DB/5BA7D68C" Ref="C?"  Part="1" 
+AR Path="/55E89CE4/5BA7D68C" Ref="C10"  Part="1" 
+F 0 "C10" H 4638 5639 50  0000 R CNN
+F 1 "100n" H 4638 5730 50  0000 R CNN
+F 2 "footprints:C_0603" H 4730 5685 50  0001 C CNN
+F 3 "" H 4730 5685 50  0001 C CNN
+	1    4730 5685
+	-1   0    0    1   
+$EndComp
+$Comp
+L ciaa-z3r0:GND #PWR?
+U 1 1 5BA7D693
+P 4730 5815
+AR Path="/55D9F413/5BA659DB/5BA7D693" Ref="#PWR?"  Part="1" 
+AR Path="/55E89CE4/5BA7D693" Ref="#PWR046"  Part="1" 
+F 0 "#PWR046" H 4730 5565 50  0001 C CNN
+F 1 "GND" H 4735 5642 50  0000 C CNN
+F 2 "" H 4730 5815 50  0001 C CNN
+F 3 "" H 4730 5815 50  0001 C CNN
+	1    4730 5815
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3905 5950 3930
+Wire Wire Line
+	5085 5805 5085 5780
+$Comp
+L ciaa-z3r0:GND #PWR?
+U 1 1 5BA7D6E1
+P 6320 3930
+AR Path="/55D9F413/5BA659DB/5BA7D6E1" Ref="#PWR?"  Part="1" 
+AR Path="/55E89CE4/5BA7D6E1" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 6320 3680 50  0001 C CNN
+F 1 "GND" H 6440 3835 50  0000 C CNN
+F 2 "" H 6320 3930 50  0001 C CNN
+F 3 "" H 6320 3930 50  0001 C CNN
+	1    6320 3930
+	1    0    0    -1  
+$EndComp
+$Comp
+L ciaa-z3r0:C_Small C?
+U 1 1 5BA7D6E7
+P 6320 3805
+AR Path="/55D9F413/5BA659DB/5BA7D6E7" Ref="C?"  Part="1" 
+AR Path="/55E89CE4/5BA7D6E7" Ref="C13"  Part="1" 
+F 0 "C13" H 6412 3851 50  0000 L CNN
+F 1 "4.7u" H 6412 3760 50  0000 L CNN
+F 2 "footprints:C_0603" H 6320 3805 50  0001 C CNN
+F 3 "" H 6320 3805 50  0001 C CNN
+	1    6320 3805
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6320 3905 6320 3930
+Wire Wire Line
+	8245 3930 9345 3930
+Wire Wire Line
+	8245 3730 9345 3730
+Wire Wire Line
+	8245 4130 9345 4130
+Text Label 8250 1710 0    40   ~ 0
+USB+
+Text Label 8250 1835 0    40   ~ 0
+USB-
+Text Label 8250 6120 0    40   ~ 0
+PC0
+Text Label 8250 6320 0    40   ~ 0
+PC1
+Text Label 8250 5720 0    40   ~ 0
+PB7
+Text Label 8250 5320 0    40   ~ 0
+PA8
+Text Label 8250 5120 0    40   ~ 0
+PA9
+Text Label 8235 3385 0    40   ~ 0
+PE12
+Text Label 8235 3185 0    40   ~ 0
+PE13
+Text Label 8235 2985 0    40   ~ 0
+PD4
+Text Label 8235 2785 0    40   ~ 0
+PD5
+Text Label 8235 2585 0    40   ~ 0
+PD7
+Text Label 8235 2385 0    40   ~ 0
+PD6
+Text Label 8245 4530 0    40   ~ 0
+PA10
+Text Label 8245 4330 0    40   ~ 0
+PF1/SWDIO
+Text Label 8245 4130 0    40   ~ 0
+PF2
+Text Label 8245 3930 0    40   ~ 0
+PC2
+Text Label 8245 3730 0    40   ~ 0
+PC3
+$Comp
+L Arduino_Uno_R3_From_Scratch:3V3_LDO #PWR047
+U 1 1 5BA88CF7
+P 5085 5460
+F 0 "#PWR047" H 5085 5420 30  0001 C CNN
+F 1 "3V3_LDO" H 5094 5598 30  0000 C CNN
+F 2 "" H 5085 5460 60  0000 C CNN
+F 3 "" H 5085 5460 60  0000 C CNN
+	1    5085 5460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_Uno_R3_From_Scratch:USBVCC #PWR049
+U 1 1 5BA8B27A
+P 6320 3635
+F 0 "#PWR049" H 6320 3725 20  0001 C CNN
+F 1 "USBVCC" H 6316 3773 30  0000 C CNN
+F 2 "" H 6320 3635 60  0000 C CNN
+F 3 "" H 6320 3635 60  0000 C CNN
+	1    6320 3635
+	1    0    0    -1  
+$EndComp
+Text Label 3725 7100 0    60   ~ 0
+PF1/SWDIO
+Text Label 3725 7000 0    60   ~ 0
+PF0/SWCLK
+Text Label 3225 7100 2    60   ~ 0
+nRESET
+$Comp
+L ciaa-z3r0:Conn_02x02_Odd_Even J?
+U 1 1 5BA8E160
+P 3525 7000
+AR Path="/55D9F413/5BA659DB/5BA8E160" Ref="J?"  Part="1" 
+AR Path="/55E89CE4/5BA8E160" Ref="J2"  Part="1" 
+F 0 "J2" H 3575 7217 50  0000 C CNN
+F 1 "SWD" H 3575 7126 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_2x02_Pitch2.54mm_SMD" H 3525 7000 50  0001 C CNN
+F 3 "" H 3525 7000 50  0001 C CNN
+	1    3525 7000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ciaa-z3r0:SW_Push SW?
+U 1 1 5BA9171E
+P 1105 1640
+AR Path="/55D9F413/5BA659DB/5BA9171E" Ref="SW?"  Part="1" 
+AR Path="/55E89CE4/5BA9171E" Ref="SW1"  Part="1" 
+F 0 "SW1" V 1165 1850 50  0000 C CNN
+F 1 "reset" V 1050 1855 50  0000 C CNN
+F 2 "footprints:SW_SPST_EVQPE1" H 1105 1840 50  0001 C CNN
+F 3 "" H 1105 1840 50  0001 C CNN
+	1    1105 1640
+	0    -1   -1   0   
+$EndComp
+Text Label 1330 1440 0    60   ~ 0
+nRESET
+$Comp
+L ciaa-z3r0:GND #PWR?
+U 1 1 5BA91726
+P 1105 1915
+AR Path="/55D9F413/5BA659DB/5BA91726" Ref="#PWR?"  Part="1" 
+AR Path="/55E89CE4/5BA91726" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 1105 1665 50  0001 C CNN
+F 1 "GND" H 1110 1742 50  0000 C CNN
+F 2 "" H 1105 1915 50  0001 C CNN
+F 3 "" H 1105 1915 50  0001 C CNN
+	1    1105 1915
+	1    0    0    -1  
+$EndComp
+$Comp
+L ciaa-z3r0:C_Small C?
+U 1 1 5BA91732
+P 1230 1640
+AR Path="/55D9F413/5BA659DB/5BA91732" Ref="C?"  Part="1" 
+AR Path="/55E89CE4/5BA91732" Ref="C7"  Part="1" 
+F 0 "C7" H 1138 1594 50  0000 R CNN
+F 1 "1u" H 1138 1685 50  0000 R CNN
+F 2 "footprints:C_0603" H 1230 1640 50  0001 C CNN
+F 3 "" H 1230 1640 50  0001 C CNN
+	1    1230 1640
+	-1   0    0    1   
+$EndComp
+$Comp
+L ciaa-z3r0:R_Small R?
+U 1 1 5BA91739
+P 1230 1215
+AR Path="/55D9F413/5BA659DB/5BA91739" Ref="R?"  Part="1" 
+AR Path="/55E89CE4/5BA91739" Ref="R7"  Part="1" 
+F 0 "R7" V 1080 1215 50  0000 C CNN
+F 1 "1K" V 1155 1215 50  0000 C CNN
+F 2 "footprints:R_0603" H 1230 1215 50  0001 C CNN
+F 3 "" H 1230 1215 50  0001 C CNN
+	1    1230 1215
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ciaa-z3r0:SW_Push SW?
+U 1 1 5BA91741
+P 2205 1595
+AR Path="/55D9F413/5BA659DB/5BA91741" Ref="SW?"  Part="1" 
+AR Path="/55E89CE4/5BA91741" Ref="SW2"  Part="1" 
+F 0 "SW2" V 2220 1815 50  0000 C TNN
+F 1 "user" V 2190 1810 50  0000 C BNN
+F 2 "footprints:SW_SPST_EVQPE1" H 2205 1795 50  0001 C CNN
+F 3 "" H 2205 1795 50  0001 C CNN
+	1    2205 1595
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ciaa-z3r0:GND #PWR?
+U 1 1 5BA91748
+P 2205 1870
+AR Path="/55D9F413/5BA659DB/5BA91748" Ref="#PWR?"  Part="1" 
+AR Path="/55E89CE4/5BA91748" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 2205 1620 50  0001 C CNN
+F 1 "GND" H 2210 1697 50  0000 C CNN
+F 2 "" H 2205 1870 50  0001 C CNN
+F 3 "" H 2205 1870 50  0001 C CNN
+	1    2205 1870
+	1    0    0    -1  
+$EndComp
+$Comp
+L ciaa-z3r0:R_Small R?
+U 1 1 5BA91754
+P 2205 1170
+AR Path="/55D9F413/5BA659DB/5BA91754" Ref="R?"  Part="1" 
+AR Path="/55E89CE4/5BA91754" Ref="R8"  Part="1" 
+F 0 "R8" V 2055 1170 50  0000 C CNN
+F 1 "1K" V 2130 1170 50  0000 C CNN
+F 2 "footprints:R_0603" H 2205 1170 50  0001 C CNN
+F 3 "" H 2205 1170 50  0001 C CNN
+	1    2205 1170
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1330 1440 1230 1440
+Wire Wire Line
+	1105 1840 1105 1865
+Wire Wire Line
+	1230 1740 1230 1865
+Wire Wire Line
+	1230 1865 1105 1865
+Connection ~ 1105 1865
+Wire Wire Line
+	1230 1315 1230 1440
+Wire Wire Line
+	1230 1115 1230 1040
+Wire Wire Line
+	2205 1795 2205 1870
+Wire Wire Line
+	2205 1070 2205 995 
+Wire Wire Line
+	2205 1395 2205 1270
+Wire Wire Line
+	1105 1865 1105 1915
+Text Label 8250 4920 0    40   ~ 0
+PC4
+Text Label 8250 5520 0    40   ~ 0
+PB8
+Text Label 8250 5920 0    40   ~ 0
+PB13
+Text Label 8245 4730 0    40   ~ 0
+PC8
+Text Label 2305 1395 0    40   ~ 0
+PC9
+$Comp
+L Arduino_Uno_R3_From_Scratch:3V3_LDO #PWR038
+U 1 1 5BA9AE59
+P 2205 995
+F 0 "#PWR038" H 2205 955 30  0001 C CNN
+F 1 "3V3_LDO" H 2214 1133 30  0000 C CNN
+F 2 "" H 2205 995 60  0000 C CNN
+F 3 "" H 2205 995 60  0000 C CNN
+	1    2205 995 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_Uno_R3_From_Scratch:3V3_LDO #PWR037
+U 1 1 5BA9B0CC
+P 1230 1040
+F 0 "#PWR037" H 1230 1000 30  0001 C CNN
+F 1 "3V3_LDO" H 1239 1178 30  0000 C CNN
+F 2 "" H 1230 1040 60  0000 C CNN
+F 3 "" H 1230 1040 60  0000 C CNN
+	1    1230 1040
+	1    0    0    -1  
+$EndComp
+Text Label 8325 1055 0    40   ~ 0
+nRESET
+Wire Wire Line
+	8325 1055 9350 1055
+NoConn ~ 3650 2650
+NoConn ~ 3750 2650
+NoConn ~ 4050 2650
+NoConn ~ 4150 2650
+NoConn ~ 4250 2650
+NoConn ~ 2650 3450
+NoConn ~ 2650 3550
+NoConn ~ 2650 3650
+NoConn ~ 3850 5350
+NoConn ~ 4250 5350
+NoConn ~ 5350 3850
+$Comp
+L Mechanical:MountingHole F1
+U 1 1 5BBE0C63
+P 1790 5155
+F 0 "F1" H 1890 5201 50  0000 L CNN
+F 1 "Fiducial" H 1890 5110 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 1790 5155 50  0001 C CNN
+F 3 "~" H 1790 5155 50  0001 C CNN
+	1    1790 5155
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole F2
+U 1 1 5BBE0D63
+P 1790 5535
+F 0 "F2" H 1890 5581 50  0000 L CNN
+F 1 "Fiducial" H 1890 5490 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 1790 5535 50  0001 C CNN
+F 3 "~" H 1790 5535 50  0001 C CNN
+	1    1790 5535
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole F3
+U 1 1 5BBE0E5E
+P 1790 5895
+F 0 "F3" H 1890 5941 50  0000 L CNN
+F 1 "Fiducial" H 1890 5850 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 1790 5895 50  0001 C CNN
+F 3 "~" H 1790 5895 50  0001 C CNN
+	1    1790 5895
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2305 1395 2205 1395
+Connection ~ 2205 1395
+Wire Wire Line
+	1105 1440 1230 1440
+Wire Wire Line
+	1230 1440 1230 1540
+Connection ~ 1230 1440
+$Comp
+L ciaa-z3r0:GND #PWR?
+U 1 1 5BF5F8A1
+P 5575 7015
+AR Path="/55D9F413/5BA659DB/5BF5F8A1" Ref="#PWR?"  Part="1" 
+AR Path="/55E89CE4/5BF5F8A1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5575 6765 50  0001 C CNN
+F 1 "GND" H 5580 6842 50  0000 C CNN
+F 2 "" H 5575 7015 50  0001 C CNN
+F 3 "" H 5575 7015 50  0001 C CNN
+	1    5575 7015
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_Uno_R3_From_Scratch:3V3_LDO #PWR?
+U 1 1 5BF61F47
+P 5540 6730
+F 0 "#PWR?" H 5540 6690 30  0001 C CNN
+F 1 "3V3_LDO" V 5549 6838 30  0000 L CNN
+F 2 "" H 5540 6730 60  0000 C CNN
+F 3 "" H 5540 6730 60  0000 C CNN
+	1    5540 6730
+	0    -1   -1   0   
+$EndComp
+Text Label 5730 6730 0    60   ~ 0
+3v3_LDO
+Text Label 5735 6920 0    60   ~ 0
+GND
+Wire Wire Line
+	5540 6730 5730 6730
+NoConn ~ 5730 6730
+Wire Wire Line
+	5575 7015 5575 6920
+Wire Wire Line
+	5575 6920 5735 6920
+NoConn ~ 5735 6920
+$Comp
+L Arduino_Uno_R3_From_Scratch:USBVCC #PWR?
+U 1 1 5BF883B2
+P 5530 6525
+F 0 "#PWR?" H 5530 6615 20  0001 C CNN
+F 1 "USBVCC" V 5600 6660 30  0000 C CNN
+F 2 "" H 5530 6525 60  0000 C CNN
+F 3 "" H 5530 6525 60  0000 C CNN
+	1    5530 6525
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5530 6525 5725 6525
+NoConn ~ 5725 6525
+Text Label 5725 6525 0    60   ~ 0
+USB_VCC
+Text Label 5350 4250 0    60   ~ 0
+3v3_LDO
+Text Label 5350 3750 0    60   ~ 0
+USB_VCC
+Wire Wire Line
+	6320 3635 6320 3705
+Text Label 4450 5350 3    60   ~ 0
+3v3_LDO
+Text Label 4350 5350 3    60   ~ 0
+3v3_LDO
+Wire Wire Line
+	5085 5460 5085 5580
+$Comp
+L Arduino_Uno_R3_From_Scratch:3V3_LDO #PWR?
+U 1 1 5BFF548C
+P 4730 5465
+F 0 "#PWR?" H 4730 5425 30  0001 C CNN
+F 1 "3V3_LDO" H 4739 5603 30  0000 C CNN
+F 2 "" H 4730 5465 60  0000 C CNN
+F 3 "" H 4730 5465 60  0000 C CNN
+	1    4730 5465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4730 5465 4730 5585
+Wire Wire Line
+	4730 5815 4730 5785
+Text Label 4050 5350 3    60   ~ 0
+3v3_LDO
+Text Label 3950 5350 3    60   ~ 0
+GND
+Text Label 2650 3750 2    60   ~ 0
+3v3_LDO
+Text Label 2650 3850 2    60   ~ 0
+GND
+Text Label 3950 2650 1    60   ~ 0
+3v3_LDO
+Text Label 3850 2650 1    60   ~ 0
+GND
+$Comp
+L ciaa-z3r0:GND #PWR?
+U 1 1 5C018B24
+P 2035 4145
+AR Path="/55D9F413/5BA659DB/5C018B24" Ref="#PWR?"  Part="1" 
+AR Path="/55E89CE4/5C018B24" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2035 3895 50  0001 C CNN
+F 1 "GND" H 2040 3972 50  0000 C CNN
+F 2 "" H 2035 4145 50  0001 C CNN
+F 3 "" H 2035 4145 50  0001 C CNN
+	1    2035 4145
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_Uno_R3_From_Scratch:3V3_LDO #PWR?
+U 1 1 5C018B2A
+P 2035 3830
+F 0 "#PWR?" H 2035 3790 30  0001 C CNN
+F 1 "3V3_LDO" H 1960 3955 30  0000 L CNN
+F 2 "" H 2035 3830 60  0000 C CNN
+F 3 "" H 2035 3830 60  0000 C CNN
+	1    2035 3830
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2035 3830 2035 3890
+Wire Wire Line
+	2035 4145 2035 4090
+$Comp
+L ciaa-z3r0:GND #PWR?
+U 1 1 5C021E95
+P 3895 1960
+AR Path="/55D9F413/5BA659DB/5C021E95" Ref="#PWR?"  Part="1" 
+AR Path="/55E89CE4/5C021E95" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3895 1710 50  0001 C CNN
+F 1 "GND" H 3900 1787 50  0000 C CNN
+F 2 "" H 3895 1960 50  0001 C CNN
+F 3 "" H 3895 1960 50  0001 C CNN
+	1    3895 1960
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_Uno_R3_From_Scratch:3V3_LDO #PWR?
+U 1 1 5C021E9B
+P 3895 1645
+F 0 "#PWR?" H 3895 1605 30  0001 C CNN
+F 1 "3V3_LDO" H 3820 1770 30  0000 L CNN
+F 2 "" H 3895 1645 60  0000 C CNN
+F 3 "" H 3895 1645 60  0000 C CNN
+	1    3895 1645
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3895 1645 3895 1705
+Wire Wire Line
+	3895 1960 3895 1905
+$Comp
+L ciaa-z3r0:GND #PWR?
+U 1 1 5C023BB8
+P 6305 4620
+AR Path="/55D9F413/5BA659DB/5C023BB8" Ref="#PWR?"  Part="1" 
+AR Path="/55E89CE4/5C023BB8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6305 4370 50  0001 C CNN
+F 1 "GND" H 6305 4475 50  0000 C CNN
+F 2 "" H 6305 4620 50  0001 C CNN
+F 3 "" H 6305 4620 50  0001 C CNN
+	1    6305 4620
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_Uno_R3_From_Scratch:3V3_LDO #PWR?
+U 1 1 5C023BBE
+P 6305 4305
+F 0 "#PWR?" H 6305 4265 30  0001 C CNN
+F 1 "3V3_LDO" H 6230 4430 30  0000 L CNN
+F 2 "" H 6305 4305 60  0000 C CNN
+F 3 "" H 6305 4305 60  0000 C CNN
+	1    6305 4305
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6305 4305 6305 4365
+Wire Wire Line
+	6305 4620 6305 4565
+$Comp
+L ciaa-z3r0:GND #PWR?
+U 1 1 5C0250C2
+P 6665 4620
+AR Path="/55D9F413/5BA659DB/5C0250C2" Ref="#PWR?"  Part="1" 
+AR Path="/55E89CE4/5C0250C2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6665 4370 50  0001 C CNN
+F 1 "GND" H 6670 4475 50  0000 C CNN
+F 2 "" H 6665 4620 50  0001 C CNN
+F 3 "" H 6665 4620 50  0001 C CNN
+	1    6665 4620
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_Uno_R3_From_Scratch:3V3_LDO #PWR?
+U 1 1 5C0250C8
+P 6665 4305
+F 0 "#PWR?" H 6665 4265 30  0001 C CNN
+F 1 "3V3_LDO" H 6590 4430 30  0000 L CNN
+F 2 "" H 6665 4305 60  0000 C CNN
+F 3 "" H 6665 4305 60  0000 C CNN
+	1    6665 4305
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6665 4305 6665 4365
+Wire Wire Line
+	6665 4620 6665 4565
+Wire Wire Line
+	5350 3650 5950 3650
+Wire Wire Line
+	5950 3650 5950 3705
+Wire Wire Line
+	5350 4150 5950 4150
+Wire Wire Line
+	5950 4150 5950 4370
+Wire Wire Line
+	5950 4570 5950 4620
+Text Label 3225 7000 2    60   ~ 0
+GND
+Text Notes 10510 3680 1    138  ~ 0
+ANALOG INPUT
+Text Notes 10515 6035 1    138  ~ 0
+DIGITAL PINS / PWM
+Wire Notes Line
+	10065 2275 10190 2405
+Wire Notes Line
+	10190 2405 10190 2845
+Wire Notes Line
+	10190 2845 10240 2870
+Wire Notes Line
+	10240 2870 10190 2895
+Wire Notes Line
+	10190 2895 10190 3395
+Wire Notes Line
+	10190 3395 10065 3500
+Wire Notes Line
+	10070 3600 10195 3730
+Wire Notes Line
+	10190 4895 10240 4920
+Wire Notes Line
+	10240 4920 10190 4945
+Wire Notes Line
+	10205 6295 10080 6400
+Wire Notes Line
+	10190 4895 10195 3730
+Wire Notes Line
+	10190 4945 10205 6290
+Text Notes 10490 1990 1    138  ~ 0
+USB
+Wire Notes Line
+	10050 1560 10175 1690
+Wire Notes Line
+	10175 1740 10225 1765
+Wire Notes Line
+	10225 1765 10175 1790
+Wire Notes Line
+	10175 1850 10050 1955
+Wire Notes Line
+	10175 1790 10175 1845
+Wire Notes Line
+	10175 1740 10175 1690
+$EndSCHEMATC

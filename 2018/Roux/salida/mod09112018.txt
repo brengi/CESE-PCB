@@ -1,0 +1,270 @@
+Info: Processing component "J405:/5B3D4A05/5BE7FDAB:Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical".
+
+Info: Processing component "C202:/5B3D187B/5BE8F5C4:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C301:/5B9DAB38/5B9F0BDD:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C302:/5B9DAB38/5BAE49F4:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C303:/5B9DAB38/5BCE020F:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C305:/5B9DAB38/5BC34E82:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C306:/5B9DAB38/5BC34EDA:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C102:/5B3826CA/5B383125:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C411:/5B3D4A05/5B3D4F8C:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C401:/5B3D4A05/5B42231C:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C307:/5B9DAB38/5BC34F18:Capacitor_THT:CP_Radial_D5.0mm_P2.50mm".
+
+Info: Processing component "C308:/5B9DAB38/5BC34FB2:Capacitor_THT:CP_Radial_D5.0mm_P2.50mm".
+
+Info: Processing component "C304:/5B9DAB38/5BC34DFA:Capacitor_THT:CP_Radial_D5.0mm_P2.50mm".
+
+Info: Processing component "J403:/5B3D4A05/5B421B08:Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical".
+
+Info: Processing component "J402:/5B3D4A05/5B41719D:Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical".
+
+Info: Processing component "J401:/5B3D4A05/5B416E44:Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical".
+
+Info: Processing component "C420:/5B3D4A05/5B455C2E:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "J404:/5B3D4A05/5BE44EB4:Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical".
+
+Info: Processing component "J406:/5B3D4A05/5BE88683:Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical".
+
+Info: Processing component "J101:/5B3826CA/5BC24F14:Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical".
+
+Info: Replacing symbol "J303:/5B9DAB38/5BAF1C86" footprint "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical" with "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical".
+
+Info: Processing component "J303:/5B9DAB38/5BAF1C86:Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical".
+
+Info: Replacing symbol "J302:/5B9DAB38/5BA01F94" footprint "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" with "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical".
+
+Info: Processing component "J302:/5B9DAB38/5BA01F94:Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical".
+
+Info: Processing component "J301:/5B9DAB38/5BAE3529:Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal".
+
+Info: Processing component "D302:/5B9DAB38/5BC4D3CD:Diode_SMD:D_SMB-SMC_Universal_Handsoldering".
+
+Info: Processing component "D301:/5B9DAB38/5BCCF0A2:Diode_SMD:D_SMB-SMC_Universal_Handsoldering".
+
+Info: Processing component "L101:/5B3826CA/5BBF9F99:Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "J1:/5B33BAF7:meport_kicad_libs:microSD_3020-901-0001-ACH-ELECTRONICS".
+
+Info: Processing component "L301:/5B9DAB38/5BD9F433:Inductor_THT:L_Radial_D8.7mm_P5.00mm_Fastron_07HCP".
+
+Info: Processing component "D101:/5B3826CA/5B383147:LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "D102:/5B3826CA/5B383155:LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C416:/5B3D4A05/5B4401CB:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C404:/5B3D4A05/5B3D4FB0:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C405:/5B3D4A05/5B4562C2:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C406:/5B3D4A05/5B4565D8:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C407:/5B3D4A05/5B456530:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C408:/5B3D4A05/5B456726:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C409:/5B3D4A05/5B424105:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C410:/5B3D4A05/5B415E52:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C402:/5B3D4A05/5B3D4F9E:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C201:/5B3D187B/5BE8F574:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Changing symbol "C413:/5B3D4A05/5B45552B" pin "2" net name from "/ADS1292_esquematico/SENS2N" to "/ADS1292_esquematico/SENS2P".
+
+Info: Processing component "C413:/5B3D4A05/5B45552B:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Changing symbol "C414:/5B3D4A05/5B455C04" pin "2" net name from "/ADS1292_esquematico/SENS3N" to "/ADS1292_esquematico/SENS3P".
+
+Info: Processing component "C414:/5B3D4A05/5B455C04:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C415:/5B3D4A05/5B43F81E:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Changing symbol "C416:/5B3D4A05/5B4401CB" pin "1" net name from "/ADS1292_esquematico/SENS1N" to "/ADS1292_esquematico/SENS1P".
+
+Info: Processing component "L302:/5B9DAB38/5BD9F38A:Inductor_THT:L_Radial_D8.7mm_P5.00mm_Fastron_07HCP".
+
+Info: Processing component "C417:/5B3D4A05/5B455543:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Changing symbol "C418:/5B3D4A05/5B455555" pin "1" net name from "/ADS1292_esquematico/SENS2N" to "/ADS1292_esquematico/SENS2P".
+
+Info: Processing component "C418:/5B3D4A05/5B455555:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C403:/5B3D4A05/5B3D4FA7:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C419:/5B3D4A05/5B455C1C:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Changing symbol "C412:/5B3D4A05/5B43F2AB" pin "2" net name from "/ADS1292_esquematico/SENS1N" to "/ADS1292_esquematico/SENS1P".
+
+Info: Processing component "C412:/5B3D4A05/5B43F2AB:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C101:/5B3826CA/5B383117:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C103:/5B3826CA/5BBFC431:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C104:/5B3826CA/5BBFC3A7:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C105:/5B3826CA/5B38311E:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C106:/5B3826CA/5B38312C:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C107:/5B3826CA/5BBFC32D:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "C108:/5B3826CA/5BBFC5F5:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Changing symbol "C420:/5B3D4A05/5B455C2E" pin "1" net name from "/ADS1292_esquematico/SENS3N" to "/ADS1292_esquematico/SENS3P".
+
+Info: Processing component "R203:/5B3D187B/5B3D222C:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R306:/5B9DAB38/5BC35474:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R307:/5B9DAB38/5BC355AC:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R308:/5B9DAB38/5BC3560A:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R208:/5B3D187B/5BEA447B:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R207:/5B3D187B/5BEA3A88:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R402:/5B3D4A05/5B423FD2:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R205:/5B3D187B/5BE93E00:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R204:/5B3D187B/5BE93EA4:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R305:/5B9DAB38/5BC35500:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R202:/5B3D187B/5B3D2225:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R201:/5B3D187B/5BE93DA2:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R105:/5B3826CA/5B38315C:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R103:/5B3826CA/5BBFC68E:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R403:/5B3D4A05/5B422C1C:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "U303:/5B9DAB38/5BC34D77:Package_SO:SO-8_5.3x6.2mm_P1.27mm".
+
+Info: Processing component "R104:/5B3826CA/5B38314E:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R102:/5B3826CA/5B38313A:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R304:/5B9DAB38/5BC35392:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R303:/5B9DAB38/5BCF71FC:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R206:/5B3D187B/5BE9E58D:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R301:/5B9DAB38/5B9F0B88:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R209:/5B3D187B/5B3D2D6F:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R302:/5B9DAB38/5BB133EA:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R401:/5B3D4A05/5B42407E:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "J201:/5B3D187B/5BDCF4D0:TerminalBlock:TerminalBlock_bornier-2_P5.08mm".
+
+Info: Processing component "J304:/5B9DAB38/5BDFE4B3:TerminalBlock:TerminalBlock_bornier-2_P5.08mm".
+
+Info: Processing component "FB101:/5B3826CA/5BD41945:digikey-footprints:0805".
+
+Info: Processing component "U101:/5B3826CA/5B383109:digikey-footprints:SOT-23-3".
+
+Info: Processing component "U102:/5B3826CA/5B3830F9:digikey-footprints:SOT-23-3".
+
+Info: Processing component "U1:/5B343F3C:meport_kicad_libs:LPCXpresso1769".
+
+Info: Processing component "U401:/5B3D4A05/5B3D4F42:meport_kicad_libs:PQFP-G32_7x7mm_P0.5mm".
+
+Info: Processing component "U301:/5B9DAB38/5BDBF51B:meport_kicad_libs:Texas_R-PWSON-N10".
+
+Info: Processing component "R404:/5B3D4A05/5B4163B5:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R413:/5B3D4A05/5B455C0A:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R412:/5B3D4A05/5B455583:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R410:/5B3D4A05/5B454B45:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R409:/5B3D4A05/5B43F335:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R408:/5B3D4A05/5BE88696:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R407:/5B3D4A05/5BE7FDBE:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R406:/5B3D4A05/5BE70523:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R405:/5B3D4A05/5B4544E5:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R411:/5B3D4A05/5B455531:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R101:/5B3826CA/5B383133:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "U404:/5B3D4A05/5BE8867C:Package_TO_SOT_THT:TO-92_Inline_Wide".
+
+Info: Processing component "U402:/5B3D4A05/5BE3D365:Package_TO_SOT_THT:TO-92_Inline_Wide".
+
+Info: Processing component "U403:/5B3D4A05/5BE7FDA4:Package_TO_SOT_THT:TO-92_Inline_Wide".
+
+Info: Processing component "U302:/5B9DAB38/5BCCEE8C:Package_TO_SOT_SMD:TSOT-23-5_HandSoldering".
+
+Info: Processing component "U103:/5B3826CA/5BBF90D3:Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias".
+
+Info: Processing component "U201:/5B3D187B/5B3D221E:Package_SO:SO-8_5.3x6.2mm_P1.27mm".
+
+Info: Processing component "R414:/5B3D4A05/5B455C5C:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R415:/5B3D4A05/5B43F4A7:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Changing symbol "R416:/5B3D4A05/5B454AD0" pin "1" net name from "/ADS1292_esquematico/SENS1N" to "/ADS1292_esquematico/SENS1P".
+
+Info: Processing component "R420:/5B3D4A05/5B455C56:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Changing symbol "R420:/5B3D4A05/5B455C56" pin "1" net name from "/ADS1292_esquematico/SENS3N" to "/ADS1292_esquematico/SENS3P".
+
+Info: Processing component "R419:/5B3D4A05/5B455C16:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R416:/5B3D4A05/5B454AD0:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R418:/5B3D4A05/5B45557D:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Processing component "R417:/5B3D4A05/5B45553D:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+
+Info: Changing symbol "R418:/5B3D4A05/5B45557D" pin "1" net name from "/ADS1292_esquematico/SENS2N" to "/ADS1292_esquematico/SENS2P".
+
+Reconnect symbol C420 pin 1 from net /ADS1292_esquematico/SENS3N to net /ADS1292_esquematico/SENS3P.
+
+Reconnect symbol C418 pin 1 from net /ADS1292_esquematico/SENS2N to net /ADS1292_esquematico/SENS2P.
+
+Reconnect symbol R420 pin 1 from net /ADS1292_esquematico/SENS3N to net /ADS1292_esquematico/SENS3P.
+
+Reconnect symbol R418 pin 1 from net /ADS1292_esquematico/SENS2N to net /ADS1292_esquematico/SENS2P.
+
+Change symbol J302 footprint from Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical to Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical.
+
+Reconnect symbol C413 pin 2 from net /ADS1292_esquematico/SENS2N to net /ADS1292_esquematico/SENS2P.
+
+Change symbol J303 footprint from Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical to Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical.
+
+Reconnect symbol C414 pin 2 from net /ADS1292_esquematico/SENS3N to net /ADS1292_esquematico/SENS3P.
+
+Reconnect symbol C412 pin 2 from net /ADS1292_esquematico/SENS1N to net /ADS1292_esquematico/SENS1P.
+
+Reconnect symbol R416 pin 1 from net /ADS1292_esquematico/SENS1N to net /ADS1292_esquematico/SENS1P.
+
+Reconnect symbol C416 pin 1 from net /ADS1292_esquematico/SENS1N to net /ADS1292_esquematico/SENS1P.
+

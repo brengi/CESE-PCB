@@ -1,0 +1,617 @@
+EESchema Schematic File Version 4
+LIBS:Poncho_Alarma-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title "Entradas"
+Date "2018-10-27"
+Rev "1.0"
+Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
+Comment1 "https://github.com/turcoale/CESE18_PCB_Amid_Ale.git"
+Comment2 "Basado en diseños anteriores: Diego Brengi - Jorge Osio - Mariano Bustos"
+Comment3 "Autor: Amid Ale"
+Comment4 "CÓDIGO PONCHO: ALARMA"
+$EndDescr
+$Comp
+L Poncho_Alarma-rescue:TLP627-4-EESTN5 U1
+U 2 1 5BD2D65A
+P 4800 2100
+F 0 "U1" H 4800 2515 50  0000 C CNN
+F 1 "TLP627-4" H 4800 2424 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 4800 2333 50  0001 C CIN
+F 3 "" H 4800 2100 50  0000 L CNN
+	2    4800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small_ALT D6
+U 1 1 5BD2D661
+P 5650 1600
+F 0 "D6" V 5696 1532 50  0000 R CNN
+F 1 "LED_Rojo" V 5550 1600 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" V 5650 1600 50  0001 C CNN
+F 3 "~" V 5650 1600 50  0001 C CNN
+	1    5650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R16
+U 1 1 5BD2D668
+P 6150 1600
+F 0 "R16" V 5954 1600 50  0000 C CNN
+F 1 "2.2K" V 6045 1600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6150 1600 50  0001 C CNN
+F 3 "~" H 6150 1600 50  0001 C CNN
+	1    6150 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R17
+U 1 1 5BD2D66F
+P 6150 2000
+F 0 "R17" V 5954 2000 50  0000 C CNN
+F 1 "100K" V 6045 2000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6150 2000 50  0001 C CNN
+F 3 "~" H 6150 2000 50  0001 C CNN
+	1    6150 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 1600 6450 1600
+Wire Wire Line
+	6450 2000 6250 2000
+Wire Wire Line
+	5750 1600 6050 1600
+Wire Wire Line
+	5200 2000 5300 2000
+Wire Wire Line
+	5550 1600 5300 1600
+Wire Wire Line
+	5300 1600 5300 2000
+Connection ~ 5300 2000
+Wire Wire Line
+	5300 2000 6050 2000
+$Comp
+L power:GND #PWR0112
+U 1 1 5BD2D67F
+P 5200 2350
+F 0 "#PWR0112" H 5200 2100 50  0001 C CNN
+F 1 "GND" H 5205 2177 50  0000 C CNN
+F 2 "" H 5200 2350 50  0001 C CNN
+F 3 "" H 5200 2350 50  0001 C CNN
+	1    5200 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5BD2D686
+P 4300 2300
+F 0 "#PWR0113" H 4300 2050 50  0001 C CNN
+F 1 "GND" H 4305 2127 50  0000 C CNN
+F 2 "" H 4300 2300 50  0001 C CNN
+F 3 "" H 4300 2300 50  0001 C CNN
+	1    4300 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2300 4300 2200
+Wire Wire Line
+	4300 2200 4400 2200
+Wire Wire Line
+	3900 2000 4400 2000
+Wire Wire Line
+	3900 2300 4300 2300
+Connection ~ 3900 2300
+$Comp
+L Device:R_Small R7
+U 1 1 5BD2D691
+P 3650 2000
+F 0 "R7" V 3846 2000 50  0000 C CNN
+F 1 "R_Small3.3K" V 3755 2000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3650 2000 50  0001 C CNN
+F 3 "~" H 3650 2000 50  0001 C CNN
+	1    3650 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 2250 3900 2300
+$Comp
+L Device:R_Small R11
+U 1 1 5BD2D699
+P 3900 2150
+F 0 "R11" H 3841 2104 50  0000 R CNN
+F 1 "4.7K" H 3841 2195 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3900 2150 50  0001 C CNN
+F 3 "~" H 3900 2150 50  0001 C CNN
+	1    3900 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 2050 3900 2000
+Wire Wire Line
+	3750 2000 3900 2000
+Connection ~ 3900 2000
+$Comp
+L Poncho_Alarma-rescue:TLP627-4-EESTN5 U1
+U 3 1 5BD2D902
+P 4800 3100
+F 0 "U1" H 4800 3515 50  0000 C CNN
+F 1 "TLP627-4" H 4800 3424 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 4800 3333 50  0001 C CIN
+F 3 "" H 4800 3100 50  0000 L CNN
+	3    4800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small_ALT D7
+U 1 1 5BD2D909
+P 5650 2600
+F 0 "D7" V 5696 2532 50  0000 R CNN
+F 1 "LED_Rojo" V 5550 2600 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" V 5650 2600 50  0001 C CNN
+F 3 "~" V 5650 2600 50  0001 C CNN
+	1    5650 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R18
+U 1 1 5BD2D910
+P 6150 2600
+F 0 "R18" V 5954 2600 50  0000 C CNN
+F 1 "2.2K" V 6045 2600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6150 2600 50  0001 C CNN
+F 3 "~" H 6150 2600 50  0001 C CNN
+	1    6150 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R19
+U 1 1 5BD2D917
+P 6150 3000
+F 0 "R19" V 5954 3000 50  0000 C CNN
+F 1 "100K" V 6045 3000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6150 3000 50  0001 C CNN
+F 3 "~" H 6150 3000 50  0001 C CNN
+	1    6150 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 2600 6050 2600
+Wire Wire Line
+	5200 3000 5300 3000
+Wire Wire Line
+	5550 2600 5300 2600
+Wire Wire Line
+	5300 2600 5300 3000
+Connection ~ 5300 3000
+Wire Wire Line
+	5300 3000 6050 3000
+$Comp
+L power:GND #PWR0114
+U 1 1 5BD2D927
+P 5200 3300
+F 0 "#PWR0114" H 5200 3050 50  0001 C CNN
+F 1 "GND" H 5205 3127 50  0000 C CNN
+F 2 "" H 5200 3300 50  0001 C CNN
+F 3 "" H 5200 3300 50  0001 C CNN
+	1    5200 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3200 5200 3300
+$Comp
+L power:GND #PWR0115
+U 1 1 5BD2D92E
+P 3900 3550
+F 0 "#PWR0115" H 3900 3300 50  0001 C CNN
+F 1 "GND" H 3905 3377 50  0000 C CNN
+F 2 "" H 3900 3550 50  0001 C CNN
+F 3 "" H 3900 3550 50  0001 C CNN
+	1    3900 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3200 4400 3200
+Wire Wire Line
+	3900 3000 4400 3000
+$Comp
+L Device:R_Small R8
+U 1 1 5BD2D939
+P 3650 3000
+F 0 "R8" V 3846 3000 50  0000 C CNN
+F 1 "R_Small3.3K" V 3755 3000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3650 3000 50  0001 C CNN
+F 3 "~" H 3650 3000 50  0001 C CNN
+	1    3650 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R12
+U 1 1 5BD2D941
+P 3900 3150
+F 0 "R12" H 3841 3104 50  0000 R CNN
+F 1 "4.7K" H 3841 3195 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3900 3150 50  0001 C CNN
+F 3 "~" H 3900 3150 50  0001 C CNN
+	1    3900 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 3050 3900 3000
+Wire Wire Line
+	3750 3000 3900 3000
+Connection ~ 3900 3000
+$Comp
+L Poncho_Alarma-rescue:TLP627-4-EESTN5 U1
+U 4 1 5BD2E01F
+P 4800 4200
+F 0 "U1" H 4800 4615 50  0000 C CNN
+F 1 "TLP627-4" H 4800 4524 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 4800 4433 50  0001 C CIN
+F 3 "" H 4800 4200 50  0000 L CNN
+	4    4800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small_ALT D8
+U 1 1 5BD2E026
+P 5650 3700
+F 0 "D8" V 5696 3632 50  0000 R CNN
+F 1 "LED_Rojo" V 5550 3700 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" V 5650 3700 50  0001 C CNN
+F 3 "~" V 5650 3700 50  0001 C CNN
+	1    5650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R20
+U 1 1 5BD2E02D
+P 6150 3700
+F 0 "R20" V 5954 3700 50  0000 C CNN
+F 1 "2.2K" V 6045 3700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6150 3700 50  0001 C CNN
+F 3 "~" H 6150 3700 50  0001 C CNN
+	1    6150 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R21
+U 1 1 5BD2E034
+P 6150 4100
+F 0 "R21" V 5954 4100 50  0000 C CNN
+F 1 "100K" V 6045 4100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6150 4100 50  0001 C CNN
+F 3 "~" H 6150 4100 50  0001 C CNN
+	1    6150 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 3700 6450 3700
+Wire Wire Line
+	6450 4100 6250 4100
+Wire Wire Line
+	5750 3700 6050 3700
+Wire Wire Line
+	5200 4100 5300 4100
+Wire Wire Line
+	5550 3700 5300 3700
+Wire Wire Line
+	5300 3700 5300 4100
+Connection ~ 5300 4100
+Wire Wire Line
+	5300 4100 6050 4100
+Wire Wire Line
+	5200 4300 5200 4400
+Wire Wire Line
+	3900 4100 4400 4100
+$Comp
+L Device:R_Small R9
+U 1 1 5BD2E056
+P 3650 4100
+F 0 "R9" V 3846 4100 50  0000 C CNN
+F 1 "R_Small3.3K" V 3755 4100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3650 4100 50  0001 C CNN
+F 3 "~" H 3650 4100 50  0001 C CNN
+	1    3650 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R13
+U 1 1 5BD2E05E
+P 3900 4250
+F 0 "R13" H 3841 4204 50  0000 R CNN
+F 1 "4.7K" H 3841 4295 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3900 4250 50  0001 C CNN
+F 3 "~" H 3900 4250 50  0001 C CNN
+	1    3900 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 4150 3900 4100
+Wire Wire Line
+	3750 4100 3900 4100
+Connection ~ 3900 4100
+$Comp
+L Poncho_Alarma-rescue:TLP627-4-EESTN5 U1
+U 1 1 5BD2ECB8
+P 4750 5250
+F 0 "U1" H 4750 5665 50  0000 C CNN
+F 1 "TLP627-4" H 4750 5574 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 4750 5483 50  0001 C CIN
+F 3 "" H 4750 5250 50  0000 L CNN
+	1    4750 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small_ALT D5
+U 1 1 5BD2ECBF
+P 5600 4750
+F 0 "D5" V 5646 4682 50  0000 R CNN
+F 1 "LED_Rojo" V 5500 4750 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" V 5600 4750 50  0001 C CNN
+F 3 "~" V 5600 4750 50  0001 C CNN
+	1    5600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R14
+U 1 1 5BD2ECC6
+P 6100 4750
+F 0 "R14" V 5904 4750 50  0000 C CNN
+F 1 "2.2K" V 5995 4750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6100 4750 50  0001 C CNN
+F 3 "~" H 6100 4750 50  0001 C CNN
+	1    6100 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R15
+U 1 1 5BD2ECCD
+P 6100 5150
+F 0 "R15" V 5904 5150 50  0000 C CNN
+F 1 "100K" V 5995 5150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6100 5150 50  0001 C CNN
+F 3 "~" H 6100 5150 50  0001 C CNN
+	1    6100 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 4750 6000 4750
+Wire Wire Line
+	5150 5150 5250 5150
+Wire Wire Line
+	5500 4750 5250 4750
+Wire Wire Line
+	5250 4750 5250 5150
+Connection ~ 5250 5150
+Wire Wire Line
+	5250 5150 6000 5150
+$Comp
+L power:GND #PWR0119
+U 1 1 5BD2ECE4
+P 3850 5550
+F 0 "#PWR0119" H 3850 5300 50  0001 C CNN
+F 1 "GND" H 3855 5377 50  0000 C CNN
+F 2 "" H 3850 5550 50  0001 C CNN
+F 3 "" H 3850 5550 50  0001 C CNN
+	1    3850 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 5150 4350 5150
+$Comp
+L Device:R_Small R6
+U 1 1 5BD2ECEF
+P 3600 5150
+F 0 "R6" V 3796 5150 50  0000 C CNN
+F 1 "R_Small3.3K" V 3705 5150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3600 5150 50  0001 C CNN
+F 3 "~" H 3600 5150 50  0001 C CNN
+	1    3600 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 5BD2ECF7
+P 3850 5300
+F 0 "R10" H 3791 5254 50  0000 R CNN
+F 1 "4.7K" H 3791 5345 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3850 5300 50  0001 C CNN
+F 3 "~" H 3850 5300 50  0001 C CNN
+	1    3850 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 5200 3850 5150
+Wire Wire Line
+	3700 5150 3850 5150
+Connection ~ 3850 5150
+Text HLabel 3550 2000 0    50   Input ~ 0
+In_1
+Text HLabel 3550 3000 0    50   Input ~ 0
+In_2
+Text HLabel 3550 4100 0    50   Input ~ 0
+In_3
+Text HLabel 3500 5150 0    50   Input ~ 0
+In_4
+$Comp
+L power:GND #PWR0117
+U 1 1 5BD2E04B
+P 3900 4500
+F 0 "#PWR0117" H 3900 4250 50  0001 C CNN
+F 1 "GND" H 3905 4327 50  0000 C CNN
+F 2 "" H 3900 4500 50  0001 C CNN
+F 3 "" H 3900 4500 50  0001 C CNN
+	1    3900 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4300 4250 4300
+Wire Wire Line
+	3900 4400 4250 4400
+Wire Wire Line
+	4250 4300 4250 4400
+Wire Wire Line
+	4300 3200 4300 3450
+Wire Wire Line
+	5150 5350 5150 5500
+$Comp
+L power:GND #PWR0118
+U 1 1 5BDC134B
+P 5150 5500
+F 0 "#PWR0118" H 5150 5250 50  0001 C CNN
+F 1 "GND" H 5155 5327 50  0000 C CNN
+F 2 "" H 5150 5500 50  0001 C CNN
+F 3 "" H 5150 5500 50  0001 C CNN
+	1    5150 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5BDC21CB
+P 7900 3150
+F 0 "J3" H 7979 3142 50  0000 L CNN
+F 1 "Entradas" H 7979 3051 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-4_P5.08mm" H 7900 3150 50  0001 C CNN
+F 3 "~" H 7900 3150 50  0001 C CNN
+	1    7900 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2000 5300 2200
+Wire Wire Line
+	5300 2200 7700 2200
+Wire Wire Line
+	7700 2200 7700 3050
+Wire Wire Line
+	5300 3000 5300 3150
+Wire Wire Line
+	5300 3150 7700 3150
+Wire Wire Line
+	5300 4100 5300 4300
+Wire Wire Line
+	5300 4300 7150 4300
+Wire Wire Line
+	7150 4300 7150 3250
+Wire Wire Line
+	7150 3250 7700 3250
+Wire Wire Line
+	5250 5150 5250 5350
+Wire Wire Line
+	5250 5350 7700 5350
+Wire Wire Line
+	7700 5350 7700 3350
+Wire Wire Line
+	6200 4750 6400 4750
+Wire Wire Line
+	6200 5150 6400 5150
+Wire Wire Line
+	3850 5450 4350 5450
+Wire Wire Line
+	4350 5450 4350 5350
+Wire Wire Line
+	3850 5400 3850 5450
+Connection ~ 3850 5450
+Wire Wire Line
+	3850 5550 3850 5450
+Wire Wire Line
+	6300 2600 6300 2800
+Wire Wire Line
+	6250 2600 6300 2600
+Wire Wire Line
+	6300 3000 6250 3000
+Wire Wire Line
+	6450 3700 6450 3900
+Wire Wire Line
+	6400 4750 6400 4950
+$Comp
+L Poncho_Alarma-rescue:+3.3V-PonchoPLC #PWR0120
+U 1 1 5BE74C36
+P 6400 4950
+F 0 "#PWR0120" H 6400 4800 50  0001 C CNN
+F 1 "+3.3V-PonchoPLC" V 6415 5078 50  0000 L CNN
+F 2 "" H 6400 4950 60  0000 C CNN
+F 3 "" H 6400 4950 60  0000 C CNN
+	1    6400 4950
+	0    1    1    0   
+$EndComp
+Connection ~ 6400 4950
+Wire Wire Line
+	6400 4950 6400 5150
+$Comp
+L Poncho_Alarma-rescue:+3.3V-PonchoPLC #PWR0121
+U 1 1 5BE74DF3
+P 6450 3900
+F 0 "#PWR0121" H 6450 3750 50  0001 C CNN
+F 1 "+3.3V-PonchoPLC" V 6465 4028 50  0000 L CNN
+F 2 "" H 6450 3900 60  0000 C CNN
+F 3 "" H 6450 3900 60  0000 C CNN
+	1    6450 3900
+	0    1    1    0   
+$EndComp
+Connection ~ 6450 3900
+Wire Wire Line
+	6450 3900 6450 4100
+$Comp
+L Poncho_Alarma-rescue:+3.3V-PonchoPLC #PWR0122
+U 1 1 5BE75152
+P 6300 2800
+F 0 "#PWR0122" H 6300 2650 50  0001 C CNN
+F 1 "+3.3V-PonchoPLC" V 6315 2928 50  0000 L CNN
+F 2 "" H 6300 2800 60  0000 C CNN
+F 3 "" H 6300 2800 60  0000 C CNN
+	1    6300 2800
+	0    1    1    0   
+$EndComp
+Connection ~ 6300 2800
+Wire Wire Line
+	6300 2800 6300 3000
+$Comp
+L Poncho_Alarma-rescue:+3.3V-PonchoPLC #PWR0123
+U 1 1 5BE752A4
+P 6450 1800
+F 0 "#PWR0123" H 6450 1650 50  0001 C CNN
+F 1 "+3.3V-PonchoPLC" V 6465 1928 50  0000 L CNN
+F 2 "" H 6450 1800 60  0000 C CNN
+F 3 "" H 6450 1800 60  0000 C CNN
+	1    6450 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 1600 6450 1800
+Wire Wire Line
+	3900 4500 3900 4400
+Wire Wire Line
+	3900 4350 3900 4400
+Connection ~ 3900 4400
+Connection ~ 6450 1800
+Wire Wire Line
+	6450 1800 6450 2000
+Text HLabel 3250 2300 0    50   Input ~ 0
+GND
+Wire Wire Line
+	3250 2300 3900 2300
+Wire Wire Line
+	5200 2200 5200 2350
+Connection ~ 4300 2300
+Wire Wire Line
+	4300 3450 3900 3450
+Wire Wire Line
+	3900 3450 3900 3550
+Wire Wire Line
+	3900 3250 3900 3450
+Connection ~ 3900 3450
+$Comp
+L power:GND #PWR0109
+U 1 1 5BE9A5FB
+P 5200 4400
+F 0 "#PWR0109" H 5200 4150 50  0001 C CNN
+F 1 "GND" H 5205 4227 50  0000 C CNN
+F 2 "" H 5200 4400 50  0001 C CNN
+F 3 "" H 5200 4400 50  0001 C CNN
+	1    5200 4400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

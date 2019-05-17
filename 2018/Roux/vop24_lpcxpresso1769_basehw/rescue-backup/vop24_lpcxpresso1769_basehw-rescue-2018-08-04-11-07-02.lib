@@ -1,0 +1,53 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# BLM18PG121SN1D-RESCUE-vop24_lpcxpresso1769_basehw
+#
+DEF BLM18PG121SN1D-RESCUE-vop24_lpcxpresso1769_basehw FB 0 40 Y Y 1 F N
+F0 "FB" 0 200 60 H V C CNN
+F1 "BLM18PG121SN1D-RESCUE-vop24_lpcxpresso1769_basehw" 0 300 60 H V C CNN
+F2 "digikey-footprints:0603" 200 200 60 H I L CNN
+F3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" 200 300 60 H I L CNN
+F4 "490-1037-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "BLM18PG121SN1D" 200 500 60 H I L CNN "MPN"
+F6 "Filters" 200 600 60 H I L CNN "Category"
+F7 "Ferrite Beads and Chips" 200 700 60 H I L CNN "Family"
+F8 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "FERRITE BEAD 120 OHM 0603 1LN" 200 1000 60 H I L CNN "Description"
+F11 "Murata Electronics North America" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 -50 0 -100 0 N
+P 2 0 1 0 50 0 100 0 N
+P 5 0 1 0 -50 100 -100 50 50 -100 100 -50 -50 100 f
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# MCP1700T-3302E_TT-RESCUE-vop24_lpcxpresso1769_basehw
+#
+DEF MCP1700T-3302E_TT-RESCUE-vop24_lpcxpresso1769_basehw U 0 40 Y Y 1 F N
+F0 "U" 0 200 60 H V C CNN
+F1 "MCP1700T-3302E_TT-RESCUE-vop24_lpcxpresso1769_basehw" 0 300 60 H V C CNN
+F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" 200 300 60 H I L CNN
+F4 "MCP1700T3302ETTCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "MCP1700T-3302E/TT" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "PMIC - Voltage Regulators - Linear" 200 700 60 H I L CNN "Family"
+F8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/microchip-technology/MCP1700T-3302E-TT/MCP1700T3302ETTCT-ND/652677" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC REG LINEAR 3.3V 250MA SOT23-3" 200 1000 60 H I L CNN "Description"
+F11 "Microchip Technology" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -200 100 300 -200 0 1 0 f
+X GND 1 0 -400 200 U 50 50 1 1 W
+X VOUT 2 500 0 200 L 50 50 1 1 w
+X VIN 3 -400 0 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library

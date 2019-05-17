@@ -1,0 +1,10 @@
+Reglas de fabricación de SeeedStudio:
+
+1) https://www.seeedstudio.com/fusion_pcb.html
+2) http://support.seeedstudio.com/knowledgebase/articles/447362-fusion-pcb-specification
+
+
+El criterio de selección de ancho mínimo de pista de 6/6 mil es conforme a las capacidades de fabricación de SeeedStudio. Donde 6/6 mil es la tecnología más económica que ofrece de fabricación, también soporta a un mayor precio las tecnologías de 5/5 mil y 4/4 mil.
+
+Ya se han fabricado en SeeedStudio varias placas con tecnología 6/6 mil sin fallas.
+

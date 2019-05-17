@@ -1,0 +1,80 @@
+Información: Comprobando la huella del símbolo de la red "C1:/5BD8DE0B:Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder".
+
+Información: Comprobando la huella del símbolo de la red "U1:/5BD8FB55:OPA4243:OPA4243EA&slash_250".
+
+Información: Comprobando la huella del símbolo de la red "C2:/5BE1D0DF:Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder".
+
+Información: Comprobando la huella del símbolo de la red "R3:/5BD8DDE8:Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder".
+
+Información: Comprobando la huella del símbolo de la red "C3:/5BD8DDEF:Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder".
+
+Información: Comprobando la huella del símbolo de la red "R2:/5BD8DDF6:Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder".
+
+Información: Comprobando la huella del símbolo de la red "R1:/5BD8DDFD:Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder".
+
+Cambiando de la huella "R3:/5BD8DDE8" el nombre de la red del pad "2" de "" a "/Vo-".
+
+Cambiando de la huella "U1:/5BD8FB55" el nombre de la red del pad "14" de "" a "Net-(C2-Pad1)".
+
+Añadiendo del nuevo símbolo "U1:/5BD8FB55" la huella "OPA4243:OPA4243EA&slash_250".
+
+Cambiando de la huella "U1:/5BD8FB55" el nombre de la red del pad "1" de "" a "Net-(R1-Pad2)".
+
+Cambiando de la huella "U1:/5BD8FB55" el nombre de la red del pad "2" de "" a "Net-(R1-Pad2)".
+
+Cambiando de la huella "U1:/5BD8FB55" el nombre de la red del pad "3" de "" a "/Va".
+
+Cambiando de la huella "U1:/5BD8FB55" el nombre de la red del pad "4" de "" a "VCC".
+
+Cambiando de la huella "U1:/5BD8FB55" el nombre de la red del pad "5" de "" a "/Vb".
+
+Cambiando de la huella "U1:/5BD8FB55" el nombre de la red del pad "6" de "" a "/Vo+".
+
+Cambiando de la huella "U1:/5BD8FB55" el nombre de la red del pad "7" de "" a "/Vo+".
+
+Cambiando de la huella "U1:/5BD8FB55" el nombre de la red del pad "8" de "" a "/Vo-".
+
+Cambiando de la huella "U1:/5BD8FB55" el nombre de la red del pad "9" de "" a "Net-(C1-Pad1)".
+
+Cambiando de la huella "U1:/5BD8FB55" el nombre de la red del pad "10" de "" a "/Vo+".
+
+Cambiando de la huella "U1:/5BD8FB55" el nombre de la red del pad "11" de "" a "GND".
+
+Cambiando de la huella "U1:/5BD8FB55" el nombre de la red del pad "12" de "" a "/Vc".
+
+Cambiando de la huella "U1:/5BD8FB55" el nombre de la red del pad "13" de "" a "Net-(C2-Pad1)".
+
+Cambiando de la huella "C3:/5BD8DDEF" el nombre de la red del pad "2" de "" a "/Vo-".
+
+Añadiendo del nuevo símbolo "C1:/5BD8DE0B" la huella "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder".
+
+Cambiando de la huella "C1:/5BD8DE0B" el nombre de la red del pad "2" de "" a "Net-(C1-Pad2)".
+
+Cambiando de la huella "C1:/5BD8DE0B" el nombre de la red del pad "1" de "" a "Net-(C1-Pad1)".
+
+Añadiendo del nuevo símbolo "C2:/5BE1D0DF" la huella "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder".
+
+Cambiando de la huella "C2:/5BE1D0DF" el nombre de la red del pad "1" de "" a "Net-(C2-Pad1)".
+
+Cambiando de la huella "C2:/5BE1D0DF" el nombre de la red del pad "2" de "" a "Net-(C2-Pad2)".
+
+Añadiendo del nuevo símbolo "C3:/5BD8DDEF" la huella "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder".
+
+Cambiando de la huella "C3:/5BD8DDEF" el nombre de la red del pad "1" de "" a "Net-(C1-Pad1)".
+
+Cambiando de la huella "R3:/5BD8DDE8" el nombre de la red del pad "1" de "" a "Net-(C1-Pad1)".
+
+Añadiendo del nuevo símbolo "R1:/5BD8DDFD" la huella "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder".
+
+Cambiando de la huella "R1:/5BD8DDFD" el nombre de la red del pad "1" de "" a "Net-(C1-Pad2)".
+
+Cambiando de la huella "R1:/5BD8DDFD" el nombre de la red del pad "2" de "" a "Net-(R1-Pad2)".
+
+Añadiendo del nuevo símbolo "R2:/5BD8DDF6" la huella "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder".
+
+Cambiando de la huella "R2:/5BD8DDF6" el nombre de la red del pad "2" de "" a "Net-(C2-Pad2)".
+
+Cambiando de la huella "R2:/5BD8DDF6" el nombre de la red del pad "1" de "" a "Net-(C1-Pad1)".
+
+Añadiendo del nuevo símbolo "R3:/5BD8DDE8" la huella "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder".
+

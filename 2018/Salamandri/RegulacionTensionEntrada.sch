@@ -1,0 +1,170 @@
+EESchema Schematic File Version 4
+LIBS:pcbAlarma-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title "PCB para Alarma IoT"
+Date "2018-09-21"
+Rev "2.0"
+Comp "UrBIT"
+Comment1 "Autor: Ing. Santiago Salamandri"
+Comment2 "Licencia: Creative Commons - Attribution - ShareAlike 3.0"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:AMS1117 U1
+U 1 1 5BBE93B3
+P 5200 3700
+F 0 "U1" H 5200 3942 50  0000 C CNN
+F 1 "AMS1117" H 5200 3851 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5200 3900 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 5300 3450 50  0001 C CNN
+	1    5200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5BBE93BA
+P 5750 3850
+F 0 "C2" H 5865 3896 50  0000 L CNN
+F 1 "10uF" H 5865 3805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5788 3700 50  0001 C CNN
+F 3 "~" H 5750 3850 50  0001 C CNN
+	1    5750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5BBE93C1
+P 4650 3850
+F 0 "C1" H 4765 3896 50  0000 L CNN
+F 1 "10uF" H 4765 3805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4688 3700 50  0001 C CNN
+F 3 "~" H 4650 3850 50  0001 C CNN
+	1    4650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5BBE93C8
+P 5200 4500
+F 0 "#PWR0102" H 5200 4250 50  0001 C CNN
+F 1 "GND" H 5205 4327 50  0000 C CNN
+F 2 "" H 5200 4500 50  0001 C CNN
+F 3 "" H 5200 4500 50  0001 C CNN
+	1    5200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5BBE93CF
+P 6300 3950
+F 0 "R1" H 6370 3996 50  0000 L CNN
+F 1 "180" H 6370 3905 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6230 3950 50  0001 C CNN
+F 3 "~" H 6300 3950 50  0001 C CNN
+	1    6300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5BBE93DE
+P 6300 4300
+F 0 "D1" V 6338 4183 50  0000 R CNN
+F 1 "LED" V 6247 4183 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 6300 4300 50  0001 C CNN
+F 3 "~" H 6300 4300 50  0001 C CNN
+	1    6300 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 4000 5200 4000
+Connection ~ 4650 4000
+Connection ~ 5200 4000
+Wire Wire Line
+	5200 4000 5750 4000
+Wire Wire Line
+	5500 3700 5750 3700
+Wire Wire Line
+	5750 3700 6300 3700
+Connection ~ 5750 3700
+Wire Wire Line
+	6300 3700 6300 3800
+Wire Wire Line
+	6300 4100 6300 4150
+Wire Wire Line
+	5200 4000 5200 4450
+Wire Wire Line
+	6300 4450 5200 4450
+Connection ~ 5200 4450
+Wire Wire Line
+	5200 4450 5200 4500
+Wire Notes Line
+	3450 3000 7050 3000
+Wire Notes Line
+	7050 3000 7050 4750
+Wire Notes Line
+	7050 4750 3450 4750
+Wire Notes Line
+	3450 3000 3450 4750
+Text Notes 4600 3000 0    50   ~ 0
+Regulacion de Tension de entrada
+Wire Wire Line
+	4650 3700 4900 3700
+$Comp
+L power:+5V #PWR0105
+U 1 1 5BBE9402
+P 4650 3350
+F 0 "#PWR0105" H 4650 3200 50  0001 C CNN
+F 1 "+5V" H 4665 3523 50  0000 C CNN
+F 2 "" H 4650 3350 50  0001 C CNN
+F 3 "" H 4650 3350 50  0001 C CNN
+	1    4650 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5BE98997
+P 6300 3550
+F 0 "#PWR0104" H 6300 3400 50  0001 C CNN
+F 1 "+3.3V" H 6315 3723 50  0000 C CNN
+F 2 "" H 6300 3550 50  0001 C CNN
+F 3 "" H 6300 3550 50  0001 C CNN
+	1    6300 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3700 6300 3550
+Connection ~ 6300 3700
+Connection ~ 4650 3700
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 5BEAFF76
+P 3800 3550
+F 0 "J1" H 3855 4017 50  0000 C CNN
+F 1 "USB_B_Mcro" H 3855 3926 50  0000 C CNN
+F 2 "" H 3950 3500 50  0001 C CNN
+F 3 "~" H 3950 3500 50  0001 C CNN
+	1    3800 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3350 4650 3700
+Wire Wire Line
+	3800 4000 3800 3950
+Wire Wire Line
+	4650 3700 4300 3700
+Wire Wire Line
+	4300 3700 4300 3350
+Wire Wire Line
+	4300 3350 4100 3350
+Wire Wire Line
+	3800 4000 4650 4000
+NoConn ~ 4100 3550
+NoConn ~ 4100 3650
+NoConn ~ 4100 3750
+NoConn ~ 3700 3950
+$EndSCHEMATC

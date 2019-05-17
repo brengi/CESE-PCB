@@ -1,0 +1,114 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Tour K5"
+Date "2018-09-07"
+Rev ""
+Comp "Roberto Compañy"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C1
+U 1 1 5B930137
+P 3700 2250
+F 0 "C1" V 3850 2250 50  0000 C CNN
+F 1 "100nf" V 3950 2250 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3738 2100 50  0001 C CNN
+F 3 "~" H 3700 2250 50  0001 C CNN
+	1    3700 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5B9302C3
+P 4800 2650
+F 0 "R1" H 4870 2696 50  0000 L CNN
+F 1 "100K" H 4870 2605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4730 2650 50  0001 C CNN
+F 3 "~" H 4800 2650 50  0001 C CNN
+	1    4800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_ALT D2
+U 1 1 5B93032F
+P 3700 3200
+F 0 "D2" H 3700 3100 50  0000 C CNN
+F 1 "1N4148" H 3700 3000 50  0000 C CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" H 3700 3200 50  0001 C CNN
+F 3 "~" H 3700 3200 50  0001 C CNN
+	1    3700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ALT D1
+U 1 1 5B9303D5
+P 3700 1600
+F 0 "D1" H 3750 1350 50  0000 C CNN
+F 1 "LED ROJO 3mm" H 3500 1450 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 3700 1600 50  0001 C CNN
+F 3 "~" H 3700 1600 50  0001 C CNN
+	1    3700 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5B930483
+P 2500 2700
+F 0 "J1" H 2550 2450 50  0000 C CNN
+F 1 "Conn_01x03" H 2400 2350 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 2700 50  0001 C CNN
+F 3 "~" H 2500 2700 50  0001 C CNN
+	1    2500 2700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3200 3000 3200
+Wire Wire Line
+	3000 3200 3000 2800
+Wire Wire Line
+	3000 2800 2700 2800
+Wire Wire Line
+	3850 3200 4800 3200
+Wire Wire Line
+	4800 3200 4800 2800
+Wire Wire Line
+	3850 2250 4250 2250
+Wire Wire Line
+	4250 2250 4250 1600
+Wire Wire Line
+	4250 1600 3850 1600
+Wire Wire Line
+	4800 2500 4800 2250
+Wire Wire Line
+	4800 2250 4250 2250
+Connection ~ 4250 2250
+Wire Wire Line
+	3550 2250 3250 2250
+Wire Wire Line
+	3000 2250 3000 2600
+Wire Wire Line
+	3000 2600 2700 2600
+Wire Wire Line
+	3250 2250 3250 1600
+Wire Wire Line
+	3250 1600 3550 1600
+Connection ~ 3250 2250
+Wire Wire Line
+	3250 2250 3000 2250
+Text Notes 1750 1550 0    50   ~ 10
+CIRCUITO EXPERIMENTAL
+Text Notes 5100 1850 0    50   ~ 10
+RESISTOR\nSERIE
+Wire Notes Line
+	5500 1900 5050 1900
+Wire Notes Line
+	5050 1900 4850 2450
+NoConn ~ 2700 2700
+$EndSCHEMATC

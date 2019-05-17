@@ -1,0 +1,201 @@
+EESchema Schematic File Version 4
+LIBS:CIAA-UNO-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title "CIAA-UNO"
+Date "2018-11-18"
+Rev "2"
+Comp "Lucas Dórdolo"
+Comment1 ""
+Comment2 "Based on the Arduino UNO and CIAA z3r0"
+Comment3 ""
+Comment4 "Copyright 2018,  Lucas Dórdolo (see LICENSE)"
+$EndDescr
+$Comp
+L ciaa-z3r0:USB_OTG J?
+U 1 1 5BA692EF
+P 7250 3475
+AR Path="/55D9F413/5BA659DB/5BA692EF" Ref="J?"  Part="1" 
+AR Path="/55D9F413/5BA692EF" Ref="J1"  Part="1" 
+F 0 "J1" H 7306 3942 50  0000 C CNN
+F 1 "USB_OTG" H 7306 3851 50  0000 C CNN
+F 2 "footprints:USB_Micro-B_Molex_47346-0001" H 7400 3425 50  0001 C CNN
+F 3 "" H 7400 3425 50  0001 C CNN
+	1    7250 3475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ciaa-z3r0:R_Small R?
+U 1 1 5BA692F6
+P 4925 3425
+AR Path="/55D9F413/5BA659DB/5BA692F6" Ref="R?"  Part="1" 
+AR Path="/55D9F413/5BA692F6" Ref="R5"  Part="1" 
+F 0 "R5" V 4775 3425 50  0000 C CNN
+F 1 "15R" V 4850 3425 50  0000 C CNN
+F 2 "footprints:R_0603" H 4925 3425 50  0001 C CNN
+F 3 "" H 4925 3425 50  0001 C CNN
+	1    4925 3425
+	0    1    1    0   
+$EndComp
+$Comp
+L ciaa-z3r0:R_Small R?
+U 1 1 5BA692FD
+P 4925 3625
+AR Path="/55D9F413/5BA659DB/5BA692FD" Ref="R?"  Part="1" 
+AR Path="/55D9F413/5BA692FD" Ref="R6"  Part="1" 
+F 0 "R6" V 5075 3625 50  0000 C CNN
+F 1 "15R" V 5000 3625 50  0000 C CNN
+F 2 "footprints:R_0603" H 4925 3625 50  0001 C CNN
+F 3 "" H 4925 3625 50  0001 C CNN
+	1    4925 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L ciaa-z3r0:USBLC6-2 U?
+U 1 1 5BA69304
+P 5700 3525
+AR Path="/55D9F413/5BA659DB/5BA69304" Ref="U?"  Part="1" 
+AR Path="/55D9F413/5BA69304" Ref="U4"  Part="1" 
+F 0 "U4" H 5700 4062 60  0000 C CNN
+F 1 "USBLC6-2" H 5700 3956 60  0000 C CNN
+F 2 "footprints:SOT-23-6" H 5700 3525 60  0001 C CNN
+F 3 "" H 5700 3525 60  0001 C CNN
+	1    5700 3525
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7350 3875
+NoConn ~ 6950 3675
+$Comp
+L ciaa-z3r0:GND #PWR?
+U 1 1 5BA69319
+P 7250 3975
+AR Path="/55D9F413/5BA659DB/5BA69319" Ref="#PWR?"  Part="1" 
+AR Path="/55D9F413/5BA69319" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 7250 3725 50  0001 C CNN
+F 1 "GND" V 7255 3847 50  0000 R CNN
+F 2 "" H 7250 3975 50  0001 C CNN
+F 3 "" H 7250 3975 50  0001 C CNN
+	1    7250 3975
+	1    0    0    -1  
+$EndComp
+Text Label 6775 3475 1    60   ~ 0
+B_USB+
+Text Label 6800 3575 3    60   ~ 0
+B_USB-
+Wire Wire Line
+	5025 3425 5100 3425
+Wire Wire Line
+	5100 3625 5025 3625
+Wire Wire Line
+	6300 3625 6550 3625
+Wire Wire Line
+	6550 3625 6550 3575
+Wire Wire Line
+	6550 3575 6950 3575
+Wire Wire Line
+	6950 3475 6550 3475
+Wire Wire Line
+	6550 3475 6550 3425
+Wire Wire Line
+	6550 3425 6300 3425
+Wire Wire Line
+	7250 3875 7250 3950
+Wire Wire Line
+	6300 3525 6350 3525
+Wire Wire Line
+	6950 3275 6850 3275
+Text HLabel 4825 3425 0    50   Input ~ 0
+USB_RD+
+Text HLabel 4825 3625 0    50   Input ~ 0
+USB_RD-
+$Comp
+L Arduino_Uno_R3_From_Scratch:USBVCC #PWR027
+U 1 1 5BA6AA29
+P 6850 2870
+F 0 "#PWR027" H 6850 2960 20  0001 C CNN
+F 1 "USBVCC" H 6846 3008 30  0000 C CNN
+F 2 "" H 6850 2870 60  0000 C CNN
+F 3 "" H 6850 2870 60  0000 C CNN
+	1    6850 2870
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_Uno_R3_From_Scratch:3V3_LDO #PWR026
+U 1 1 5BA6AA5E
+P 6350 3525
+F 0 "#PWR026" H 6350 3485 30  0001 C CNN
+F 1 "3V3_LDO" V 6359 3633 30  0000 L CNN
+F 2 "" H 6350 3525 60  0000 C CNN
+F 3 "" H 6350 3525 60  0000 C CNN
+	1    6350 3525
+	0    1    1    0   
+$EndComp
+$Comp
+L Arduino_Uno_R3_From_Scratch-rescue:GND-RESCUE-Arduino_Uno_R3_From_Scratch #PWR025
+U 1 1 5BAA50FA
+P 5100 3525
+F 0 "#PWR025" H 5100 3525 30  0001 C CNN
+F 1 "GND-RESCUE-Arduino_Uno_R3_From_Scratch" H 5100 3455 30  0001 C CNN
+F 2 "" H 5100 3525 60  0000 C CNN
+F 3 "" H 5100 3525 60  0000 C CNN
+	1    5100 3525
+	0    1    1    0   
+$EndComp
+$Comp
+L Arduino_Uno_R3_From_Scratch-rescue:GND-RESCUE-Arduino_Uno_R3_From_Scratch #PWR029
+U 1 1 5BAA5208
+P 7375 4025
+F 0 "#PWR029" H 7375 4025 30  0001 C CNN
+F 1 "GND-RESCUE-Arduino_Uno_R3_From_Scratch" H 7375 3955 30  0001 C CNN
+F 2 "" H 7375 4025 60  0000 C CNN
+F 3 "" H 7375 4025 60  0000 C CNN
+	1    7375 4025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7375 4025 7375 3950
+Connection ~ 7250 3950
+Wire Wire Line
+	7250 3950 7250 3975
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5BBDCF39
+P 6535 2910
+F 0 "#FLG0102" H 6535 2985 50  0001 C CNN
+F 1 "PWR_FLAG" H 6535 3084 50  0000 C CNN
+F 2 "" H 6535 2910 50  0001 C CNN
+F 3 "~" H 6535 2910 50  0001 C CNN
+	1    6535 2910
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6535 3045 6535 2910
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5BBDE497
+P 7705 3945
+F 0 "#FLG0103" H 7705 4020 50  0001 C CNN
+F 1 "PWR_FLAG" H 7705 4119 50  0000 C CNN
+F 2 "" H 7705 3945 50  0001 C CNN
+F 3 "~" H 7705 3945 50  0001 C CNN
+	1    7705 3945
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7705 3950 7705 3945
+Wire Wire Line
+	7250 3950 7375 3950
+Connection ~ 7375 3950
+Wire Wire Line
+	7375 3950 7705 3950
+Wire Wire Line
+	6535 3045 6850 3045
+Wire Wire Line
+	6850 2870 6850 3045
+Connection ~ 6850 3045
+Wire Wire Line
+	6850 3045 6850 3275
+$EndSCHEMATC

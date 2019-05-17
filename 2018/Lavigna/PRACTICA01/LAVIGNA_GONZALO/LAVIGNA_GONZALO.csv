@@ -1,0 +1,6 @@
+"Id";"Identificador";"Empaquetado";"Cantidad";"Identificación";"Suministrador y ref";
+1;"C1";"C_Disc_D4.3mm_W1.9mm_P5.00mm";1;"100nF";;;
+2;"D1";"LED_D3.0mm";1;"LED ROJO 3mm";;;
+3;"D2";"D_DO-34_SOD68_P7.62mm_Horizontal";1;"1N4148";;;
+4;"J1";"PinHeader_1x03_P2.54mm_Vertical";1;"Conn_01x03";;;
+5;"R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"100K";;;

@@ -1,0 +1,4 @@
+*.kicad_pcb-bak
+/PRACTICA_FINAL/PROJECTO_KICAD/FINAL/*.bak
+
+*.bak

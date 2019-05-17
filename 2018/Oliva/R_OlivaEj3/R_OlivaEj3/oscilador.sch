@@ -1,0 +1,307 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title "Ejercicio 3 (2conSMD) R.Oliva -DisenioPCBs - CESE2018"
+Date "2018-10-05"
+Rev ""
+Comp "L&R Ing / UNPA"
+Comment1 "Autor: R.Oliva"
+Comment2 "OSCILADOR"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 4xxx:40106 U201
+U 1 1 5BB75310
+P 4150 3900
+F 0 "U201" H 4150 4217 50  0000 C CNN
+F 1 "40106" H 4150 4126 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4150 3900 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/HEF40106B.pdf" H 4150 3900 50  0001 C CNN
+	1    4150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:40106 U201
+U 2 1 5BB7538B
+P 5700 3900
+F 0 "U201" H 5700 4217 50  0000 C CNN
+F 1 "40106" H 5700 4126 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5700 3900 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/HEF40106B.pdf" H 5700 3900 50  0001 C CNN
+	2    5700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:40106 U201
+U 3 1 5BB753D0
+P 7150 3900
+F 0 "U201" H 7150 4217 50  0000 C CNN
+F 1 "40106" H 7150 4126 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7150 3900 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/HEF40106B.pdf" H 7150 3900 50  0001 C CNN
+	3    7150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C201
+U 1 1 5BB7555F
+P 3600 4950
+F 0 "C201" H 3718 4996 50  0000 L CNN
+F 1 "1 uF 25V" H 3718 4905 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder" H 3638 4800 50  0001 C CNN
+F 3 "~" H 3600 4950 50  0001 C CNN
+	1    3600 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C202
+U 1 1 5BB75610
+P 5100 2500
+F 0 "C202" H 5215 2546 50  0000 L CNN
+F 1 "0.1uF 50V" H 5215 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5138 2350 50  0001 C CNN
+F 3 "~" H 5100 2500 50  0001 C CNN
+	1    5100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R202
+U 1 1 5BB75670
+P 4150 4750
+F 0 "R202" V 3943 4750 50  0000 C CNN
+F 1 "180K" V 4034 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 4750 50  0001 C CNN
+F 3 "~" H 4150 4750 50  0001 C CNN
+	1    4150 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R201
+U 1 1 5BB75694
+P 4150 4400
+F 0 "R201" V 3943 4400 50  0000 C CNN
+F 1 "100K" V 4034 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 4400 50  0001 C CNN
+F 3 "~" H 4150 4400 50  0001 C CNN
+	1    4150 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D201
+U 1 1 5BB756DD
+P 4650 4400
+F 0 "D201" H 4650 4616 50  0000 C CNN
+F 1 "1N4148" H 4650 4525 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4650 4400 50  0001 C CNN
+F 3 "~" H 4650 4400 50  0001 C CNN
+	1    4650 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D202
+U 1 1 5BB7570F
+P 4650 4750
+F 0 "D202" H 4650 4534 50  0000 C CNN
+F 1 "1N4148" H 4650 4625 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4650 4750 50  0001 C CNN
+F 3 "~" H 4650 4750 50  0001 C CNN
+	1    4650 4750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 3900 3600 3900
+Wire Wire Line
+	3600 3900 3600 4600
+Wire Wire Line
+	4000 4400 3900 4400
+Wire Wire Line
+	3900 4400 3900 4600
+Wire Wire Line
+	3900 4750 4000 4750
+Wire Wire Line
+	3900 4600 3600 4600
+Connection ~ 3900 4600
+Wire Wire Line
+	3900 4600 3900 4750
+Connection ~ 3600 4600
+Wire Wire Line
+	3600 4600 3600 4800
+Wire Wire Line
+	4300 4400 4500 4400
+Wire Wire Line
+	4300 4750 4500 4750
+Wire Wire Line
+	4450 3900 4950 3900
+Wire Wire Line
+	4800 4400 4950 4400
+Wire Wire Line
+	4950 4400 4950 3900
+Connection ~ 4950 3900
+Wire Wire Line
+	4950 3900 5400 3900
+Wire Wire Line
+	4800 4750 4950 4750
+Wire Wire Line
+	4950 4750 4950 4400
+Connection ~ 4950 4400
+Wire Wire Line
+	6000 3900 6400 3900
+Wire Wire Line
+	6400 3900 6400 3250
+Wire Wire Line
+	6400 3250 8100 3250
+Connection ~ 6400 3900
+Wire Wire Line
+	6400 3900 6850 3900
+Wire Wire Line
+	7450 3900 8100 3900
+Wire Wire Line
+	3600 5100 3600 5250
+$Comp
+L power:GND #PWR0201
+U 1 1 5BB762A1
+P 3600 5250
+F 0 "#PWR0201" H 3600 5000 50  0001 C CNN
+F 1 "GND" H 3605 5077 50  0000 C CNN
+F 2 "" H 3600 5250 50  0001 C CNN
+F 3 "" H 3600 5250 50  0001 C CNN
+	1    3600 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:40106 U201
+U 7 1 5BB76703
+P 6400 4900
+F 0 "U201" H 6630 4946 50  0000 L CNN
+F 1 "40106" H 6630 4855 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6400 4900 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/HEF40106B.pdf" H 6400 4900 50  0001 C CNN
+	7    6400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0205
+U 1 1 5BB76A5A
+P 6400 5450
+F 0 "#PWR0205" H 6400 5200 50  0001 C CNN
+F 1 "GND" H 6405 5277 50  0000 C CNN
+F 2 "" H 6400 5450 50  0001 C CNN
+F 3 "" H 6400 5450 50  0001 C CNN
+	1    6400 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0204
+U 1 1 5BB76AF4
+P 6400 4350
+F 0 "#PWR0204" H 6400 4200 50  0001 C CNN
+F 1 "+5V" H 6415 4523 50  0000 C CNN
+F 2 "" H 6400 4350 50  0001 C CNN
+F 3 "" H 6400 4350 50  0001 C CNN
+	1    6400 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4400 6400 4350
+Wire Wire Line
+	6400 5400 6400 5450
+$Comp
+L Connector_Generic:Conn_01x02 J201
+U 1 1 5BB7577B
+P 3950 2450
+F 0 "J201" H 3950 2100 50  0000 C CNN
+F 1 "Conn_01x02" H 4100 2200 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3950 2450 50  0001 C CNN
+F 3 "~" H 3950 2450 50  0001 C CNN
+	1    3950 2450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2450 4350 2450
+Wire Wire Line
+	4850 2450 4850 2300
+Wire Wire Line
+	4850 2300 5100 2300
+Wire Wire Line
+	5100 2300 5100 2350
+Wire Wire Line
+	5100 2650 5100 2700
+Wire Wire Line
+	5100 2700 4850 2700
+Wire Wire Line
+	4850 2700 4850 2550
+Wire Wire Line
+	4850 2550 4600 2550
+$Comp
+L power:+5V #PWR0202
+U 1 1 5BB77EF3
+P 4600 2350
+F 0 "#PWR0202" H 4600 2200 50  0001 C CNN
+F 1 "+5V" H 4615 2523 50  0000 C CNN
+F 2 "" H 4600 2350 50  0001 C CNN
+F 3 "" H 4600 2350 50  0001 C CNN
+	1    4600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0203
+U 1 1 5BB77F39
+P 4600 2650
+F 0 "#PWR0203" H 4600 2400 50  0001 C CNN
+F 1 "GND" H 4605 2477 50  0000 C CNN
+F 2 "" H 4600 2650 50  0001 C CNN
+F 3 "" H 4600 2650 50  0001 C CNN
+	1    4600 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2450 4600 2350
+Connection ~ 4600 2450
+Wire Wire Line
+	4600 2450 4850 2450
+Wire Wire Line
+	4600 2650 4600 2550
+Connection ~ 4600 2550
+Wire Wire Line
+	4600 2550 4350 2550
+Text HLabel 8100 3250 2    50   Output ~ 0
+LED1
+Text HLabel 8100 3900 2    50   Output ~ 0
+LED2
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5BB79BF5
+P 4350 2350
+F 0 "#FLG0101" H 4350 2425 50  0001 C CNN
+F 1 "PWR_FLAG" H 4350 2524 50  0000 C CNN
+F 2 "" H 4350 2350 50  0001 C CNN
+F 3 "~" H 4350 2350 50  0001 C CNN
+	1    4350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5BB79C34
+P 4350 2650
+F 0 "#FLG0102" H 4350 2725 50  0001 C CNN
+F 1 "PWR_FLAG" H 4350 2850 50  0000 C CNN
+F 2 "" H 4350 2650 50  0001 C CNN
+F 3 "~" H 4350 2650 50  0001 C CNN
+	1    4350 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 2350 4350 2450
+Connection ~ 4350 2450
+Wire Wire Line
+	4350 2450 4600 2450
+Wire Wire Line
+	4350 2650 4350 2550
+Connection ~ 4350 2550
+Wire Wire Line
+	4350 2550 4150 2550
+$EndSCHEMATC

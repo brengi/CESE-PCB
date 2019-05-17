@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name AudioProcessor-rescue)(type Legacy)(uri ${KIPRJMOD}/AudioProcessor-rescue.lib)(options "")(descr ""))
+  (lib (name poncho_grande-cache)(type Legacy)(uri ${KIPRJMOD}/Poncho_Grande/poncho_grande-cache.lib)(options "")(descr ""))
+)

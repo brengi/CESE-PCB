@@ -1,0 +1,450 @@
+EESchema Schematic File Version 4
+LIBS:Poncho_Alarma-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title "Esquema Principal - Poncho Alarma"
+Date "2018-10-27"
+Rev "1.0"
+Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
+Comment1 "https://github.com/turcoale/CESE18_PCB_Amid_Ale.git"
+Comment2 "Basado en diseños anteriores: Mariano Bustos - Jorge Osio - Diego Brengi"
+Comment3 "Autor: Amid Ale"
+Comment4 "CÓDIGO PONCHO: ALARMA"
+$EndDescr
+$Comp
+L Poncho_Alarma-rescue:LCD16X2-PonchoPLC DS1
+U 1 1 5BCEEA98
+P 8200 1650
+F 0 "DS1" H 9078 1660 50  0000 L CNN
+F 1 "LCD16X2" H 9078 1569 50  0000 L CNN
+F 2 "Poncho-PLC:LCD_16x2" H 9078 1478 50  0001 L CIN
+F 3 "" H 8200 1650 50  0000 C CNN
+	1    8200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Poncho_Alarma-rescue:Conn_Poncho2P_2x_20x2-PonchoPLC XA1
+U 2 1 5BCF0473
+P 4300 3900
+F 0 "XA1" H 4650 2063 60  0000 C CNN
+F 1 "Conn_Poncho2P_2x_20x2" H 4650 2169 60  0000 C CNN
+F 2 "Poncho-PLC:poncho_grande" H 4300 3900 60  0001 C CNN
+F 3 "" H 4300 3900 60  0000 C CNN
+	2    4300 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Poncho_Alarma-rescue:Logo_Poncho-EESTN5 #G1
+U 1 1 5BCF077C
+P 10750 6100
+F 0 "#G1" H 10700 5700 60  0001 C CNN
+F 1 "Logo_Poncho" H 10950 5700 60  0001 C CNN
+F 2 "" H 10750 6100 60  0000 C CNN
+F 3 "" H 10750 6100 60  0000 C CNN
+	1    10750 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO1
+U 1 1 5BCF08FD
+P 9900 6100
+F 0 "#LOGO1" H 9900 6600 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 9900 5700 50  0001 C CNN
+F 2 "" H 9900 6100 50  0001 C CNN
+F 3 "~" H 9900 6100 50  0001 C CNN
+	1    9900 6100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8050 2150
+NoConn ~ 8150 2150
+NoConn ~ 8250 2150
+NoConn ~ 8350 2150
+Wire Wire Line
+	8450 2800 8450 2150
+Wire Wire Line
+	8550 2900 8550 2150
+Wire Wire Line
+	8650 3000 8650 2150
+Wire Wire Line
+	8750 3200 8750 2150
+Wire Wire Line
+	7750 3100 7750 2150
+Wire Wire Line
+	4050 3100 3900 3100
+Wire Wire Line
+	3900 3100 3900 4400
+Wire Wire Line
+	7950 4400 7950 2150
+$Comp
+L Poncho_Alarma-rescue:POT-PonchoPLC R1
+U 1 1 5BD0D08A
+P 7100 2450
+F 0 "R1" V 7054 2374 50  0000 R CNN
+F 1 "10K" V 7145 2374 50  0000 R CNN
+F 2 "Poncho-PLC:TRIMER_V" H 7100 2450 60  0001 C CNN
+F 3 "" H 7100 2450 60  0000 C CNN
+	1    7100 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 2350 7300 2350
+Wire Wire Line
+	7550 2350 7550 2150
+Wire Wire Line
+	7200 2450 7650 2450
+Wire Wire Line
+	7650 2450 7650 2150
+Wire Wire Line
+	7100 2550 7450 2550
+Wire Wire Line
+	7450 2550 7450 2150
+Connection ~ 7450 2550
+Wire Wire Line
+	7450 2550 7850 2550
+Wire Wire Line
+	7850 2550 7850 2150
+$Sheet
+S 2600 2000 1150 850 
+U 5BD27415
+F0 "Salidas" 50
+F1 "Salidas.sch" 50
+F2 "Out_1" I R 3750 2650 50 
+F3 "Out_2" I R 3750 2300 50 
+F4 "VCC_5V" I L 2600 2200 50 
+F5 "GND" I L 2600 2350 50 
+$EndSheet
+$Sheet
+S 5600 1200 1650 1000
+U 5BD2D487
+F0 "Entradas" 50
+F1 "Entradas.sch" 50
+F2 "In_1" I L 5600 1400 50 
+F3 "In_2" I L 5600 1550 50 
+F4 "In_3" I L 5600 1700 50 
+F5 "In_4" I L 5600 1850 50 
+F6 "GND" I L 5600 1300 50 
+$EndSheet
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J1
+U 1 1 5BD3AECC
+P 3350 5800
+F 0 "J1" H 3400 5500 50  0000 C CNN
+F 1 "ESP8266" H 3400 6000 50  0000 C CNN
+F 2 "local:ESP-01" H 3350 5800 50  0001 C CNN
+F 3 "~" H 3350 5800 50  0001 C CNN
+	1    3350 5800
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5BD3AFCA
+P 3050 6050
+F 0 "#PWR0102" H 3050 5800 50  0001 C CNN
+F 1 "GND" H 3055 5877 50  0000 C CNN
+F 2 "" H 3050 6050 50  0001 C CNN
+F 3 "" H 3050 6050 50  0001 C CNN
+	1    3050 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 6050 3050 5900
+Wire Wire Line
+	3050 5900 3150 5900
+Wire Wire Line
+	3050 5900 3050 5700
+Wire Wire Line
+	3050 5700 3150 5700
+Connection ~ 3050 5900
+Wire Wire Line
+	3650 5600 3750 5600
+Wire Wire Line
+	3750 5600 3750 5800
+Wire Wire Line
+	3750 5800 3650 5800
+$Comp
+L Poncho_Alarma-rescue:Conn_Poncho2P_2x_20x2-PonchoPLC XA1
+U 1 1 5BCF0359
+P 4300 5100
+F 0 "XA1" H 4650 5647 60  0000 C CNN
+F 1 "Conn_Poncho2P_2x_20x2" H 4650 5541 60  0000 C CNN
+F 2 "Poncho-PLC:poncho_grande" H 4300 5100 60  0001 C CNN
+F 3 "" H 4300 5100 60  0000 C CNN
+	1    4300 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 5900 4050 5900
+Wire Wire Line
+	4050 6000 3650 6000
+Wire Wire Line
+	3650 6000 3650 6450
+Wire Wire Line
+	3650 6450 2850 6450
+Wire Wire Line
+	2850 6450 2850 5600
+Wire Wire Line
+	2850 5600 3150 5600
+Wire Wire Line
+	4050 2800 3850 2800
+Wire Wire Line
+	3850 2800 3850 2650
+Wire Wire Line
+	3850 2650 3750 2650
+Wire Wire Line
+	3750 2300 3950 2300
+Wire Wire Line
+	3950 2300 3950 2700
+Wire Wire Line
+	3950 2700 4050 2700
+Wire Wire Line
+	5250 2800 8450 2800
+Wire Wire Line
+	5250 2900 8550 2900
+Wire Wire Line
+	5250 3000 8650 3000
+Wire Wire Line
+	5250 3100 7750 3100
+Wire Wire Line
+	5250 3200 8750 3200
+Wire Wire Line
+	3900 4400 7950 4400
+Wire Wire Line
+	5250 2300 5250 1400
+Wire Wire Line
+	5250 1400 5600 1400
+Wire Wire Line
+	5250 2400 5350 2400
+Wire Wire Line
+	5350 2400 5350 1550
+Wire Wire Line
+	5350 1550 5600 1550
+Wire Wire Line
+	5250 2500 5450 2500
+Wire Wire Line
+	5450 2500 5450 1700
+Wire Wire Line
+	5450 1700 5600 1700
+Wire Wire Line
+	5250 2600 5550 2600
+Wire Wire Line
+	5550 2600 5550 1850
+Wire Wire Line
+	5550 1850 5600 1850
+$Comp
+L power:+5V #PWR0104
+U 1 1 5BD0826B
+P 7300 2350
+F 0 "#PWR0104" H 7300 2200 50  0001 C CNN
+F 1 "+5V" H 7315 2523 50  0000 C CNN
+F 2 "" H 7300 2350 50  0001 C CNN
+F 3 "" H 7300 2350 50  0001 C CNN
+	1    7300 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7300 2350
+Wire Wire Line
+	7300 2350 7550 2350
+$Comp
+L power:+5V #PWR0105
+U 1 1 5BD08370
+P 5350 4800
+F 0 "#PWR0105" H 5350 4650 50  0001 C CNN
+F 1 "+5V" H 5365 4973 50  0000 C CNN
+F 2 "" H 5350 4800 50  0001 C CNN
+F 3 "" H 5350 4800 50  0001 C CNN
+	1    5350 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4800 5350 4800
+NoConn ~ 3150 5800
+NoConn ~ 3650 5700
+NoConn ~ 4050 6700
+NoConn ~ 4050 6600
+NoConn ~ 4050 6500
+NoConn ~ 4050 6400
+NoConn ~ 4050 6300
+NoConn ~ 4050 6200
+NoConn ~ 4050 6100
+NoConn ~ 4050 5800
+NoConn ~ 4050 5700
+NoConn ~ 4050 5600
+NoConn ~ 4050 5500
+NoConn ~ 4050 5400
+NoConn ~ 4050 5300
+NoConn ~ 4050 5200
+NoConn ~ 4050 5100
+NoConn ~ 4050 5000
+NoConn ~ 4050 4900
+NoConn ~ 5250 2700
+NoConn ~ 4050 2300
+NoConn ~ 4050 2400
+NoConn ~ 4050 2500
+NoConn ~ 4050 2600
+NoConn ~ 4050 2900
+NoConn ~ 4050 3000
+NoConn ~ 4050 3200
+NoConn ~ 4050 3300
+NoConn ~ 4050 3400
+NoConn ~ 4050 3500
+NoConn ~ 4050 3600
+NoConn ~ 4050 3700
+NoConn ~ 4050 3800
+NoConn ~ 4050 3900
+NoConn ~ 4050 4000
+NoConn ~ 4050 4100
+NoConn ~ 4050 4200
+NoConn ~ 5250 4200
+NoConn ~ 5250 4100
+NoConn ~ 5250 4000
+NoConn ~ 5250 3900
+NoConn ~ 5250 3800
+NoConn ~ 5250 3700
+NoConn ~ 5250 3600
+NoConn ~ 5250 3500
+NoConn ~ 5250 3400
+NoConn ~ 5250 3300
+NoConn ~ 5250 6700
+NoConn ~ 5250 6600
+NoConn ~ 5250 6500
+NoConn ~ 5250 6400
+NoConn ~ 5250 6300
+NoConn ~ 5250 6200
+NoConn ~ 5250 6100
+NoConn ~ 5250 6000
+NoConn ~ 5250 5900
+NoConn ~ 5250 5800
+NoConn ~ 5250 5700
+NoConn ~ 5250 5600
+NoConn ~ 5250 5500
+NoConn ~ 5250 5400
+NoConn ~ 5250 5300
+NoConn ~ 5250 5200
+NoConn ~ 5250 5100
+NoConn ~ 5250 5000
+NoConn ~ 5250 4900
+NoConn ~ 8850 2150
+NoConn ~ 8950 2150
+$Comp
+L Poncho_Alarma-rescue:+3.3V-PonchoPLC #PWR0103
+U 1 1 5BE747D1
+P 3750 5600
+F 0 "#PWR0103" H 3750 5450 50  0001 C CNN
+F 1 "+3.3V-PonchoPLC" H 3765 5773 50  0000 C CNN
+F 2 "" H 3750 5600 60  0000 C CNN
+F 3 "" H 3750 5600 60  0000 C CNN
+	1    3750 5600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 5600
+$Comp
+L power:+5V #PWR0124
+U 1 1 5BE7A339
+P 2450 2150
+F 0 "#PWR0124" H 2450 2000 50  0001 C CNN
+F 1 "+5V" H 2465 2323 50  0000 C CNN
+F 2 "" H 2450 2150 50  0001 C CNN
+F 3 "" H 2450 2150 50  0001 C CNN
+	1    2450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 5BE7B18E
+P 2400 2400
+F 0 "#PWR0125" H 2400 2150 50  0001 C CNN
+F 1 "GND" H 2405 2227 50  0000 C CNN
+F 2 "" H 2400 2400 50  0001 C CNN
+F 3 "" H 2400 2400 50  0001 C CNN
+	1    2400 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2150 2450 2200
+Wire Wire Line
+	2450 2200 2600 2200
+Wire Wire Line
+	2400 2400 2400 2350
+Wire Wire Line
+	2400 2350 2600 2350
+$Comp
+L Poncho_Alarma-rescue:+3.3V-PonchoPLC #PWR0126
+U 1 1 5BE7EF40
+P 3450 4750
+F 0 "#PWR0126" H 3450 4600 50  0001 C CNN
+F 1 "+3.3V-PonchoPLC" H 3465 4923 50  0000 C CNN
+F 2 "" H 3450 4750 60  0000 C CNN
+F 3 "" H 3450 4750 60  0000 C CNN
+	1    3450 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4750 3450 4800
+Wire Wire Line
+	3450 4800 4050 4800
+$Comp
+L power:GND #PWR0127
+U 1 1 5BE880EA
+P 4950 1400
+F 0 "#PWR0127" H 4950 1150 50  0001 C CNN
+F 1 "GND" H 4955 1227 50  0000 C CNN
+F 2 "" H 4950 1400 50  0001 C CNN
+F 3 "" H 4950 1400 50  0001 C CNN
+	1    4950 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1400 4950 1300
+Wire Wire Line
+	4950 1300 5600 1300
+$Comp
+L power:GND #PWR0101
+U 1 1 5BE984BB
+P 7450 2650
+F 0 "#PWR0101" H 7450 2400 50  0001 C CNN
+F 1 "GND" H 7455 2477 50  0000 C CNN
+F 2 "" H 7450 2650 50  0001 C CNN
+F 3 "" H 7450 2650 50  0001 C CNN
+	1    7450 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2650 7450 2550
+Wire Notes Line
+	2800 5600 2800 6550
+Wire Notes Line
+	2800 6550 1850 6550
+Wire Notes Line
+	1850 6550 1850 5600
+Wire Notes Line
+	1850 5600 2800 5600
+Text Label 2200 5700 0    50   Italic 10
+ESP8266:
+Text Label 1900 5700 0    50   Italic 10
+Pinout
+Text Label 2100 5800 0    50   ~ 0
+1-GND
+Text Label 2100 5900 0    50   ~ 0
+2-GPIO2
+Text Label 2100 6000 0    50   ~ 0
+3-GPIO0
+Text Label 2100 6100 0    50   ~ 0
+4-RXD
+Text Label 2100 6200 0    50   ~ 0
+5-VCC
+Text Label 2100 6300 0    50   ~ 0
+6-RST
+Text Label 2100 6400 0    50   ~ 0
+7-CH_PD
+Text Label 2100 6500 0    50   ~ 0
+8-TXD
+Text Label 6000 2750 0    50   Italic 10
+Pines_Display_16x2:
+Text Label 2650 1900 0    50   Italic 10
+Circuito_de_Salidas:
+Text Label 5950 1100 0    50   Italic 10
+Circuito_de_entradas:
+$EndSCHEMATC

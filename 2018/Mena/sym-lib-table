@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PBC_TP_Final_JMena-rescue)(type Legacy)(uri ${KIPRJMOD}/PBC_TP_Final_JMena-rescue.lib)(options "")(descr ""))
+)

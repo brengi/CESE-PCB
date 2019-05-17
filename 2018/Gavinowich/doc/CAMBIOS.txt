@@ -1,0 +1,19 @@
+Historial de cambios realizados 
+================================
+
+* Fecha: 2018-09-21
+* Autores: Gabriel Gavinowich
+* Archivos: 
+* Descripción: Se parte del Modelo básico de Poncho en: 
+               https://github.com/ciaa/Ponchos/tree/master/Basico
+
+2018-09-21 Se inicia el esquematico
+2018-10-04 Se termina la primera version del esquematico y se asignan las huellas
+2018-10-09 Se arranca con el ruteo
+2018-10-12 Se finaliza el ruteo
+2018-10-19 Se agregan las hojas de datos y se actualiza la documentacion. SE agregan las marcas fiduciarias.
+               
+
+
+
+

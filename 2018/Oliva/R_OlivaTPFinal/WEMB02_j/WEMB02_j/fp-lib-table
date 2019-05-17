@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Mainboard_footprints)(type KiCad)(uri ${KIPRJMOD}/Mainboard_footprints.pretty)(options "")(descr Ard_Mega))
+  (lib (name User)(type KiCad)(uri ${KIPRJMOD}/User.pretty)(options "")(descr ""))
+  (lib (name User2)(type KiCad)(uri ${KIPRJMOD}/User2.pretty)(options "")(descr ""))
+)

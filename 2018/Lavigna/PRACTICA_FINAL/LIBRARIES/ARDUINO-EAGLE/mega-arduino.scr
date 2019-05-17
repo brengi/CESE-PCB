@@ -1,0 +1,97 @@
+# ProgrammName: mega-arduino.scr
+# 
+# Autor: frohp@yahoo.de
+# 
+# Datum: 30.08.2009
+# Version: 1.0
+#
+# Eagle Version: 5.6.0
+#
+# Die Einfuegepunkte fuer die Stecker werden auf dem Layer tTest erzeugt.
+#
+# Position 2920 1100 : Loch fuer Reset-Taster.
+# Position 2555 1100 : Position fuer den ISP-Stecker (Pinhead PINHD-2X3, 270 deg)
+
+Grid mil 1 off;
+
+Set Wire_Bend 2;
+Layer Dimension;
+CHANGE WIDTH 0;
+Wire (0 0) (0 2100);
+Wire (0 2100) (3800 2100);
+Wire (3800 2100) (3900 2000);
+Wire (3900 2000) (3900 1600);
+Wire (3900 1600) (4000 1500);
+Wire (4000 1500) (4000 150);
+Wire (4000 150) (3900 50);
+Wire (3900 50) (3900 0);
+Wire (3900 0) (0 0);
+
+Layer Top;
+Change Width 16;
+Change Pour Solid;
+Change Thermals On;
+Polygon 'GND' (0 0) (0 2100) (3800 2100) (3900 2000) (3900 1600) (4000 1500) (4000 150) (3900 50) (3900 0) (0 0);
+
+Layer Bottom;
+Change Width 16;
+Change Pour Solid;
+Change Thermals On;
+Polygon 'GND' (0 0) (0 2100) (3800 2100) (3900 2000) (3900 1600) (4000 1500) (4000 150) (3900 50) (3900 0) (0 0);
+
+
+Hole 125.984 (600 2000);
+Hole 125.984 (600 100);
+Hole 125.984 (3550 2000);
+Hole 125.984 (3800 100);
+#Loch für Resettaser
+Hole 78.74 (2920 1100);
+
+# Einfügepunkte der Stecker
+Layer tTest;
+Change Width 0;
+Wire (1250 2000) (1350 2000);
+Wire (1300 1950) (1300 2050);
+Wire (2100 2000) (2200 2000);
+Wire (2150 1950) (2150 2050);
+Wire (3000 2000) (3100 2000);
+Wire (3050 1950) (3050 2050);
+Wire (1500 100) (1600 100);
+Wire (1550 50) (1550 150);
+Wire (2300 100) (2400 100);
+Wire (2350 50) (2350 150);
+Wire (3200 100) (3300 100);
+Wire (3250 50) (3250 150);
+Wire (3700 750) (3800 750);
+Wire (3750 700) (3750 800);
+Wire (3700 1550) (3800 1550);
+Wire (3750 1500) (3750 1600);
+Wire (3650 2000) (3750 2000);
+Wire (3700 1950) (3700 2050);
+Wire (3750 2000) (3850 2000);
+Wire (3800 1950) (3800 2050);
+Wire (3650 300) (3750 300);
+Wire (3700 250) (3700 350);
+Wire (3750 300) (3850 300);
+Wire (3800 250) (3800 350);
+# Position für ISP-Stecker
+Wire (2505 1100) (2605 1100);
+Wire (2555 1050) (2555 1150);
+
+Change Size 40;
+Text 'PWMH' (1250 2150);
+Text 'PWML' (2075 2150);
+Text 'COMMUNICATION' (2825 2150);
+Text 'POWER' (1450 -75);
+Text 'ADCL' (2275 -75);
+Text 'ADCH' (3200 -75);
+Text 'JP1' (4050 730);
+Text 'JP1' (4050 1530);
+Text 'JP3/4 (+5V)' (4050 1980);
+Text 'JP5/6 (GND)' (4050 280);
+Text 'ISP' (2520 990);
+Change Size 70
+
+Grid Last;
+Grid On;
+Window Fit;
