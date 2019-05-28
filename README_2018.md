@@ -6,12 +6,12 @@
       * [Puente H doble de 20A](#puente-h-doble-de-20a)
       * [Poncho Alarma](#poncho-alarma)
       * [Réplica del modulo 8 reles de arduino](#réplica-del-modulo-8-reles-de-arduino)
-      * [acelerometro-mma7361](#acelerometro-mma7361)
+      * [Réplica Acelerometro-mma7361](#réplica-acelerometro-mma7361)
       * [Nodo SisCoCaf](#nodo-siscocaf)
       * [VOIP Shield para Nucleo F767](#voip-shield-para-nucleo-f767)
       * [Poncho CAN](#poncho-can)
       * [Papilio DUO](#papilio-duo)
-      * [Detector de sonido arduino##](#detector-de-sonido-arduino)
+      * [Detector de sonido arduino](#detector-de-sonido-arduino)
       * [Extension de tarjeta HCAL](#extension-de-tarjeta-hcal)
       * [Contador de pasajeros](#contador-de-pasajeros)
       * [Prototipo Equipo AVL](#prototipo-equipo-avl)
@@ -24,7 +24,7 @@
       * [Poncho Procesador de Audio](#poncho-procesador-de-audio)
       * [wifi ESP-01 con relés optoacoplados](#wifi-esp-01-con-relés-optoacoplados)
 
-<!-- Added by: diego, at: mar may 28 00:59:22 -03 2019 -->
+<!-- Added by: diego, at: mar may 28 01:08:06 -03 2019 -->
 
 <!--te-->
 
@@ -74,7 +74,7 @@ Curso de Diseño de Circuitos Impresos de la Carrera de Especialización en Sist
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2018/img/Alvarez.jpg "Vista 3D")
 
-## acelerometro-mma7361 ##	
+## Réplica Acelerometro-mma7361 ##	
  * Autor:	Chavez	Jenny	
  * Repo original: 	https://github.com/jennifferch/PCB	
  * URL local: [Link al repo](./2018/Chavez)
@@ -110,7 +110,7 @@ Curso de Diseño de Circuitos Impresos de la Carrera de Especialización en Sist
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2018/img/Lavigna.jpg "Vista 3D")
 
-## Detector de sonido arduino## 
+## Detector de sonido arduino ## 
  * Autor:	Lombardi	Ignacio	
  * Repo original: 	N/A	
  * URL local: [Link al repo](./2018/Lombardi)	

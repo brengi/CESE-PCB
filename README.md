@@ -6,6 +6,7 @@ El curso enfoca el los procedimientos de diseño de Esquemático y de PCB y no e
 El uso de estos circuitos queda bajo la propia responsabilidad del usuario.
 
 
+
    * [CURSO 4  - 2018](README_2018.md#curso-4----2018)
       * [Driver motor pap](README_2018.md#driver-motor-pap)
       * [CIAA-UNO](README_2018.md#ciaa-uno)
@@ -13,12 +14,12 @@ El uso de estos circuitos queda bajo la propia responsabilidad del usuario.
       * [Puente H doble de 20A](README_2018.md#puente-h-doble-de-20a)
       * [Poncho Alarma](README_2018.md#poncho-alarma)
       * [Réplica del modulo 8 reles de arduino](README_2018.md#réplica-del-modulo-8-reles-de-arduino)
-      * [acelerometro-mma7361](README_2018.md#acelerometro-mma7361)
+      * [Réplica Acelerometro-mma7361](README_2018.md#réplica-acelerometro-mma7361)
       * [Nodo SisCoCaf](README_2018.md#nodo-siscocaf)
       * [VOIP Shield para Nucleo F767](README_2018.md#voip-shield-para-nucleo-f767)
       * [Poncho CAN](README_2018.md#poncho-can)
       * [Papilio DUO](README_2018.md#papilio-duo)
-      * [Detector de sonido arduino##](README_2018.md#detector-de-sonido-arduino)
+      * [Detector de sonido arduino](README_2018.md#detector-de-sonido-arduino)
       * [Extension de tarjeta HCAL](README_2018.md#extension-de-tarjeta-hcal)
       * [Contador de pasajeros](README_2018.md#contador-de-pasajeros)
       * [Prototipo Equipo AVL](README_2018.md#prototipo-equipo-avl)
