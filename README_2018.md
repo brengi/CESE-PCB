@@ -1,6 +1,64 @@
+<!--ts-->
+   * [CURSO 4  - 2018](#curso-4----2018)
+      * [Driver motor pap](#driver-motor-pap)
+      * [CIAA-UNO](#ciaa-uno)
+      * [Poncho multimedia](#poncho-multimedia)
+      * [Puente H doble de 20A](#puente-h-doble-de-20a)
+      * [Poncho Alarma](#poncho-alarma)
+      * [Réplica del modulo 8 reles de arduino](#réplica-del-modulo-8-reles-de-arduino)
+      * [acelerometro-mma7361](#acelerometro-mma7361)
+      * [Nodo SisCoCaf](#nodo-siscocaf)
+      * [VOIP Shield para Nucleo F767](#voip-shield-para-nucleo-f767)
+      * [Poncho CAN](#poncho-can)
+      * [Papilio DUO](#papilio-duo)
+      * [Detector de sonido arduino##](#detector-de-sonido-arduino)
+      * [Extension de tarjeta HCAL](#extension-de-tarjeta-hcal)
+      * [Contador de pasajeros](#contador-de-pasajeros)
+      * [Prototipo Equipo AVL](#prototipo-equipo-avl)
+      * [Electrodo Activo para Electromiografía](#electrodo-activo-para-electromiografía)
+      * [Replica Placa Madre WEMB01](#replica-placa-madre-wemb01)
+      * [Sistema de intercambio de mensajes de voz](#sistema-de-intercambio-de-mensajes-de-voz)
+      * [VOP24](#vop24)
+      * [PCB para alarma IoT](#pcb-para-alarma-iot)
+      * [Modulo TPMS sensor](#modulo-tpms-sensor)
+      * [Poncho Procesador de Audio](#poncho-procesador-de-audio)
+      * [wifi ESP-01 con relés optoacoplados](#wifi-esp-01-con-relés-optoacoplados)
+
+<!-- Added by: diego, at: mar may 28 00:59:22 -03 2019 -->
+
+<!--te-->
+
 # CURSO 4  - 2018 #
 Curso de Diseño de Circuitos Impresos de la Carrera de Especialización en Sistemas Embebidos. Realizado el 31/08/2018 al 19/10/2018 en modalidad mixta (presencial y a distancia).
 
+## Driver motor pap ## 	
+ * Autor:	Slavkin	pablo	
+ * Repo original: 	https://github.com/pslavkin/cese_kicad.git	
+ * URL local: [Link al repo](./2018/Slavkin)	
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2018/img/Slavkin1.jpg "Vista 3D")
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2018/img/Slavkin2.jpg "Vista 3D")
+
+## CIAA-UNO ## 	
+ * Autor:	Dórdolo	Lucas Daniel	
+ * Repo original: 	https://github.com/lucasd92/Disenio_PCB	
+ * URL local: [Link al repo](./2018/Dordolo)	
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2018/img/Dordolo.jpg "Vista 3D")
+
+## Poncho multimedia ## 	
+ * Autor:	Germino	Santiago	
+ * Repo original: 	https://github.com/royconejo/cese-pcb	
+ * URL local: [Link al repo](./2018/Germino)	
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2018/img/Germino.jpg "Vista 3D")
+
+## Puente H doble de 20A ## 	
+ * Autor:	Pojomovsky	Alexis	
+ * Repo original: 	https://github.com/apojomovsky/CESE-2018-TP-PCB	
+ * URL local: [Link al repo](./2018/Pojomovsky)	
+
+![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2018/img/Pojomovsky.jpg "Vista 3D")
 
 ## Poncho Alarma ##	
  * Autor:	Ale	Amid	
@@ -30,12 +88,6 @@ Curso de Diseño de Circuitos Impresos de la Carrera de Especialización en Sist
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2018/img/Company.jpg "Vista 3D")
 
-## CIAA-UNO ## 	
- * Autor:	Dórdolo	Lucas Daniel	
- * Repo original: 	https://github.com/lucasd92/Disenio_PCB	
- * URL local: [Link al repo](./2018/Dordolo)	
-
-![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2018/img/Dordolo.jpg "Vista 3D")
 
 ## VOIP Shield para Nucleo F767 ## 	
  * Autor:	Estupiñan	Ericson	
@@ -50,13 +102,6 @@ Curso de Diseño de Circuitos Impresos de la Carrera de Especialización en Sist
  * URL local: [Link al repo](./2018/Gavinowich)	
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2018/img/Gavinowich.jpg "Vista 3D")
-
-## Poncho multimedia ## 	
- * Autor:	Germino	Santiago	
- * Repo original: 	https://github.com/royconejo/cese-pcb	
- * URL local: [Link al repo](./2018/Germino)	
-
-![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2018/img/Germino.jpg "Vista 3D")
 
 ## Papilio DUO ## 	
  * Autor:	Lavigna	Gonzalo	
@@ -115,13 +160,6 @@ Curso de Diseño de Circuitos Impresos de la Carrera de Especialización en Sist
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2018/img/Pistarelli.jpg "Vista 3D")
 
-## Puente H doble de 20A ## 	
- * Autor:	Pojomovsky	Alexis	
- * Repo original: 	https://github.com/apojomovsky/CESE-2018-TP-PCB	
- * URL local: [Link al repo](./2018/Pojomovsky)	
-
-![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2018/img/Pojomovsky.jpg "Vista 3D")
-
 ## VOP24 ## 	
  * Autor:	Roux	Federico	
  * Repo original: 	https://github.com/fgr-17/dpcb.git	
@@ -136,14 +174,6 @@ Curso de Diseño de Circuitos Impresos de la Carrera de Especialización en Sist
 
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2018/img/Salamandri1.jpg "Vista 3D")
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2018/img/Salamandri2.jpg "Vista 3D")
-
-## Driver motor pap ## 	
- * Autor:	Slavkin	pablo	
- * Repo original: 	https://github.com/pslavkin/cese_kicad.git	
- * URL local: [Link al repo](./2018/Slavkin)	
-
-![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2018/img/Slavkin1.jpg "Vista 3D")
-![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2018/img/Slavkin2.jpg "Vista 3D")
 
 ## Modulo TPMS sensor ## 	
  * Autor:	Tirapegui	Rodrigo Alejandro	
