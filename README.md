@@ -1,9 +1,14 @@
-# CESE-PCB #
-Curso de Diseño de Circuitos Impresos de la Carrera de Especialización en Sistemas Embebidos.
+# DCI- Curso de Diseño de Circuitos Impresos de la Carrera de Especialización en Sistemas Embebidos #
+
+El Curso de Diseño de circuitos impresos tiene una duración de dos meses, organizados en 8 clases semanales de 3 hs cada una. Para aprobar la asignatura los participantes deben realizar el diseño de un circuito impreso a elección durante el curso. En esta página quedan registradas  duchas prácticas.
+
+Más info sobre el curso en las siguiente páginas: 
+  * https://sites.google.com/site/disenodecircuitosimpresoscese/home
+  * https://campus.fi.uba.ar/enrol/index.php?id=1450
 
 **ADVERTENCIA**: Estos circuitos se realizan en tiempos muy cortos y no todos los circuitos reciben una revisión funcional detallada. 
 El curso enfoca el los procedimientos de diseño de Esquemático y de PCB y no en el diseño funcional de los  circuitos.
-El uso de estos circuitos queda bajo la propia responsabilidad del usuario.
+El uso de estos circuitos queda bajo la propia responsabilidad del usuario. 
 
 
 
