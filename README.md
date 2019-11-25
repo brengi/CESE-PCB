@@ -7,6 +7,21 @@ El uso de estos circuitos queda bajo la propia responsabilidad del usuario.
 
 
 
+   * [CURSO 6  - 2019](README_2019.md#curso-6----2019)
+      * [Punku, control de accesos](README_2019.md#punku-control-de-accesos)
+      * [Cargador de batería con protección](README_2019.md#cargador-de-batería-con-protección)
+      * [Replica EasyDriver v4.5](README_2019.md#replica-easydriver-v45)
+      * [Poncho PLC CIAA 7](README_2019.md#poncho-plc-ciaa-7)
+      * [Placa adaptadora de señales de radar](README_2019.md#placa-adaptadora-de-señales-de-radar)
+      * [Driver I2C de leds RGB](README_2019.md#driver-i2c-de-leds-rgb)
+      * [Encoder &amp; Driver PaP](README_2019.md#encoder--driver-pap)
+      * [Dip Coater](README_2019.md#dip-coater)
+      * [Driver motor CC](README_2019.md#driver-motor-cc)
+      * [Controlador de motor con sensor](README_2019.md#controlador-de-motor-con-sensor)
+      * [Placa Bridge Ethernet](README_2019.md#placa-bridge-ethernet)
+      * [Fuente Step Up DC-DC ajustable 5v-35v](README_2019.md#fuente-step-up-dc-dc-ajustable-5v-35v)
+   * [CURSO 5  - 2019](README_2019.md#curso-5----2019)
+
    * [CURSO 4  - 2018](README_2018.md#curso-4----2018)
       * [Driver motor pap](README_2018.md#driver-motor-pap)
       * [CIAA-UNO](README_2018.md#ciaa-uno)
