@@ -12,6 +12,20 @@ El uso de estos circuitos queda bajo la propia responsabilidad del usuario.
 
 
 
+
+   * [CURSO 2020 B](README_2020B.md#curso-2020-b)
+      * [Poncho EDU-CIAA Drivers](README_2020B.md#poncho-edu-ciaa-drivers)
+
+   * [CURSO 2020 A](README_2020A.md#curso-2020-a)
+      * [Escáner Magnético de Soldaduras](README_2020A.md#escáner-magnético-de-soldaduras)
+      * [Replica Acelerómetro adxl345](README_2020A.md#replica-acelerómetro-adxl345)
+      * [Monitor de medidores de energía eléctrica](README_2020A.md#monitor-de-medidores-de-energía-eléctrica)
+      * [Réplica  modificada Heltec Wifi LoRA V2](README_2020A.md#réplica--modificada-heltec-wifi-lora-v2)
+      * [Réplica Teensy 3.2](README_2020A.md#réplica-teensy-32)
+      * [Poncho fotovoltaico](README_2020A.md#poncho-fotovoltaico)
+      * [Módem Energy meter](README_2020A.md#módem-energy-meter)
+      * [Poncho EDU-CIAA Drivers](README_2020A.md#poncho-edu-ciaa-drivers)
+
    * [CURSO 6  - 2019](README_2019.md#curso-6----2019)
       * [Punku, control de accesos](README_2019.md#punku-control-de-accesos)
       * [Cargador de batería con protección](README_2019.md#cargador-de-batería-con-protección)
