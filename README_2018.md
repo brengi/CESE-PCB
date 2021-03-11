@@ -24,7 +24,7 @@
       * [Poncho Procesador de Audio](#poncho-procesador-de-audio)
       * [wifi ESP-01 con relés optoacoplados](#wifi-esp-01-con-relés-optoacoplados)
 
-<!-- Added by: diego, at: mar may 28 01:08:06 -03 2019 -->
+<!-- Added by: diego, at: jue mar 11 11:39:25 -03 2021 -->
 
 <!--te-->
 

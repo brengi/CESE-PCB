@@ -92,7 +92,7 @@ Curso de Diseño de Circuitos Impresos de la Carrera de Especialización en Sist
 	
 ![Vista 3D]( https://raw.githubusercontent.com/brengi/CESE-PCB/master/2020/B/LaraTapia.png "Vista 3D")
 
-##  Driver Matrices LED ## 	
+##  Réplica detección de obstáculos por infrarrojo ## 	
  * Autor: Carreño Romano	Carlos German
  * Repo: https://github.com/cese-dci/dci2020b-charlieromano
 	

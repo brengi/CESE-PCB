@@ -13,7 +13,7 @@
       * [PicoPoncho Bluetooth HC05](#picoponcho-bluetooth-hc05)
       * [Poncho  LCD y Botones](#poncho--lcd-y-botones)
 
-<!-- Added by: diego, at: lun may 27 22:55:00 -03 2019 -->
+<!-- Added by: diego, at: jue mar 11 11:39:26 -03 2021 -->
 
 <!--te-->
 

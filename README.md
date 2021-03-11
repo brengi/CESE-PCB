@@ -12,7 +12,6 @@ El uso de estos circuitos queda bajo la propia responsabilidad del usuario.
 
 
 
-
    * [CURSO 2020 B](README_2020B.md#curso-2020-b)
       * [Sistema Monitoreo Alarma de Incendio](README_2020B.md#sistema-monitoreo-alarma-de-incendio)
       * [Réplica dc motor control](README_2020B.md#réplica-dc-motor-control)
@@ -29,7 +28,7 @@ El uso de estos circuitos queda bajo la propia responsabilidad del usuario.
       * [Réplica Arduino nano 340g 2016](README_2020B.md#réplica-arduino-nano-340g-2016)
       * [Beacon basado en DWM1001 (Réplica simplificada)](README_2020B.md#beacon-basado-en-dwm1001-réplica-simplificada)
       * [Réplica Pinguino PIC](README_2020B.md#réplica-pinguino-pic)
-      * [Driver Matrices LED](README_2020B.md#driver-matrices-led)
+      * [Réplica detección de obstáculos por infrarrojo](README_2020B.md#réplica-detección-de-obstáculos-por-infrarrojo)
       * [Replica Adafruit HUZZAH32 - ESP32 Feather](README_2020B.md#replica-adafruit-huzzah32---esp32-feather)
       * [Poncho interfaz   arreglo sensores  IR](README_2020B.md#poncho-interfaz--arreglo-sensores--ir)
       * [Programador de microcontroladores](README_2020B.md#programador-de-microcontroladores)

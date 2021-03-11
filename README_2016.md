@@ -25,7 +25,7 @@
       * [Proyecto MICR](#proyecto-micr)
       * [Proyecto Modular Drummer](#proyecto-modular-drummer)
 
-<!-- Added by: diego, at: lun may 27 22:54:50 -03 2019 -->
+<!-- Added by: diego, at: jue mar 11 11:39:27 -03 2021 -->
 
 <!--te-->
 
